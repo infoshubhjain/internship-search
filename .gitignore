@@ -16,3 +16,15 @@ build/
 .vscode/
 .idea/
 *.log
+# Runtime artifacts
+backups/
+last_check.txt
+.secrets.json
+.env
+*.db
+*.sha256
+token.json
+credentials.json
+.ats_cache.json
+new_listings.json
+internship_tracker.db

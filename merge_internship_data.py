@@ -1,178 +1,246 @@
 #!/usr/bin/env python3
 """
-Merge scraped internship data with master tracker and create comprehensive tracker
+Merge scraped internship data into the master tracker.
+
+The tracker CSV is the system of record for the user's application history, so
+this script MERGES into it rather than regenerating it:
+
+  - a listing already in the tracker keeps every user-owned column
+    (Status, Notes, Date Applied, ...) and only refreshes scraped metadata
+  - a listing that has disappeared upstream is kept, not deleted; if the user
+    never acted on it, it is marked 'Closed'
+  - a genuinely new listing is appended as 'Not Applied'
+
+Listings are matched by normalized link, so tracking parameters changing
+upstream does not create a duplicate row.
 """
-import csv
-import requests
-from datetime import datetime, timedelta
+import json
+import os
+from datetime import datetime
 
-def load_master_tracker():
-    """Load the master tracker CSV"""
-    try:
-        with open('SWE_Internship_Master_Tracker.csv', 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            return list(reader)
-    except FileNotFoundError:
-        print("Master tracker not found")
-        return []
+from roles import classify_role
+from scoring import score_listing
+from tracker_io import (
+    NEW_LISTINGS_FILE, SCRAPED_FILE, TRACKER_FILE, TRACKER_FIELDNAMES,
+    USER_FIELDS, normalize_link, read_csv, write_csv,
+)
 
-def load_scraped_data():
-    """Load the scraped internship data"""
-    try:
-        with open('scraped_internships.csv', 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            return list(reader)
-    except FileNotFoundError:
-        print("Scraped data not found")
-        return []
+MASTER_FILE = 'SWE_Internship_Master_Tracker.csv'
+
 
 def assign_priority(company, role):
-    """Assign priority based on company and role"""
-    company_lower = company.lower()
-    role_lower = role.lower()
-    
-    # Priority 1: Underclassman programs
-    underclassman_keywords = ['step', 'explore', 'university swe', 'technology internship', 'engaging', 'university']
-    underclassman_companies = ['google', 'microsoft', 'meta', 'amazon', 'capital one', 'uber', 'pinterest', 'lyft']
-    
-    if any(kw in role_lower for kw in underclassman_keywords) or any(comp in company_lower for comp in underclassman_companies):
-        return '1'
-    
-    # Priority 2: Banks/fintech
-    bank_keywords = ['jpmorgan', 'goldman', 'morgan stanley', 'bank of america', 'citi', 'wells fargo', 
-                   'visa', 'mastercard', 'american express', 'blackrock', 'fidelity', 'paypal', 
-                   'intuit', 'charles schwab', 'bloomberg', 'barclays', 'credit suisse', 'deutsche bank']
-    
-    if any(bank in company_lower for bank in bank_keywords):
-        return '2'
-    
-    # Priority 3: F500 non-tech
-    f500_companies = ['walmart', 'target', 'general motors', 'ford', 'john deere', 'caterpillar', 
-                     'state farm', 'unitedhealth', 'optum', 'cvs', 'verizon', 't-mobile', 'comcast', 
-                     'honeywell', 'siemens', 'ibm', 'intel', 'micron', 'dell', 'hp', 'cisco']
-    
-    if any(comp in company_lower for comp in f500_companies):
-        return '3'
-    
-    # Priority 4: Big Tech/unicorns
-    bigtech_companies = ['apple', 'netflix', 'airbnb', 'stripe', 'linkedin', 'salesforce', 'adobe', 
-                        'workday', 'servicenow', 'sap', 'roblox', 'snap', 'datadog', 'atlassian', 
-                        'dropbox', 'reddit', 'twitch', 'block', 'plaid', 'chime', 'brex', 'duolingo', 
-                        'figma', 'notion', 'ramp', 'replit', 'notion', 'scale ai']
-    
-    if any(comp in company_lower for comp in bigtech_companies):
-        return '4'
-    
-    # Priority 5: Startups/other
-    return '5'
+    """Priority 1-5 for a listing. Thin wrapper kept for callers and tests."""
+    return score_listing(company, role)[1]
 
-def determine_sponsorship_notes(company, no_sponsorship_flag):
-    """Determine sponsorship notes based on company and flags"""
-    if no_sponsorship_flag:
-        return "No sponsorship"
-    
-    company_lower = company.lower()
-    
-    # Companies known to sponsor
-    sponsors = ['google', 'microsoft', 'amazon', 'meta', 'apple', 'netflix', 'airbnb', 'stripe', 
-               'linkedin', 'salesforce', 'adobe', 'jpmorgan', 'goldman', 'morgan stanley', 
-               'bank of america', 'citi', 'visa', 'mastercard', 'american express', 'paypal',
-               'intuit', 'fidelity', 'blackrock', 'bloomberg', 'cisco', 'intel', 'ibm']
-    
-    if any(sponsor in company_lower for sponsor in sponsors):
-        return "Likely sponsors CPT/OPT"
-    
-    return "Unknown - check listing"
 
-def create_comprehensive_tracker():
-    """Create comprehensive tracker with all data sources"""
-    master_data = load_master_tracker()
-    scraped_data = load_scraped_data()
-    
-    # Create a set of existing links from master tracker
-    existing_links = set()
-    for row in master_data:
-        if row.get('Link'):
-            existing_links.add(row['Link'])
-    
-    # Process scraped data
-    comprehensive_data = []
-    
-    # First, add master tracker entries with new columns
-    for row in master_data:
-        comprehensive_data.append({
-            'Company': row.get('Company', ''),
-            'Role': row.get('Program', row.get('Role', '')),
-            'Location': 'Multiple',  # Master tracker doesn't have specific locations
-            'Link': row.get('Link', ''),
-            'Date Posted': '',
-            'Application Deadline': '',
-            'Work Authorization/Sponsorship Notes': row.get('Notes', ''),
-            'Eligibility': row.get('Likelihood', ''),
-            'Source': 'master_tracker',
-            'Priority': assign_priority(row.get('Company', ''), row.get('Program', '')),
-            'Status': 'Not Applied',
-            'Notes': row.get('Notes', ''),
-            'Date Applied': '',
-            'Interview Date': '',
-            'Offer Status': '',
-            'Follow-up Date': ''
-        })
-    
-    # Then add scraped data (new entries only)
-    new_entries = 0
-    for row in scraped_data:
-        link = row.get('link', '')
-        if link and link not in existing_links:
-            existing_links.add(link)
-            new_entries += 1
-            
-            comprehensive_data.append({
-                'Company': row.get('company', ''),
-                'Role': row.get('role', ''),
-                'Location': row.get('location', ''),
-                'Link': link,
-                'Date Posted': datetime.now().strftime('%Y-%m-%d'),
-                'Application Deadline': '',
-                'Work Authorization/Sponsorship Notes': determine_sponsorship_notes(
-                    row.get('company', ''), row.get('no_sponsorship', 'False') == 'True'
-                ),
-                'Eligibility': 'Unknown',
-                'Source': row.get('source', ''),
-                'Priority': assign_priority(row.get('company', ''), row.get('role', '')),
-                'Status': 'Not Applied',
-                'Notes': '',
-                'Date Applied': '',
-                'Interview Date': '',
-                'Offer Status': '',
-                'Follow-up Date': ''
-            })
-    
-    # Sort by priority
-    priority_order = {'1': 0, '2': 1, '3': 2, '4': 3, '5': 4}
-    comprehensive_data.sort(key=lambda x: priority_order.get(x['Priority'], 5))
-    
-    # Save comprehensive tracker
-    with open('Summer2027_SWE_Tracker.csv', 'w', newline='', encoding='utf-8') as f:
-        fieldnames = ['Company', 'Role', 'Location', 'Link', 'Date Posted', 'Application Deadline', 
-                     'Work Authorization/Sponsorship Notes', 'Eligibility', 'Source', 'Priority', 
-                     'Status', 'Notes', 'Date Applied', 'Interview Date', 'Offer Status', 'Follow-up Date']
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(comprehensive_data)
-    
-    print(f"Created comprehensive tracker with {len(comprehensive_data)} total entries")
-    print(f"Added {new_entries} new entries from scraped data")
-    
-    # Print priority breakdown
-    priority_counts = {}
-    for row in comprehensive_data:
-        priority = row['Priority']
-        priority_counts[priority] = priority_counts.get(priority, 0) + 1
-    
-    print("\nPriority breakdown:")
-    for priority in sorted(priority_counts.keys()):
-        print(f"  Priority {priority}: {priority_counts[priority]} entries")
+def sponsorship_notes(row):
+    """Sponsorship note for a scraped row.
 
-if __name__ == "__main__":
-    create_comprehensive_tracker()
+    enhanced_scraper.py already resolved this against sponsorship_database.py,
+    so prefer its answer and only fall back for rows that predate that field.
+    """
+    if str(row.get('no_sponsorship', '')).strip().lower() == 'true':
+        return 'No sponsorship'
+    notes = (row.get('sponsorship_notes') or '').strip()
+    if notes:
+        return notes
+    return 'Unknown - check listing'
+
+
+def scraped_to_tracker_row(row):
+    """Build a fresh tracker row from a scraped row (user columns left blank)."""
+    company, role = row.get('company', ''), row.get('role', '')
+    score, priority, reasons = score_listing(
+        company, role,
+        sponsorship_tier=row.get('sponsorship_tier'),
+        no_sponsorship=str(row.get('no_sponsorship', '')).strip().lower() == 'true',
+    )
+    return {
+        'Company': company,
+        'Role': role,
+        'Location': row.get('location', ''),
+        'Link': row.get('link', ''),
+        'Date Posted': row.get('date_posted') or datetime.now().strftime('%Y-%m-%d'),
+        'Application Deadline': '',
+        'Work Authorization/Sponsorship Notes': sponsorship_notes(row),
+        'Eligibility': row.get('sponsorship_tier', 'Unknown'),
+        'Source': row.get('source', ''),
+        'Priority': priority,
+        'Score': str(score),
+        'Category': classify_role(role) or '',
+        'Score Reasons': '; '.join(reasons),
+        'Status': 'Not Applied',
+        'Notes': '',
+        'Date Applied': '',
+        'Interview Date': '',
+        'Offer Status': '',
+        'Follow-up Date': '',
+    }
+
+
+def master_to_tracker_row(row):
+    """Build a tracker row from the hand-curated master company list."""
+    role = row.get('Program') or row.get('Role') or ''
+    company = row.get('Company', '')
+    score, priority, reasons = score_listing(company, role)
+    return {
+        'Company': company,
+        'Role': role,
+        # The master list tracks companies, not individual postings, so it has
+        # no per-posting location.
+        'Location': 'Multiple',
+        'Link': row.get('Link', ''),
+        'Date Posted': '',
+        'Application Deadline': '',
+        'Work Authorization/Sponsorship Notes': row.get('Notes', ''),
+        'Eligibility': row.get('Likelihood', ''),
+        'Source': 'master_tracker',
+        'Priority': priority,
+        'Score': str(score),
+        'Category': classify_role(role) or '',
+        'Score Reasons': '; '.join(reasons),
+        'Status': 'Not Applied',
+        'Notes': row.get('Notes', ''),
+        'Date Applied': '',
+        'Interview Date': '',
+        'Offer Status': '',
+        'Follow-up Date': '',
+    }
+
+
+def merge_row(existing, incoming):
+    """Refresh an existing tracker row with incoming scraped metadata.
+
+    User-owned columns always win: this is what stops an automated run from
+    erasing an application the user already submitted.
+    """
+    merged = dict(existing)
+    for field in TRACKER_FIELDNAMES:
+        if field in USER_FIELDS:
+            continue
+        value = incoming.get(field, '')
+        # Never blank out a populated column with an empty scrape.
+        if value:
+            merged[field] = value
+    # A listing that reappeared upstream is open again.
+    if merged.get('Status') == 'Closed':
+        merged['Status'] = 'Not Applied'
+        merged['Notes'] = ''
+    return merged
+
+
+def write_new_listings(new_rows, path=NEW_LISTINGS_FILE):
+    """Persist the listings this merge added, newest run replacing the last."""
+    payload = {
+        'generated_at': datetime.now().isoformat(timespec='seconds'),
+        'listings': sorted(new_rows, key=lambda r: -int(r.get('Score') or 0)),
+    }
+    tmp = path + '.tmp'
+    with open(tmp, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, indent=2)
+    os.replace(tmp, path)
+
+
+def read_new_listings(path=NEW_LISTINGS_FILE, min_priority='2'):
+    """Listings added by the last merge, filtered to those worth alerting on."""
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            payload = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return []
+    return [r for r in payload.get('listings', [])
+            if (r.get('Priority') or '9') <= min_priority]
+
+
+def build_tracker():
+    """Merge master list + scraped listings into the tracker, preserving state."""
+    existing_rows = read_csv(TRACKER_FILE)
+    scraped = read_csv(SCRAPED_FILE)
+    master = read_csv(MASTER_FILE)
+
+    if not scraped:
+        print(f'Warning: {SCRAPED_FILE} is empty or missing.')
+        print('Run "python3 enhanced_scraper.py" first. Tracker left unchanged.')
+        return None
+
+    # Index the user's existing rows by normalized link. Rows without a link
+    # (hand-added entries) cannot be matched, so they are carried through as-is.
+    by_link = {}
+    unlinked = []
+    for row in existing_rows:
+        key = normalize_link(row.get('Link', ''))
+        if key and key not in by_link:
+            by_link[key] = row
+        elif not key:
+            unlinked.append(row)
+
+    seen = set()
+    merged_rows = []
+    new_rows = []
+
+    def absorb(candidate):
+        key = normalize_link(candidate.get('Link', ''))
+        if key and key in seen:
+            return
+        if key:
+            seen.add(key)
+        existing = by_link.get(key) if key else None
+        if existing:
+            merged_rows.append(merge_row(existing, candidate))
+        else:
+            merged_rows.append(candidate)
+            new_rows.append(candidate)
+
+    for row in master:
+        absorb(master_to_tracker_row(row))
+    for row in scraped:
+        absorb(scraped_to_tracker_row(row))
+
+    # Anything the user already had that is no longer listed upstream is kept.
+    # Deleting it would destroy an application record; instead, an untouched
+    # listing is marked Closed so it drops out of the daily apply queue.
+    stale = 0
+    for key, row in by_link.items():
+        if key in seen:
+            continue
+        row = dict(row)
+        if row.get('Status') == 'Not Applied':
+            row['Status'] = 'Closed'
+            row['Notes'] = row.get('Notes') or 'No longer listed upstream'
+            stale += 1
+        merged_rows.append(row)
+    merged_rows.extend(unlinked)
+
+    # Highest score first inside each priority band, so the top of the file is
+    # always the best thing to apply to next.
+    # Record exactly what this run added, so alerts do not have to guess.
+    write_new_listings(new_rows)
+
+    merged_rows.sort(key=lambda r: (r.get('Priority') or '9',
+                                    -int(r.get('Score') or 0),
+                                    r.get('Company') or ''))
+    write_csv(TRACKER_FILE, merged_rows, TRACKER_FIELDNAMES)
+
+    print(f'Tracker now has {len(merged_rows)} entries '
+          f'({len(new_rows)} added, {stale} newly closed).')
+    notable = [r for r in new_rows if r.get('Priority') in ('1', '2')]
+    if notable:
+        print(f'\n{len(notable)} new priority 1-2 listing(s):')
+        for row in sorted(notable, key=lambda r: -int(r.get('Score') or 0))[:10]:
+            print(f"  P{row['Priority']} {row['Score']:>3}  {row['Company']} - {row['Role']}")
+
+    counts = {}
+    for row in merged_rows:
+        counts[row['Priority']] = counts.get(row['Priority'], 0) + 1
+    print('\nPriority breakdown:')
+    for priority in sorted(counts):
+        print(f'  Priority {priority}: {counts[priority]} entries')
+
+    active = sum(1 for r in merged_rows if r.get('Status') == 'Not Applied')
+    applied = sum(1 for r in merged_rows if r.get('Status') not in ('Not Applied', 'Closed', ''))
+    print(f'\nOpen and unapplied: {active}   In progress: {applied}')
+    return merged_rows
+
+
+if __name__ == '__main__':
+    build_tracker()

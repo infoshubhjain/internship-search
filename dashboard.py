@@ -2,12 +2,16 @@
 """
 Streamlit dashboard for internship tracking
 """
+import os
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 from datetime import datetime, timedelta
-import csv
+
+import tracker_io
+from intl_tracker import BUCKET_APPLY, BUCKET_INVESTIGATE, BUCKET_ORDER
+from tracker_io import INTL_TRACKER_FILE, STATUSES, TRACKER_FILE
 
 # Page configuration
 st.set_page_config(
@@ -41,14 +45,55 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-def load_data():
-    """Load internship tracker data"""
+@st.cache_data
+def load_data(mtime):
+    """Load the tracker.
+
+    Keyed on the file's mtime so the cache is dropped as soon as anything
+    writes to the CSV, whether that is this app or a scheduled update.
+    The argument must NOT be named with a leading underscore: Streamlit
+    excludes such parameters from the cache key, which would pin the app to
+    the first version of the file it ever read.
+    """
     try:
-        df = pd.read_csv('Summer2027_SWE_Tracker.csv')
-        return df
+        return pd.read_csv(TRACKER_FILE, dtype=str).fillna('')
     except FileNotFoundError:
-        st.error("Tracker file not found. Please run the update script first.")
         return pd.DataFrame()
+
+
+def tracker_mtime():
+    try:
+        return os.path.getmtime(TRACKER_FILE)
+    except OSError:
+        return 0
+
+
+@st.cache_data
+def load_intl(mtime):
+    """Load the international tracker (same mtime-keyed cache as the main one)."""
+    try:
+        return pd.read_csv(INTL_TRACKER_FILE, dtype=str).fillna('')
+    except FileNotFoundError:
+        return pd.DataFrame()
+
+
+def intl_mtime():
+    try:
+        return os.path.getmtime(INTL_TRACKER_FILE)
+    except OSError:
+        return 0
+
+
+def save_status(link, updates):
+    """Persist a change and refresh the view, or report why it failed."""
+    try:
+        if tracker_io.update_row(link, updates):
+            load_data.clear()
+            return True
+        st.error("Could not find that listing in the tracker.")
+    except (ValueError, OSError) as e:
+        st.error(f"Could not save: {e}")
+    return False
 
 def calculate_metrics(df):
     """Calculate key metrics"""
@@ -75,11 +120,10 @@ def calculate_metrics(df):
 def main():
     st.markdown('<h1 class="main-header">🚀 Summer 2027 SWE Internship Tracker</h1>', unsafe_allow_html=True)
     
-    # Load data
-    df = load_data()
-    
+    df = load_data(tracker_mtime())
+
     if df.empty:
-        st.warning("No data available. Please run the update script first.")
+        st.warning("No data yet. Run `python3 update_all.py` to populate the tracker.")
         return
     
     # Sidebar navigation
@@ -88,6 +132,8 @@ def main():
         "Dashboard",
         "Opportunities",
         "Applications",
+        "Urgency",
+        "International",
         "Analytics",
         "Settings"
     ])
@@ -168,10 +214,13 @@ def main():
             )
         
         with col2:
+            # Options come from the canonical status list, not from the values
+            # present in the data: deriving them from the CSV crashes whenever
+            # a default status happens to have no rows yet.
             status_filter = st.multiselect(
                 "Filter by Status",
-                df['Status'].unique().tolist(),
-                default=['Not Applied', 'Applied']
+                STATUSES,
+                default=['Not Applied']
             )
         
         with col3:
@@ -194,12 +243,22 @@ def main():
                 filtered_df['Work Authorization/Sponsorship Notes'].str.contains('sponsor', case=False, na=False)
             ]
         
-        # Display opportunities
-        st.subheader(f"Showing {len(filtered_df)} opportunities")
-        
-        for _, row in filtered_df.iterrows():
+        # Rendering every row at once creates thousands of Streamlit widgets
+        # and makes the page unusable, so show one page at a time.
+        page_size = 25
+        total = len(filtered_df)
+        pages = max(1, (total + page_size - 1) // page_size)
+        page_num = st.number_input(
+            f"Page (of {pages})", min_value=1, max_value=pages, value=1, step=1
+        )
+        start = (page_num - 1) * page_size
+        visible = filtered_df.iloc[start:start + page_size]
+
+        st.subheader(f"Showing {len(visible)} of {total} opportunities")
+
+        for _, row in visible.iterrows():
             priority_class = f"priority-{row['Priority']}"
-            
+
             with st.container():
                 st.markdown(f"""
                 <div class="metric-card {priority_class}">
@@ -211,25 +270,29 @@ def main():
                     <a href="{row['Link']}" target="_blank">Apply Now →</a>
                 </div>
                 """, unsafe_allow_html=True)
-                
-                # Quick action buttons
-                col1, col2, col3 = st.columns(3)
-                
+
+                col1, col2 = st.columns(2)
+
                 with col1:
-                    if st.button(f"Apply - {row['Company']}", key=f"apply_{row.name}"):
-                        # This would update the status
-                        st.success(f"Marked {row['Company']} as Applied")
-                
+                    if st.button("Mark Applied", key=f"apply_{row.name}",
+                                 disabled=row['Status'] != 'Not Applied'):
+                        if save_status(row['Link'], {
+                            'Status': 'Applied',
+                            'Date Applied': datetime.now().strftime('%Y-%m-%d'),
+                        }):
+                            st.rerun()
+
                 with col2:
-                    if st.button(f"Save - {row['Company']}", key=f"save_{row.name}"):
-                        st.success(f"Saved {row['Company']} to favorites")
-                
-                with col3:
-                    if st.button(f"Hide - {row['Company']}", key=f"hide_{row.name}"):
-                        st.success(f"Hidden {row['Company']}")
-                
+                    if st.button("Not Interested", key=f"hide_{row.name}",
+                                 disabled=row['Status'] != 'Not Applied'):
+                        if save_status(row['Link'], {
+                            'Status': 'Closed',
+                            'Notes': 'Not interested',
+                        }):
+                            st.rerun()
+
                 st.markdown("---")
-    
+
     # Applications page
     elif page == "Applications":
         st.header("📝 My Applications")
@@ -238,31 +301,151 @@ def main():
         applied_df = df[df['Status'].isin(['Applied', 'Interviewing', 'Offer', 'Rejected'])]
         
         if not applied_df.empty:
-            st.dataframe(
-                applied_df[[
-                    'Company', 'Role', 'Location', 'Date Applied', 
-                    'Interview Date', 'Offer Status', 'Status'
-                ]],
-                use_container_width=True
+            editable = ['Status', 'Date Applied', 'Interview Date',
+                        'Offer Status', 'Follow-up Date', 'Notes']
+            shown = applied_df[['Company', 'Role', 'Link'] + editable]
+
+            edited = st.data_editor(
+                shown,
+                use_container_width=True,
+                hide_index=True,
+                disabled=['Company', 'Role', 'Link'],
+                column_config={
+                    'Status': st.column_config.SelectboxColumn(options=STATUSES),
+                    'Link': st.column_config.LinkColumn(),
+                },
+                key='applications_editor',
             )
-            
-            # Application form
-            st.subheader("Add New Application")
-            
+
+            if st.button("Save changes"):
+                # Write only the rows that actually changed, so a stray click
+                # does not rewrite the whole file.
+                changed = 0
+                for idx, new_row in edited.iterrows():
+                    old_row = shown.loc[idx]
+                    diff = {c: new_row[c] for c in editable if new_row[c] != old_row[c]}
+                    if diff and save_status(new_row['Link'], diff):
+                        changed += 1
+                if changed:
+                    st.success(f"Saved {changed} row(s).")
+                    st.rerun()
+                else:
+                    st.info("Nothing to save.")
+
+            st.subheader("Add an application not in the tracker")
+
             with st.form("application_form"):
                 company = st.text_input("Company")
                 role = st.text_input("Role")
+                link = st.text_input("Link (job posting URL)")
                 date_applied = st.date_input("Date Applied", datetime.now())
-                status = st.selectbox("Status", ["Applied", "Interviewing", "Offer", "Rejected"])
+                status = st.selectbox("Status", STATUSES[1:])
                 notes = st.text_area("Notes")
-                
-                submitted = st.form_submit_button("Add Application")
-                
-                if submitted:
-                    st.success("Application added successfully!")
+
+                if st.form_submit_button("Add Application"):
+                    if not company or not link:
+                        st.error("Company and link are both required.")
+                    elif tracker_io.append_row({
+                        'Company': company, 'Role': role, 'Link': link,
+                        'Status': status, 'Notes': notes,
+                        'Date Applied': date_applied.strftime('%Y-%m-%d'),
+                    }):
+                        load_data.clear()
+                        st.success(f"Added {company}.")
+                        st.rerun()
+                    else:
+                        st.error("That link is already in the tracker.")
         else:
             st.info("No applications yet. Start applying to opportunities!")
-    
+
+    # Urgency page
+    elif page == "Urgency":
+        st.header("⏳ What's running out of time")
+        st.caption("Most employers never publish a deadline. Where one exists it is "
+                   "used; otherwise urgency comes from how long this tracker has "
+                   "seen the listing against how long comparable listings lasted.")
+
+        import urgency as urgency_mod
+        ranked, model = urgency_mod.rank_open_listings()
+
+        st.info(f"Lifetime model: **{round(model['overall'])} days** — "
+                f"{model['overall_source']}")
+
+        levels = [urgency_mod.URGENT, urgency_mod.SOON,
+                  urgency_mod.COMFORTABLE, urgency_mod.FRESH]
+        counts = {lvl: sum(1 for r in ranked if r['level'] == lvl) for lvl in levels}
+        cols = st.columns(4)
+        for col, lvl in zip(cols, levels):
+            col.metric(lvl.title(), counts[lvl])
+
+        chosen = st.multiselect("Show", levels,
+                                default=[urgency_mod.URGENT, urgency_mod.SOON])
+        shown = [r for r in ranked if r['level'] in chosen] if chosen else ranked
+
+        if not shown:
+            st.success("Nothing is time-critical. Every open listing was seen recently.")
+        else:
+            st.dataframe(pd.DataFrame([{
+                'Urgency': r['level'], 'Priority': r['priority'], 'Score': r['score'],
+                'Company': r['company'], 'Role': r['role'],
+                'Days since first seen': r['age_days'],
+                'Expected lifetime (d)': r['expected_days'],
+                'Basis': r['basis'], 'Link': r['link'],
+            } for r in shown[:200]]), use_container_width=True, hide_index=True,
+                column_config={'Link': st.column_config.LinkColumn()})
+
+    # International page
+    elif page == "International":
+        st.header("🌍 International Summer 2027")
+        st.caption("Paid CS internships outside the United States, scored for an "
+                   "F-1 student who is an Indian citizen studying in the US.")
+
+        intl = load_intl(intl_mtime())
+        if intl.empty:
+            st.info("No international data yet. Run `python3 intl_tracker.py`.")
+        else:
+            live = intl[intl['Status'] != 'Closed']
+
+            col1, col2, col3, col4 = st.columns(4)
+            col1.metric("Live opportunities", len(live))
+            col2.metric("Category A (sponsors)", int((live['Visa Category'] == 'A').sum()))
+            col3.metric("Countries", live['Country'].nunique())
+            col4.metric("Best match", f"{pd.to_numeric(live['Match Score']).max():.0f}/100"
+                        if len(live) else "-")
+
+            buckets = st.multiselect(
+                "Show buckets", BUCKET_ORDER,
+                default=[BUCKET_APPLY, BUCKET_INVESTIGATE])
+            countries = st.multiselect("Countries", sorted(live['Country'].unique()))
+
+            shown = live[live['Bucket'].isin(buckets)] if buckets else live
+            if countries:
+                shown = shown[shown['Country'].isin(countries)]
+            shown = shown.sort_values('Match Score', key=lambda c: pd.to_numeric(c),
+                                      ascending=False)
+
+            st.subheader(f"{len(shown)} opportunities")
+            for _, row in shown.iterrows():
+                header = f"{row['Match Score']}/100 · {row['Company']} — {row['Title']}"
+                with st.expander(f"{row['Bucket'][0]} {header}"):
+                    st.markdown(
+                        f"**{row['City']}, {row['Country']}** · {row['Category']} · "
+                        f"{row['Application Status']}\n\n"
+                        f"**Visa** {row['Visa Category']} — {row['Visa Explanation']}\n\n"
+                        + (f"**Route** {row['Visa Route']}\n\n" if row['Visa Route'] else "")
+                        + f"**Paid** {row['Paid']}"
+                        + (f" ({row['Compensation']})" if row['Compensation'] else "")
+                        + f" · **English** {row['English Environment']}\n\n"
+                        f"**Why it fits** {row['Why It Fits']}\n\n"
+                        + (f"**Barriers** {row['Barriers']}\n\n" if row['Barriers'] else "")
+                        + f"[Apply →]({row['Link']})")
+                    if row['Visa Evidence']:
+                        st.caption(f"Evidence: \u201c{row['Visa Evidence']}\u201d")
+
+            st.download_button("📤 Export international CSV",
+                               data=intl.to_csv(index=False),
+                               file_name='international_internships.csv', mime='text/csv')
+
     # Analytics page
     elif page == "Analytics":
         st.header("📈 Analytics")
@@ -338,40 +521,45 @@ def main():
         st.header("⚙️ Settings")
         
         st.subheader("Data Management")
-        
+
         col1, col2 = st.columns(2)
-        
+
         with col1:
             if st.button("🔄 Update Data from GitHub"):
-                st.info("Running update script...")
-                # This would call the update script
-                st.success("Data updated successfully!")
-        
+                with st.spinner("Scraping sources and merging..."):
+                    import update_all
+                    ok = update_all.main() == 0
+                if ok:
+                    load_data.clear()
+                    st.success("Tracker updated. Your application history is preserved.")
+                    st.rerun()
+                else:
+                    st.error("Update failed. See internship_tracker.log for details.")
+
         with col2:
-            if st.button("📤 Export Data"):
-                csv = df.to_csv(index=False)
-                st.download_button(
-                    label="Download CSV",
-                    data=csv,
-                    file_name='internship_tracker.csv',
-                    mime='text/csv'
-                )
-        
-        st.subheader("Notification Settings")
-        
-        email_notifications = st.checkbox("Enable Email Notifications")
-        if email_notifications:
-            email = st.text_input("Email Address")
-            frequency = st.selectbox("Alert Frequency", ["Daily", "Weekly", "Only Urgent"])
-            
-            st.button("Save Notification Settings")
-        
-        st.subheader("Tracker Preferences")
-        
-        default_priority = st.selectbox("Default Priority Filter", ["All", "1-2", "1-3"])
-        show_sponsorship_only = st.checkbox("Show Only Known Sponsors", value=False)
-        
-        st.button("Save Preferences")
+            st.download_button(
+                label="📤 Export tracker as CSV",
+                data=df.to_csv(index=False),
+                file_name='internship_tracker.csv',
+                mime='text/csv',
+            )
+
+        st.subheader("Email Alerts")
+        st.markdown(
+            "Alerts are configured with environment variables, so the same "
+            "settings work locally and in GitHub Actions:\n\n"
+            "```\n"
+            "TRACKER_EMAIL=you@gmail.com\n"
+            "TRACKER_EMAIL_PASSWORD=<gmail app password>\n"
+            "```\n"
+            "A `.env` file in the project directory works too (it is gitignored)."
+        )
+
+        from notification_system import config_from_env
+        if config_from_env():
+            st.success("Email is configured.")
+        else:
+            st.info("Email is not configured; alerts are skipped.")
 
 if __name__ == "__main__":
     main()

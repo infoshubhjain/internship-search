@@ -1,177 +1,213 @@
-# Summer 2027 SWE Internship Tracker
+# Summer 2027 Internship Tracker
 
-🚀 **Automated, comprehensive internship tracking system for UIUC F-1 international students**
+Two trackers, one rule: **the tracker is yours, and no automated run overwrites what you put in it.**
 
-## 🎯 What This Does
+**🇺🇸 US tracker** — 851 opportunities from 4 community repos, scored and ranked, with sponsorship backed by real USCIS H-1B filing data.
+**🌍 International tracker** — 138 CS internships across 19 countries, found by querying ~250 company job-board APIs directly, each classified for visa reachability and scored out of 100.
 
-- **479 verified internship opportunities** across 5 priority levels
-- **Automated daily updates** via GitHub Actions
-- **Multi-source aggregation** from top GitHub repositories (vanshb03, ApplyGuy, SimplifyJobs)
-- **Application tracking** with status management and analytics
-- **Priority-based sorting** for efficient application strategy
+## Quick start
 
-## 📁 Files
-
-### Core Tracking
-- `Summer2027_SWE_Tracker.csv` - **MAIN FILE** - Comprehensive tracker with 479 internships
-- `SWE_Internship_Master_Tracker.csv` - Original 60+ target companies
-- `scraped_internships.csv` - Raw data from GitHub repos
-
-### Automation Scripts
-- `update_all.py` - Master script to update all data (run this locally)
-- `scrape_github_repos.py` - Scrapes internship data from GitHub repos
-- `merge_internship_data.py` - Merges data and assigns priorities
-- `scrape_job_boards.py` - Job board scraper (Indeed, BuiltIn)
-
-### Configuration
-- `.github/workflows/update-internships.yml` - GitHub Actions for daily automation
-- `requirements.txt` - Python dependencies
-
-### Documentation
-- `RECOMMENDATIONS.md` - Detailed strategy guide and enhancement ideas
-- `README.md` - This file
-- `Search_Queries.csv` - Job board search URLs
-- `Weekly_Plan.csv` - Daily tasks and reminders
-- `ai_automation_prompt.txt` - AI agent automation prompt
-
-## 🚀 Quick Start
-
-### 1. Use the Comprehensive Tracker
-Open `Summer2027_SWE_Tracker.csv` - this is your main working file with all 479 opportunities.
-
-### 2. Priority-Based Application Strategy
-- **Priority 1 (30 entries)**: Underclassman programs - APPLY FIRST
-- **Priority 2 (20 entries)**: Banks/fintech - HIGH CPT SPONSORSHIP  
-- **Priority 3 (42 entries)**: F500 companies - GOOD VOLUME
-- **Priority 4 (34 entries)**: Big Tech/unicorns - COMPETITIVE
-- **Priority 5 (353 entries)**: Startups/other - FILLER OPPORTUNITIES
-
-### 3. Daily Application Routine
-**Target**: 5-10 applications per day (don't skip weekends)
-**Focus**: Priority 1 → Priority 2 → Priority 3
-**Tracking**: Update Status column immediately after applying
-
-Status workflow:
-- `Not Applied` → `Applied` → `Interviewing` → `Offer`/`Rejected`
-- Fill in: Date Applied, Interview Date, Offer Status, Follow-up Date
-
-## 🤖 Automation
-
-### GitHub Actions (Automatic)
-Your repository is set up with automatic daily updates at 6 AM UTC:
-- Scrapes GitHub repos for new internships
-- Updates your tracker automatically
-- Commits changes to GitHub
-
-**Manual trigger**: Go to GitHub Actions tab → "Update Internship Tracker" → "Run workflow"
-
-### Local Updates
-Run the master script to update data locally:
 ```bash
-python3 update_all.py
-```
-
-This will:
-1. Scrape GitHub repos for new data
-2. Merge with existing tracker
-3. Update priorities and sponsorship info
-4. Save updated CSV files
-
-## 📊 Data Sources
-
-The system aggregates data from:
-- **vanshb03/Summer2027-Internships** - Community-maintained list
-- **ApplyGuy/2027-Internships** - JSON API with verified listings
-- **SimplifyJobs/Summer2027-Internships** - Pitt CSC & Simplify curated list
-- **Original master tracker** - 60+ target companies
-
-## 🎓 Priority System
-
-1. **Underclassman programs** - Google STEP, Microsoft Explore, Meta University, Amazon SDE, Capital One, Uber, Pinterest, Lyft
-2. **Banks/fintech** - JPMorgan, Goldman Sachs, Morgan Stanley, Bank of America, Citi, Visa, Mastercard, etc.
-3. **F500 non-tech** - Walmart, Target, GM, Ford, John Deere, etc.
-4. **Big Tech/unicorns** - Apple, Netflix, Airbnb, Stripe, etc.
-5. **Startups/other** - All other opportunities
-
-## 🔧 Setup
-
-### Initial Setup
-```bash
-# Clone the repository
 git clone https://github.com/infoshubhjain/internship-search.git
 cd internship-search
-
-# Install dependencies
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
-# Run initial update
-python3 update_all.py
+python3 update_all.py        # refresh the US tracker
+python3 intl_tracker.py      # refresh the international tracker + report
+streamlit run dashboard.py   # browse and apply
+
+python3 urgency.py           # what is running out of time
+python3 calibrate.py         # are the scores actually predicting responses?
 ```
 
-### GitHub Actions Setup
-The workflow is already configured. Just push to GitHub:
-```bash
-git add .
-git commit -m "Set up internship tracking automation"
-git push
-```
+Run everything from the repo root.
 
-## 📈 Enhancement Ideas
+## Your data
 
-See `RECOMMENDATIONS.md` for detailed ideas including:
-- Email notifications for high-priority roles
-- Deadline tracking and alerts
-- Application analytics dashboard
-- Calendar integration
-- Notion/Airtable sync
-- Company research automation
-- Network mapping with UIUC alumni
+`Summer2027_SWE_Tracker.csv` and `Summer2027_Intl_Tracker.csv` are the files that matter. Open them in Excel, Sheets, or the dashboard.
 
-## 🎯 Key Reminders
+These columns are **yours**. Nothing automated writes over them:
 
-- Apply to 5-10 internships daily (don't skip weekends)
-- CPT eligibility is critical - check work authorization notes
-- Banks typically sponsor CPT
-- Keep tracker updated with status (Applied, Interview, Offer, Rejected)
-- Priority 1 roles have limited application windows
-- Use automation to save time on data collection
-- Focus on high-probability opportunities first
+`Status` · `Notes` · `Date Applied` · `Interview Date` · `Offer Status` · `Follow-up Date`
 
-## 📊 Current Stats
+`Closed` is set automatically when a listing disappears upstream **and you never touched it**. If you had already applied, the row is left exactly as it was.
 
-- **Total opportunities**: 479
-- **Priority 1**: 30 (underclassman programs)
-- **Priority 2**: 20 (banks/fintech)
-- **Priority 3**: 42 (F500 companies)
-- **Priority 4**: 34 (big tech/unicorns)
-- **Priority 5**: 353 (startups/other)
-- **Data sources**: 4 major GitHub repositories
-- **Update frequency**: Daily (automatic)
-
-## 🏆 Success Metrics
-
-Track your progress:
-- Applications per week (target: 35-50)
-- Interview rate (target: 10-15%)
-- Offer rate (target: 2-5%)
-- Response time by priority
-- Best sources for interviews
-
-## 🤝 Contributing
-
-Feel free to:
-- Add new data sources to the scrapers
-- Improve priority assignment logic
-- Enhance sponsorship detection
-- Add new automation features
-- Share your success stories!
-
-## 📞 Support
-
-For detailed strategy recommendations and technical enhancement ideas, see `RECOMMENDATIONS.md`.
+| Situation | What happens |
+| --- | --- |
+| A run is interrupted mid-write | Nothing lost — writes are atomic (temp file + rename) |
+| Every source is down | The run aborts before merging; your tracker is untouched, not emptied |
+| A job URL's tracking params change | Matched to your existing row; no duplicate |
+| A board points many jobs at one URL | Still tracked separately, keyed on the board's job id |
+| You add a row by hand | Carried through every future run |
 
 ---
 
-**Built for UIUC F-1 international students seeking Summer 2027 SWE internships** 🎓
+## 🌍 International search
+
+Built for the specific case: **UIUC CS sophomore, graduating May 2028, Indian citizen, currently in the US on F-1, wanting a paid Summer 2027 internship abroad.**
+
+### How it finds roles
+
+It queries company job-board APIs directly (Greenhouse, Lever, Ashby, Workday) rather than scraping aggregators, so results are *currently listed jobs at real companies*. Each board is fetched whole, then filtered: title looks like an internship → role is computer science → location is outside the US → season is plausibly Summer 2027.
+
+**The board list grows by itself.** Every Greenhouse/Lever/Ashby/Workday job URL contains that company's board token, so `board_discovery.py` mines the trackers for tokens, validates each against the live API, and records it. The curated list of 88 became **164 boards plus 86 Workday tenants** without any manual curation — and every new listing scraped tomorrow is a candidate board for the day after.
+
+```
+python3 board_discovery.py     # mine tracker URLs for new boards
+python3 workday.py --discover  # same for Workday tenants
+```
+
+### Visa classification
+
+Every posting is read for work-authorization language and sorted into one of three categories, **with the sentence that decided it** recorded in the row:
+
+| | Meaning |
+| --- | --- |
+| **A** | The employer states it sponsors visas, relocates, or welcomes international applicants |
+| **B** | The posting says nothing either way — the usual case, and worth asking about |
+| **C** | Existing local work rights, citizenship, or a clearance is required |
+
+**Silence is not refusal.** A posting that says nothing is category B, never C. Restriction language is checked *before* support language, so diversity boilerplate cannot override an explicit "we do not sponsor".
+
+Where a country has a known internship route (UK Government Authorised Exchange, Ireland's Atypical Working Scheme, Australia's Subclass 407, Germany's internship visa, and others), the route is named on the row — it exists as a legal pathway, which is not the same as an offer.
+
+### Match score, out of 100
+
+| Axis | Points |
+| --- | --- |
+| Role relevance | 25 |
+| International eligibility | 25 |
+| Compensation | 15 |
+| Company and career value | 15 |
+| Candidate eligibility | 10 |
+| Location preference | 10 |
+
+Two hard gates stop a good-looking score hiding a real problem: a non-CS role scores **0**, and a category C role is capped at **40**. A prestigious name in a great city cannot float a role you cannot legally take.
+
+Pay that isn't published is scored as *unknown*, not unpaid — most employers simply don't publish intern rates.
+
+### Output
+
+`INTERNATIONAL_REPORT.md` organizes everything into four buckets:
+
+- **🔥 Apply Immediately** — open, category A, scoring 65+
+- **👀 Investigate Further** — strong, but visa eligibility unstated
+- **📅 Monitor for Opening** — recurring programs not yet open
+- **⚠️ Work Authorization Barrier** — kept visible, never recommended
+
+Newly found roles are flagged 🆕 against the previous run, which is what makes a scheduled run act as continuous monitoring.
+
+### Honest limits
+
+- Coverage is whatever boards discovery has found so far. It grows on its own, but a company that has never appeared in any source is still invisible — add it to `intl_boards.py` directly.
+- Visa categories are read from posting text. Some employers reuse one description across offices, so US-flavoured sponsorship language can appear on a London posting — the recorded evidence phrase is what lets you spot that.
+- Many large employers have not opened Summer 2027 applications yet. Roles listed without a year are kept and marked as such, because boards routinely omit it.
+
+---
+
+## 🇺🇸 US tracker
+
+### Sponsorship, from filings rather than guesses
+
+The sponsorship table used to be hand-written, which is why two-thirds of listings resolved to "unknown" and why RTX and SpaceX were once labelled "full sponsorship".
+
+It now reads **USCIS H-1B employer data** — the actual count of petitions each employer had approved. "Google: 2,460 H-1B approvals in FY2023" is evidence; "Google: full sponsorship" was a guess.
+
+Sponsorship-known went from **24% to 54%** of listings. Precedence:
+
+1. **Citizenship or clearance required** — a hard barrier. Booz Allen files plenty of H-1Bs and still needs a clearance.
+2. **A listing that said "no sponsorship"** — negative knowledge the filing data cannot express.
+3. **USCIS filing counts** — volume maps to a tier.
+4. **The hand-curated table** — only for employers with no filing record.
+
+The file refreshes only when USCIS publishes a new year (`--refresh-if-stale`), since it changes annually.
+
+Caveat worth knowing: this is H-1B data, not CPT. A company that sponsors H-1B is very likely comfortable hosting an F-1 intern on CPT, but the inference runs one way — no filings lowers confidence rather than ruling a company out.
+
+### Ranking
+
+Listings are scored, not bucketed by first keyword match, then banded into priority 1–5. Every signal contributes: role category, sponsorship tier, whether it's a named underclassman program (STEP, Explore), and company engineering reputation. The `Score Reasons` column shows exactly why a listing ranked where it did.
+
+Two things are hard-capped to priority 5:
+- **Non-technical roles.** Product, design, marketing and finance internships come through the aggregator repos and used to rank as Priority 1 whenever the company name matched.
+- **ITAR / cleared employers** (RTX, SpaceX, Lockheed, Booz Allen, and others). These generally require US citizenship, which is a hard barrier, not a sponsorship question.
+
+### ATS enrichment
+
+`enrich.py` queries Greenhouse, Lever, Ashby and SmartRecruiters for listings hosted there and writes back:
+
+- **Real application deadlines** (Greenhouse publishes the field; others state it in the description)
+- **Posted salary ranges**
+- **Dead listings** — a 404 means the posting is gone, so it leaves the apply queue
+
+A deadline you typed yourself is never overwritten; only empty ones are filled. Adding Workday took enrichment coverage from **20% to 48%** of listings and produced the first **71 real deadlines**.
+
+### Urgency, when there is no deadline
+
+Most employers never publish a deadline — the first enrichment pass found zero across 851 listings. That's a fact to design around, not a bug to fix.
+
+`urgency.py` uses what the tracker actually observes: when it first saw each listing, and how long comparable listings survived before disappearing. A listing's age against that median is a real urgency signal.
+
+```bash
+python3 urgency.py --stats
+```
+
+It labels where each estimate came from — `published deadline 2026-09-12` versus `prior (45d); only 0 closures observed so far` — because a median over four observations is not a deadline and must not be displayed as one. Published deadlines always win where they exist.
+
+### Are the scores any good?
+
+The weights are judgment, not measurement. `status_history` records every application and outcome, so `calibrate.py` closes the loop: response rate by score band, priority, and role category.
+
+It deliberately **refuses to conclude** below ~30 applications, and computes rates over *decided* applications only — counting pending ones as rejections would understate early results. If the spread between bands turns out flat, the ranking is decoration and should be reweighted.
+
+### Application history
+
+`store.py` mirrors the CSV into SQLite with a `status_history` table, which answers what a flat file cannot: what you applied to in a given week, how long employers took to respond, and when each listing first appeared. It records a history row only when a status actually changes, so running it on a schedule doesn't inflate anything.
+
+```bash
+python3 store.py   # funnel + applications per week
+```
+
+## Dashboard
+
+`streamlit run dashboard.py`
+
+- **Dashboard** — funnel metrics, priority breakdown, upcoming deadlines
+- **Opportunities** — filter and paginate, one-click "Mark Applied"
+- **Applications** — editable table of everything you've applied to
+- **Urgency** — what is running out of time, and on what basis
+- **International** — scored international roles with visa category, route, evidence and barriers
+- **Analytics** — funnel, status distribution, priority heatmap, applications over time
+- **Settings** — run an update, export CSV, check email config
+
+Every button writes to disk. Changes survive the next automated update.
+
+## Automation
+
+GitHub Actions runs daily at 06:00 UTC: both test suites, then both pipelines, then commits. It refuses to commit if tests fail or a scrape comes back empty.
+
+### Email alerts (optional)
+
+```bash
+export TRACKER_EMAIL=you@gmail.com
+export TRACKER_EMAIL_PASSWORD=<gmail app password>
+```
+
+A gitignored `.env` works too. Alerts report exactly the listings the last merge added — the merge records them, so nothing is inferred. Unset means alerts are skipped; the trackers still work.
+
+## Tests
+
+```bash
+python3 test_tracker.py        # 53 tests
+python3 test_international.py  # 31 tests
+```
+
+Fully offline — no network, so they're a valid CI gate even when a company board is down. They cover each parser against fixed text, the country/visa/scoring classifiers against their known traps, and the merge guarantees that protect your data.
+
+## Strategy notes
+
+- Apply 5–10 per day, weekends included. Work down from the top of the file — it's sorted best-first.
+- For international roles, category B is not a dead end. A short email asking whether they can host an intern on a training/exchange visa resolves it faster than guessing.
+- Check work authorization before investing time; it's the binding constraint.
+- See [`RECOMMENDATIONS.md`](RECOMMENDATIONS.md) for the longer strategy write-up.

@@ -5,19 +5,15 @@ Security and backup management system
 import os
 import shutil
 import logging
-import json
 import hashlib
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
-from pathlib import Path
-import sqlite3
 
 logger = logging.getLogger(__name__)
 
 class SecurityManager:
     def __init__(self, base_dir: str = "."):
         self.base_dir = base_dir
-        self.secrets_file = os.path.join(base_dir, ".secrets.json")
         self.backup_dir = os.path.join(base_dir, "backups")
         self._initialize_security()
     
@@ -35,67 +31,40 @@ class SecurityManager:
                 f.write("credentials.json\n")
                 f.write("internship_tracker.log\n")
     
-    def store_secret(self, key: str, value: str, encrypt: bool = True):
-        """Store a secret value"""
-        secrets = self._load_secrets()
-        
-        if encrypt:
-            # Simple encryption (in production, use proper encryption)
-            value = self._encrypt_value(value)
-        
-        secrets[key] = {
-            'value': value,
-            'encrypted': encrypt,
-            'created_at': datetime.now().isoformat()
-        }
-        
-        self._save_secrets(secrets)
-        logger.info(f"Stored secret: {key}")
-    
     def get_secret(self, key: str) -> Optional[str]:
-        """Retrieve a secret value"""
-        secrets = self._load_secrets()
-        
-        if key in secrets:
-            secret_data = secrets[key]
-            value = secret_data['value']
-            
-            if secret_data.get('encrypted', False):
-                value = self._decrypt_value(value)
-            
+        """Read a secret from the environment.
+
+        This previously kept a .secrets.json store whose "encryption" was a
+        SHA-256 digest - a one-way hash, so the stored value could never be
+        read back and callers received a hex digest where they expected a
+        password. Secrets now come from the environment (or a local .env,
+        which is gitignored), which is also what GitHub Actions provides.
+        """
+        value = os.environ.get(key)
+        if value:
             return value
-        
+
+        env_path = os.path.join(self.base_dir, '.env')
+        if os.path.exists(env_path):
+            with open(env_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith('#') or '=' not in line:
+                        continue
+                    name, _, raw = line.partition('=')
+                    if name.strip() == key:
+                        return raw.strip().strip('\'"')
         return None
-    
-    def _load_secrets(self) -> Dict:
-        """Load secrets from file"""
-        if os.path.exists(self.secrets_file):
-            try:
-                with open(self.secrets_file, 'r') as f:
-                    return json.load(f)
-            except Exception as e:
-                logger.error(f"Error loading secrets: {e}")
-        
-        return {}
-    
-    def _save_secrets(self, secrets: Dict):
-        """Save secrets to file"""
-        try:
-            with open(self.secrets_file, 'w') as f:
-                json.dump(secrets, f, indent=2)
-        except Exception as e:
-            logger.error(f"Error saving secrets: {e}")
-    
-    def _encrypt_value(self, value: str) -> str:
-        """Simple encryption (placeholder - use proper encryption in production)"""
-        # In production, use cryptography library or keyring
-        return f"encrypted_{hashlib.sha256(value.encode()).hexdigest()}"
-    
-    def _decrypt_value(self, encrypted_value: str) -> str:
-        """Simple decryption (placeholder - use proper decryption in production)"""
-        # In production, use cryptography library or keyring
-        return encrypted_value.replace("encrypted_", "")
-    
+
+    def require_secret(self, key: str) -> str:
+        """Read a secret, failing loudly if it is not configured."""
+        value = self.get_secret(key)
+        if not value:
+            raise KeyError(
+                f"{key} is not set. Export it, or add it to a local .env file."
+            )
+        return value
+
     def backup_files(self, files_to_backup: List[str], backup_name: str = None) -> str:
         """Backup specified files"""
         if not backup_name:
@@ -188,11 +157,10 @@ class SecurityManager:
         """Generate security report"""
         report = {
             'timestamp': datetime.now().isoformat(),
-            'secrets_count': len(self._load_secrets()),
+
             'backups_count': len(os.listdir(self.backup_dir)) if os.path.exists(self.backup_dir) else 0,
             'recent_backups': [],
             'security_checks': {
-                'secrets_file_exists': os.path.exists(self.secrets_file),
                 'gitignore_configured': os.path.exists(os.path.join(self.base_dir, ".gitignore")),
                 'backup_dir_exists': os.path.exists(self.backup_dir)
             }
@@ -253,7 +221,6 @@ def main():
     security = SecurityManager()
     
     # Store a secret
-    # security.store_secret("email_password", "my_password", encrypt=True)
     
     # Backup files
     # backup_path = security.backup_files(['Summer2027_SWE_Tracker.csv', 'scraped_internships.csv'])
