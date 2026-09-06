@@ -6,6 +6,7 @@ import csv
 import logging
 from datetime import datetime, timedelta
 from notification_system import NotificationSystem
+from tracker_io import TRACKER_FILE, write_csv
 
 logger = logging.getLogger(__name__)
 
@@ -36,11 +37,7 @@ class DeadlineTracker:
                     
                     updated_rows.append(row)
             
-            # Write back
-            with open(self.tracker_file, 'w', newline='', encoding='utf-8') as f:
-                writer = csv.DictWriter(f, fieldnames=fieldnames)
-                writer.writeheader()
-                writer.writerows(updated_rows)
+            write_csv(self.tracker_file, updated_rows, fieldnames)
             
             logger.info("Updated deadlines in tracker")
             
@@ -60,7 +57,7 @@ class DeadlineTracker:
                     deadline_str = row.get('Application Deadline', '')
                     if deadline_str and row['Status'] == 'Not Applied':
                         try:
-                            deadline = datetime.fromisoformat(deadline_str)
+                            deadline = datetime.fromisoformat(deadline_str.strip()[:19])
                             if today <= deadline <= alert_date:
                                 upcoming.append({
                                     'company': row['Company'],
@@ -94,7 +91,7 @@ class DeadlineTracker:
                     deadline_str = row.get('Application Deadline', '')
                     if deadline_str and row['Status'] == 'Not Applied':
                         try:
-                            deadline = datetime.fromisoformat(deadline_str)
+                            deadline = datetime.fromisoformat(deadline_str.strip()[:19])
                             if deadline < today:
                                 expired.append({
                                     'company': row['Company'],
@@ -135,11 +132,7 @@ class DeadlineTracker:
                     
                     updated_rows.append(row)
             
-            # Write back
-            with open(self.tracker_file, 'w', newline='', encoding='utf-8') as f:
-                writer = csv.DictWriter(f, fieldnames=fieldnames)
-                writer.writeheader()
-                writer.writerows(updated_rows)
+            write_csv(self.tracker_file, updated_rows, fieldnames)
             
             logger.info(f"Marked {len(expired)} expired opportunities as closed")
             
@@ -164,11 +157,7 @@ class DeadlineTracker:
                     updated_rows.append(row)
             
             if found:
-                # Write back
-                with open(self.tracker_file, 'w', newline='', encoding='utf-8') as f:
-                    writer = csv.DictWriter(f, fieldnames=fieldnames)
-                    writer.writeheader()
-                    writer.writerows(updated_rows)
+                write_csv(self.tracker_file, updated_rows, fieldnames)
                 
                 logger.info(f"Updated deadline for {company} - {role}")
             else:
@@ -195,7 +184,7 @@ class DeadlineTracker:
 
 def main():
     """Example usage"""
-    tracker = DeadlineTracker('Summer2027_SWE_Tracker.csv')
+    tracker = DeadlineTracker(TRACKER_FILE)
     
     # Update deadlines (would scrape job postings in real implementation)
     # tracker.update_deadlines()

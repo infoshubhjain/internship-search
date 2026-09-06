@@ -4,7 +4,8 @@ Master integration script that ties all systems together
 """
 import logging
 import sys
-from datetime import datetime
+
+from tracker_io import SCRAPED_FILE, TRACKER_FILE
 
 # Configure logging
 logging.basicConfig(
@@ -19,27 +20,16 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def run_data_update():
-    """Update data from all sources"""
+    """Scrape all sources and merge into the tracker.
+
+    Delegates to update_all so the scrape and the merge always read and write
+    the same files; running the scrape alone would leave the tracker stale.
+    """
     logger.info("Starting data update...")
-    
+
     try:
-        from enhanced_scraper import scrape_all_sources
-        
-        # Scrape data
-        internships = scrape_all_sources()
-        
-        # Save to CSV (keeping CSV as primary format for now)
-        import csv
-        with open('enhanced_scraped_internships.csv', 'w', newline='', encoding='utf-8') as f:
-            fieldnames = ['company', 'role', 'location', 'link', 'no_sponsorship', 'source', 
-                         'sponsorship_tier', 'sponsorship_notes']
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(internships)
-        
-        logger.info(f"Data update completed: {len(internships)} internships")
-        return True
-        
+        import update_all
+        return update_all.main() == 0
     except Exception as e:
         logger.error(f"Data update failed: {e}")
         return False
@@ -51,7 +41,7 @@ def run_deadline_checks():
     try:
         from deadline_tracker import DeadlineTracker
         
-        tracker = DeadlineTracker('Summer2027_SWE_Tracker.csv')
+        tracker = DeadlineTracker(TRACKER_FILE)
         
         # Get upcoming deadlines
         upcoming = tracker.get_upcoming_deadlines(days_ahead=7)
@@ -72,49 +62,52 @@ def run_deadline_checks():
         return False
 
 def run_priority_alerts():
-    """Check for new high-priority opportunities"""
+    """Report the high-priority listings the last merge actually added.
+
+    This used to infer novelty by comparing 'Date Posted' against a saved
+    timestamp - but the merge stamps that field itself, so every row looked
+    new on a first run. The merge now records exactly what it added.
+    """
     logger.info("Running priority alerts...")
-    
+
     try:
-        import csv
-        from datetime import datetime, timedelta
-        
-        # Simple check for new opportunities
-        try:
-            with open('last_check.txt', 'r') as f:
-                last_check = datetime.fromisoformat(f.read().strip())
-        except FileNotFoundError:
-            last_check = datetime.now() - timedelta(days=1)
-        
-        new_opps = []
-        with open('Summer2027_SWE_Tracker.csv', 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                if row['Priority'] in ['1', '2'] and row['Status'] == 'Not Applied':
-                    date_posted = row.get('Date Posted', '')
-                    if date_posted:
-                        try:
-                            post_date = datetime.fromisoformat(date_posted)
-                            if post_date > last_check:
-                                new_opps.append(row)
-                        except ValueError:
-                            pass
-        
-        # Update last check time
-        with open('last_check.txt', 'w') as f:
-            f.write(datetime.now().isoformat())
-        
-        if new_opps:
-            logger.info(f"Found {len(new_opps)} new priority opportunities")
-            for opp in new_opps:
-                logger.info(f"NEW: {opp['Company']} - {opp['Role']}")
-        
-        logger.info("Priority alerts completed")
+        from merge_internship_data import read_new_listings
+
+        new_opps = read_new_listings()
+        if not new_opps:
+            logger.info("No new priority 1-2 listings since the last merge")
+            return True
+
+        logger.info(f"Found {len(new_opps)} new priority opportunities")
+        for opp in new_opps:
+            logger.info(f"NEW: P{opp.get('Priority')} {opp.get('Company')} - {opp.get('Role')}")
+
+        from notification_system import NotificationSystem
+
+        notifier = NotificationSystem()
+        if notifier.email_config:
+            notifier.send_priority_alert(new_opps, notifier.email_config['email'])
+        else:
+            logger.info("Email not configured; alerts logged only")
+
         return True
-        
+
     except Exception as e:
         logger.error(f"Priority alerts failed: {e}")
         return False
+
+
+def run_international():
+    """Search company boards for international Summer 2027 internships."""
+    logger.info("Running international search...")
+
+    try:
+        import intl_tracker
+        return intl_tracker.run() == 0
+    except Exception as e:
+        logger.error(f"International search failed: {e}")
+        return False
+
 
 def run_weekly_summary():
     """Generate weekly summary"""
@@ -124,7 +117,7 @@ def run_weekly_summary():
         import csv
         
         # Calculate basic statistics
-        with open('Summer2027_SWE_Tracker.csv', 'r', encoding='utf-8') as f:
+        with open(TRACKER_FILE, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             rows = list(reader)
         
@@ -154,12 +147,10 @@ def run_backup():
         # Backup important files (only CSV files since we're not using DB yet)
         files_to_backup = []
         
-        if os.path.exists('Summer2027_SWE_Tracker.csv'):
-            files_to_backup.append('Summer2027_SWE_Tracker.csv')
-        if os.path.exists('scraped_internships.csv'):
-            files_to_backup.append('scraped_internships.csv')
-        if os.path.exists('enhanced_scraped_internships.csv'):
-            files_to_backup.append('enhanced_scraped_internships.csv')
+        from tracker_io import INTL_TRACKER_FILE
+        for path in (TRACKER_FILE, SCRAPED_FILE, INTL_TRACKER_FILE):
+            if os.path.exists(path):
+                files_to_backup.append(path)
         
         if files_to_backup:
             backup_path = security.backup_files(files_to_backup)
@@ -187,7 +178,7 @@ def run_security_check():
         # Generate security report
         report = security.generate_security_report()
         
-        logger.info(f"Security check completed: {report['secrets_count']} secrets, {report['backups_count']} backups")
+        logger.info(f"Security check completed: {report['backups_count']} backups")
         return True
         
     except Exception as e:
@@ -208,6 +199,8 @@ def main():
             success = run_deadline_checks()
         elif command == "alerts":
             success = run_priority_alerts()
+        elif command == "international":
+            success = run_international()
         elif command == "weekly":
             success = run_weekly_summary()
         elif command == "backup":
@@ -218,6 +211,7 @@ def main():
             # Run all functions
             results = {
                 'data_update': run_data_update(),
+                'international': run_international(),
                 'deadlines': run_deadline_checks(),
                 'alerts': run_priority_alerts(),
                 'backup': run_backup(),

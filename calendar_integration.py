@@ -4,7 +4,7 @@ Google Calendar integration for interview scheduling and deadline reminders
 """
 import logging
 from datetime import datetime, timedelta
-from typing import List, Dict
+from typing import List
 import csv
 
 logger = logging.getLogger(__name__)

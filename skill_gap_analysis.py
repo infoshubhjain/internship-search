@@ -2,11 +2,9 @@
 """
 Skill gap analysis for identifying areas to improve based on job requirements
 """
-import re
 import logging
 from typing import Dict, List, Set
 from collections import Counter
-from datetime import datetime
 
 logger = logging.getLogger(__name__)
 

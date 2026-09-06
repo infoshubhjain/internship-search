@@ -10,7 +10,31 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 from typing import List, Dict
 
+from tracker_io import TRACKER_FILE
+
 logger = logging.getLogger(__name__)
+
+
+def config_from_env():
+    """Build SMTP settings from the environment.
+
+    Returns {} when unconfigured, which makes send_email skip silently rather
+    than crash - alerts are optional, the tracker itself is not.
+    """
+    from security_manager import SecurityManager
+
+    secrets = SecurityManager()
+    email = secrets.get_secret('TRACKER_EMAIL')
+    password = secrets.get_secret('TRACKER_EMAIL_PASSWORD')
+    if not (email and password):
+        return {}
+
+    return {
+        'email': email,
+        'password': password,
+        'smtp_server': secrets.get_secret('TRACKER_SMTP_SERVER') or 'smtp.gmail.com',
+        'smtp_port': int(secrets.get_secret('TRACKER_SMTP_PORT') or 587),
+    }
 
 class NotificationSystem:
     def __init__(self, email_config=None):
@@ -21,8 +45,9 @@ class NotificationSystem:
             email_config: Dict with 'email', 'password', 'smtp_server', 'smtp_port'
                          For Gmail: smtp_server='smtp.gmail.com', smtp_port=587
         """
-        self.email_config = email_config or {}
-        
+        self.email_config = email_config or config_from_env()
+
+    
     def send_email(self, to_email: str, subject: str, body: str, html: bool = False):
         """Send email notification"""
         if not self.email_config:
@@ -40,11 +65,14 @@ class NotificationSystem:
             else:
                 msg.attach(MIMEText(body, 'plain'))
             
-            server = smtplib.SMTP(self.email_config['smtp_server'], self.email_config['smtp_port'])
-            server.starttls()
-            server.login(self.email_config['email'], self.email_config['password'])
-            server.send_message(msg)
-            server.quit()
+            # Context manager so the connection is closed even if login or
+            # send raises; the previous explicit quit() was skipped on error.
+            with smtplib.SMTP(self.email_config['smtp_server'],
+                              self.email_config['smtp_port'], timeout=30) as server:
+                server.starttls()
+                server.login(self.email_config['email'], self.email_config['password'])
+                server.send_message(msg)
+
             
             logger.info(f"Email sent to {to_email}: {subject}")
             return True
@@ -53,42 +81,17 @@ class NotificationSystem:
             logger.error(f"Failed to send email: {e}")
             return False
     
-    def check_new_priority_opportunities(self, tracker_file: str, last_check_file: str = 'last_check.txt'):
-        """Check for new Priority 1-2 opportunities since last check"""
-        try:
-            # Read last check time
-            try:
-                with open(last_check_file, 'r') as f:
-                    last_check = datetime.fromisoformat(f.read().strip())
-            except FileNotFoundError:
-                last_check = datetime.now() - timedelta(days=1)  # Default to 1 day ago
-            
-            # Read current tracker
-            new_opportunities = []
-            with open(tracker_file, 'r', encoding='utf-8') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    if row['Priority'] in ['1', '2'] and row['Status'] == 'Not Applied':
-                        date_posted = row.get('Date Posted', '')
-                        if date_posted:
-                            try:
-                                post_date = datetime.fromisoformat(date_posted)
-                                if post_date > last_check:
-                                    new_opportunities.append(row)
-                            except ValueError:
-                                # If date parsing fails, include it
-                                new_opportunities.append(row)
-            
-            # Update last check time
-            with open(last_check_file, 'w') as f:
-                f.write(datetime.now().isoformat())
-            
-            return new_opportunities
-            
-        except Exception as e:
-            logger.error(f"Error checking for new opportunities: {e}")
-            return []
-    
+    def check_new_priority_opportunities(self, tracker_file=None, last_check_file=None):
+        """High-priority listings added by the most recent merge.
+
+        Delegates to the merge's own record of what it added; the old
+        timestamp-versus-Date-Posted comparison fired on every row of a fresh
+        tracker because the merge stamps Date Posted itself.
+        """
+        from merge_internship_data import read_new_listings
+
+        return read_new_listings()
+
     def send_priority_alert(self, opportunities: List[Dict], to_email: str):
         """Send alert for new high-priority opportunities"""
         if not opportunities:
@@ -249,7 +252,7 @@ class NotificationSystem:
                 if row['Status'] == 'Applied':
                     priority_stats[priority]['applied'] += 1
             
-            subject = f"📊 Weekly Internship Application Summary"
+            subject = "📊 Weekly Internship Application Summary"
             
             html_body = f"""
             <html>
@@ -298,29 +301,25 @@ class NotificationSystem:
             logger.error(f"Error sending weekly summary: {e}")
 
 def main():
-    """Example usage"""
-    # Configure with your email settings
-    email_config = {
-        'email': 'your_email@gmail.com',
-        'password': 'your_app_password',  # Use app password, not regular password
-        'smtp_server': 'smtp.gmail.com',
-        'smtp_port': 587
-    }
-    
-    notifier = NotificationSystem(email_config)
-    
-    # Check for new priority opportunities
-    new_opps = notifier.check_new_priority_opportunities('Summer2027_SWE_Tracker.csv')
+    """Send any pending priority and deadline alerts."""
+    notifier = NotificationSystem()
+
+    if not notifier.email_config:
+        print("Email is not configured. Set these and re-run:")
+        print("  export TRACKER_EMAIL=you@gmail.com")
+        print("  export TRACKER_EMAIL_PASSWORD=<gmail app password>")
+        print("(a .env file in this directory works too)")
+        return
+
+    to_email = notifier.email_config['email']
+
+    new_opps = notifier.check_new_priority_opportunities(TRACKER_FILE)
     if new_opps:
-        notifier.send_priority_alert(new_opps, email_config['email'])
-    
-    # Check for upcoming deadlines
-    deadlines = notifier.check_deadline_alerts('Summer2027_SWE_Tracker.csv')
+        notifier.send_priority_alert(new_opps, to_email)
+
+    deadlines = notifier.check_deadline_alerts(TRACKER_FILE)
     if deadlines:
-        notifier.send_deadline_alert(deadlines, email_config['email'])
-    
-    # Send weekly summary (run this once per week)
-    # notifier.send_weekly_summary('Summer2027_SWE_Tracker.csv', email_config['email'])
+        notifier.send_deadline_alert(deadlines, to_email)
 
 if __name__ == "__main__":
     main()
