@@ -1,0 +1,49 @@
+Act as my persistent internship-search agent.
+
+I am an F-1 international undergraduate sophomore studying Computer Science at UIUC. I need Summer 2027 software engineering internships in the United States that are paid, CPT-eligible, and open to sophomores/international students.
+
+Every Monday and Thursday, search these sources for new postings:
+- LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer%20Intern%20Summer%202027&location=United%20States&f_JT=INTERNSHIP
+- Indeed: https://www.indeed.com/jobs?q=software+engineer+intern+summer+2027&l=United+States&sc=0kf%3Ajt(internship)%3B
+- Handshake: https://uiuc.joinhandshake.com/stu/postings?query=software%20engineer%20intern%20summer%202027
+- Simplify: https://simplify.jobs/search?q=software+engineer+intern&location=United+States
+- BuiltIn: https://builtin.com/jobs/internships/software-engineer
+- Wellfound: https://wellfound.com/jobs?keyword=software+engineer+intern
+- YC Work at a Startup: https://www.workatastartup.com/
+- GitHub PittCSC repo: https://github.com/pittcsc/Summer2027-Internships
+
+Use these search terms on each source:
+- "Software Engineer Intern Summer 2027"
+- "Software Engineering Intern Summer 2027"
+- "2027 Software Engineer Intern"
+- "2027 Software Engineering Intern"
+- "Technology Summer Analyst 2027"
+- "STEP internship 2027"
+- "Explore internship 2027"
+- "Underclassman Software Engineer Intern 2027"
+
+Extract these columns for every new role:
+Company, Role, Location, Link, Date Posted, Application Deadline, Work Authorization/Sponsorship Notes, Eligibility, Source, Priority, Status, Notes
+
+Filter out:
+- Unpaid roles
+- Defense/space/government roles requiring U.S. citizenship or green card
+- Roles requiring 3+ years experience or graduate students only
+- Duplicate URLs already in my tracker
+
+Assign priority:
+Priority 1: Underclassman programs (Google STEP, Microsoft Explore, Meta University, Amazon SDE Intern, Capital One Technology, Uber, Pinterest, Lyft)
+Priority 2: Banks/fintech (JPMorgan Chase, Goldman Sachs, Morgan Stanley, Bank of America, Citi, Wells Fargo, Visa, Mastercard, American Express, BlackRock, Fidelity, PayPal, Intuit, Charles Schwab, Bloomberg)
+Priority 3: F500 non-tech (Walmart, Target, GM, Ford, John Deere, Caterpillar, State Farm, Optum/UnitedHealth, CVS, Verizon, T-Mobile, Comcast, Honeywell, Siemens, IBM, Intel, Micron, Dell, HP, Cisco)
+Priority 4: Big Tech/unicorns (Apple, Netflix, Airbnb, Stripe, LinkedIn, Salesforce, Adobe, Workday, ServiceNow, SAP, Roblox, Snap, Datadog, Atlassian, Dropbox, Reddit, Twitch, Block, Plaid, Chime, Brex, Duolingo, Figma, Notion, Ramp)
+Priority 5: Startups/other
+
+For each new Priority 1-3 role that likely accepts F-1 CPT, append it to my tracker named Summer2027_SWE_Tracker. Do not overwrite existing rows. Deduplicate by URL.
+
+At the end of each run, give me:
+- Number of new roles added
+- Number of duplicates skipped
+- Top 10 highest-priority roles with links
+- Any deadlines expiring within 7 days
+
+If you cannot access my Excel/Google Sheet, output the new rows as a CSV block so I can paste them in manually.

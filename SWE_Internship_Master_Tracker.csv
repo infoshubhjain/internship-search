@@ -1,0 +1,70 @@
+Category,Company,Program,Likelihood,Link,Notes
+Underclassman,Google,STEP Intern,High priority,https://buildyourfuture.withgoogle.com/internships/step-internship,1st/2nd year CPT-friendly paid
+Underclassman,Microsoft,Explore Intern,High priority,https://careers.microsoft.com/students/us/en/explore-program,Underclassmen paid
+Underclassman,Meta,University SWE,High priority,https://www.metacareers.com/careerprograms/university,Check eligibility
+Underclassman,Amazon,SDE Intern,High priority,https://www.amazon.jobs/en/teams/university,High volume CPT-friendly
+Underclassman,Capital One,Technology Internship,High priority,https://www.capitalonecareers.com/students-and-grads,Sophomore-friendly
+Underclassman,Uber,University/STAR,High priority,https://www.uber.com/careers/teams/university/,Paid underclassmen
+Underclassman,Pinterest,Engage/University,High priority,https://www.pinterestcareers.com/students,Underclassman-friendly
+Underclassman,Lyft,University,High priority,https://www.lyft.com/careers/university,Underclassman-friendly
+BigTech,Apple,SWE Intern,Reach,https://jobs.apple.com/en-us/search?team=internships,Apply early
+BigTech,Netflix,SWE Intern,Reach,https://jobs.netflix.com/search?q=intern,Very competitive
+BigTech,Airbnb,SWE Intern,Reach,https://careers.airbnb.com/positions?search=intern&category=Engineering,Competitive
+BigTech,Stripe,SWE Intern,Reach,https://stripe.com/jobs/search?search=intern,Competitive
+BigTech,LinkedIn,SWE Intern,Reach,https://careers.linkedin.com/students,Competitive
+BigTech,Salesforce,SWE Intern,Reach,https://careers.salesforce.com/en/jobs/?search=intern,Good volume
+BigTech,Adobe,SWE Intern,Reach,https://careers.adobe.com/us/en/search-results?keywords=intern,Good volume
+BigTech,Workday,SWE Intern,Reach,https://workday.wd5.myworkdayjobs.com/Workday?q=intern,Good volume
+BigTech,ServiceNow,SWE Intern,Reach,https://careers.servicenow.com/careers?search=intern,Good volume
+BigTech,SAP,SWE Intern,Reach,https://jobs.sap.com/search/?q=intern,Enterprise
+BigTech,Roblox,SWE Intern,Reach,https://careers.roblox.com/students,Competitive
+BigTech,Snap,SWE Intern,Reach,https://careers.snap.com/students,Competitive
+BigTech,Datadog,SWE Intern,Reach,https://careers.datadoghq.com/students/,Competitive
+BigTech,Atlassian,SWE Intern,Reach,https://www.atlassian.com/company/careers/students,Good volume
+BigTech,Dropbox,SWE Intern,Reach,https://jobs.dropbox.com/students,Competitive
+BigTech,Reddit,SWE Intern,Reach,https://www.redditinc.com/careers,Competitive
+BigTech,Twitch,SWE Intern,Reach,https://www.twitch.tv/jobs/en/,Competitive
+BigTech,Block/Square,SWE Intern,Reach,https://block.xyz/careers/students,Competitive
+BigTech,Plaid,SWE Intern,Reach,https://plaid.com/careers/students/,Competitive
+BigTech,Chime,SWE Intern,Reach,https://careers.chime.com/students,Fintech
+BigTech,Brex,SWE Intern,Reach,https://www.brex.com/careers/students,Fintech
+BigTech,Duolingo,SWE Intern,Reach,https://careers.duolingo.com/students,Competitive
+BigTech,Figma,SWE Intern,Reach,https://www.figma.com/careers/students/,Competitive
+BigTech,Notion,SWE Intern,Reach,https://www.notion.so/careers/students,Competitive
+BigTech,Ramp,SWE Intern,Reach,https://ramp.com/careers/students,Competitive
+Banks,JPMorgan Chase,Software Engineer Summer Analyst,High volume,https://careers.jpmorgan.com/us/en/students/programs,International-friendly
+Banks,Goldman Sachs,Engineering Summer Analyst,High volume,https://www.goldmansachs.com/careers/students/programs/,International-friendly
+Banks,Morgan Stanley,Technology Summer Analyst,High volume,https://www.morganstanley.com/careers/career-opportunities-search?search=intern,International-friendly
+Banks,Bank of America,Technology Summer Analyst,High volume,https://campus.bankofamerica.com/,International-friendly
+Banks,Citi,Technology Summer Analyst,High volume,https://jobs.citi.com/students,International-friendly
+Banks,Wells Fargo,Technology Intern,High volume,https://www.wellsfargojobs.com/en/students/,International-friendly
+Banks,Capital One,Technology Internship,High volume,https://www.capitalonecareers.com/students-and-grads,International-friendly
+Banks,BlackRock,Software Engineering Intern,High volume,https://careers.blackrock.com/students,International-friendly
+Banks,Fidelity,Software Engineering Intern,High volume,https://jobs.fidelity.com/students/,International-friendly
+Banks,Visa,Software Engineer Intern,High volume,https://corporate.visa.com/en/jobs/?search=intern,Sponsors CPT
+Banks,Mastercard,Software Engineer Intern,High volume,https://careers.mastercard.com/us/en/search-results?keywords=intern,Sponsors CPT
+Banks,American Express,Software Engineer Intern,High volume,https://careers.americanexpress.com/en-US/search-results?keywords=intern,Sponsors CPT
+Banks,PayPal,Software Engineer Intern,High volume,https://careers.pypl.com/students/,International-friendly
+Banks,Intuit,Software Engineer Intern,High volume,https://www.intuit.com/careers/students/,International-friendly
+Banks,Charles Schwab,Software Engineer Intern,High volume,https://jobs.schwab.com/students,International-friendly
+Banks,Bloomberg,Software Engineering Intern,High volume,https://www.bloomberg.com/company/careers/students/,Competitive
+F500,Walmart Global Tech,Software Engineer Intern,Less competitive,https://careers.walmart.com/technology/students,High volume paid
+F500,Target,Software Engineer Intern,Less competitive,https://corporate.target.com/careers/internships,High volume paid
+F500,General Motors,Software Engineer Intern,Less competitive,https://search-careers.gm.com/en/students/,Paid
+F500,Ford,Software Engineer Intern,Less competitive,https://corporate.ford.com/careers/students.html,Paid
+F500,John Deere,Software Engineer Intern,Less competitive,https://www.deere.com/en/careers/students/,Paid
+F500,Caterpillar,Software Engineer Intern,Less competitive,https://www.caterpillar.com/en/careers/students-grads.html,Paid
+F500,State Farm,Software Engineer Intern,Less competitive,https://jobs.statefarm.com/search-jobs?q=intern,Paid
+F500,UnitedHealth/Optum,Software Engineer Intern,Less competitive,https://careers.unitedhealthgroup.com/students,Paid
+F500,CVS Health,Software Engineer Intern,Less competitive,https://jobs.cvshealth.com/students/,Paid
+F500,Verizon,Software Engineer Intern,Less competitive,https://www.verizon.com/about/careers/students,Paid
+F500,T-Mobile,Software Engineer Intern,Less competitive,https://www.t-mobile.com/careers/students,Paid
+F500,Comcast,Software Engineer Intern,Less competitive,https://jobs.comcast.com/students,Paid
+F500,Honeywell,Software Engineer Intern,Less competitive,https://careers.honeywell.com/us/en/students,Paid
+F500,Siemens,Software Engineer Intern,Less competitive,https://www.siemens.com/us/en/company/jobs.html,Paid
+F500,IBM,Software Engineer Intern,Less competitive,https://www.ibm.com/careers/us-en/early-career/,Paid
+F500,Intel,Software Engineer Intern,Less competitive,https://jobs.intel.com/en/students,Paid
+F500,Micron,Software Engineer Intern,Less competitive,https://careers.micron.com/students,Paid
+F500,Dell,Software Engineer Intern,Less competitive,https://jobs.dell.com/students,Paid
+F500,HP,Software Engineer Intern,Less competitive,https://jobs.hp.com/students,Paid
+F500,Cisco,Software Engineer Intern,Less competitive,https://jobs.cisco.com/students,Paid
