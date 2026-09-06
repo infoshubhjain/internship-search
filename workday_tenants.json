@@ -1,0 +1,518 @@
+{
+  "adobe|wd5|external_experienced": {
+    "company": "Adobe",
+    "datacenter": "wd5",
+    "site": "external_experienced",
+    "tenant": "adobe"
+  },
+  "alliedsolutions|wd501|allied_external": {
+    "company": "Allied Solutions",
+    "datacenter": "wd501",
+    "site": "Allied_External",
+    "tenant": "alliedsolutions"
+  },
+  "ameriprise|wd5|ameriprise": {
+    "company": "Ameriprise Financial",
+    "datacenter": "wd5",
+    "site": "Ameriprise",
+    "tenant": "ameriprise"
+  },
+  "aoins|wd5|autoowners": {
+    "company": "Aoins",
+    "datacenter": "wd5",
+    "site": "autoowners",
+    "tenant": "aoins"
+  },
+  "arrowstreetcapital|wd5|campus_careers": {
+    "company": "Arrowstreet Capital",
+    "datacenter": "wd5",
+    "site": "Campus_Careers",
+    "tenant": "arrowstreetcapital"
+  },
+  "avav|wd1|avav": {
+    "company": "AeroVironment",
+    "datacenter": "wd1",
+    "site": "avav",
+    "tenant": "avav"
+  },
+  "bah|wd1|bah_jobs": {
+    "company": "Bah",
+    "datacenter": "wd1",
+    "site": "bah_jobs",
+    "tenant": "bah"
+  },
+  "barclays|wd3|external_career_site_barclays": {
+    "company": "Barclays",
+    "datacenter": "wd3",
+    "site": "External_Career_Site_Barclays",
+    "tenant": "barclays"
+  },
+  "blackstone|wd1|blackstone_campus_careers": {
+    "company": "Blackstone",
+    "datacenter": "wd1",
+    "site": "Blackstone_Campus_Careers",
+    "tenant": "blackstone"
+  },
+  "boeing|wd1|external_careers": {
+    "company": "Boeing",
+    "datacenter": "wd1",
+    "site": "EXTERNAL_CAREERS",
+    "tenant": "boeing"
+  },
+  "brunswick|wd1|search": {
+    "company": "Brunswick",
+    "datacenter": "wd1",
+    "site": "search",
+    "tenant": "brunswick"
+  },
+  "caci|wd1|external": {
+    "company": "CACI",
+    "datacenter": "wd1",
+    "site": "external",
+    "tenant": "caci"
+  },
+  "cat|wd5|solarturbines": {
+    "company": "Solar Turbines (Caterpillar)",
+    "datacenter": "wd5",
+    "site": "SolarTurbines",
+    "tenant": "cat"
+  },
+  "cibc|wd3|campus": {
+    "company": "CIBC",
+    "datacenter": "wd3",
+    "site": "campus",
+    "tenant": "cibc"
+  },
+  "cibc|wd3|search": {
+    "company": "CIBC",
+    "datacenter": "wd3",
+    "site": "search",
+    "tenant": "cibc"
+  },
+  "commercebank|wd1|commercejobs": {
+    "company": "Commerce Bank",
+    "datacenter": "wd1",
+    "site": "CommerceJobs",
+    "tenant": "commercebank"
+  },
+  "conagrabrands|wd1|careers_us": {
+    "company": "Conagrabrands",
+    "datacenter": "wd1",
+    "site": "careers_us",
+    "tenant": "conagrabrands"
+  },
+  "copart|wd12|copart": {
+    "company": "Copart",
+    "datacenter": "wd12",
+    "site": "copart",
+    "tenant": "copart"
+  },
+  "cox|wd1|cox_external_career_site_1": {
+    "company": "Cox",
+    "datacenter": "wd1",
+    "site": "cox_external_career_site_1",
+    "tenant": "cox"
+  },
+  "deezee|wd108|deezee_careers": {
+    "company": "Dee Zee",
+    "datacenter": "wd108",
+    "site": "DeeZee_Careers",
+    "tenant": "deezee"
+  },
+  "directv|wd1|careers": {
+    "company": "DIRECTV",
+    "datacenter": "wd1",
+    "site": "careers",
+    "tenant": "directv"
+  },
+  "disney|wd5|disneycareer": {
+    "company": "Disney",
+    "datacenter": "wd5",
+    "site": "disneycareer",
+    "tenant": "disney"
+  },
+  "dmainc|wd5|dma": {
+    "company": "Dmainc",
+    "datacenter": "wd5",
+    "site": "dma",
+    "tenant": "dmainc"
+  },
+  "draftkings|wd1|campus_career_portal": {
+    "company": "DraftKings",
+    "datacenter": "wd1",
+    "site": "Campus_Career_Portal",
+    "tenant": "draftkings"
+  },
+  "draper|wd5|draper_careers": {
+    "company": "Draper",
+    "datacenter": "wd5",
+    "site": "draper_careers",
+    "tenant": "draper"
+  },
+  "drivetime|wd1|drivetime": {
+    "company": "DriveTime",
+    "datacenter": "wd1",
+    "site": "DriveTime",
+    "tenant": "drivetime"
+  },
+  "ecolab|wd1|ecolab_external": {
+    "company": "Ecolab",
+    "datacenter": "wd1",
+    "site": "ecolab_external",
+    "tenant": "ecolab"
+  },
+  "fifththird|wd5|53careers": {
+    "company": "Fifththird",
+    "datacenter": "wd5",
+    "site": "53careers",
+    "tenant": "fifththird"
+  },
+  "flir|wd1|flircareers": {
+    "company": "Flir",
+    "datacenter": "wd1",
+    "site": "flircareers",
+    "tenant": "flir"
+  },
+  "fnbcorp|wd501|fnbcorp": {
+    "company": "First National Bank",
+    "datacenter": "wd501",
+    "site": "FNBCORP",
+    "tenant": "fnbcorp"
+  },
+  "freddiemac|wd5|external": {
+    "company": "Freddiemac",
+    "datacenter": "wd5",
+    "site": "external",
+    "tenant": "freddiemac"
+  },
+  "fticonsulting|wd108|fticonsultingcareers": {
+    "company": "FTI Consulting",
+    "datacenter": "wd108",
+    "site": "FTIConsultingCareers",
+    "tenant": "fticonsulting"
+  },
+  "geaerospace|wd5|ge_externalsite": {
+    "company": "Geaerospace",
+    "datacenter": "wd5",
+    "site": "ge_externalsite",
+    "tenant": "geaerospace"
+  },
+  "gevernova|wd5|only_confidential_executive_recruiting": {
+    "company": "GE Vernova",
+    "datacenter": "wd5",
+    "site": "only_confidential_executive_recruiting",
+    "tenant": "gevernova"
+  },
+  "gevernova|wd5|vernova_externalsite": {
+    "company": "GE Vernova",
+    "datacenter": "wd5",
+    "site": "vernova_externalsite",
+    "tenant": "gevernova"
+  },
+  "globalfoundries|wd1|external": {
+    "company": "GlobalFoundries",
+    "datacenter": "wd1",
+    "site": "External",
+    "tenant": "globalfoundries"
+  },
+  "globalhr|wd5|private_posting_no_tmp": {
+    "company": "RTX",
+    "datacenter": "wd5",
+    "site": "private_posting_no_tmp",
+    "tenant": "globalhr"
+  },
+  "globalhr|wd5|rec_rtx_ext_gateway": {
+    "company": "RTX",
+    "datacenter": "wd5",
+    "site": "rec_rtx_ext_gateway",
+    "tenant": "globalhr"
+  },
+  "greenheckgroup|wd5|external": {
+    "company": "Greenheck Group",
+    "datacenter": "wd5",
+    "site": "external",
+    "tenant": "greenheckgroup"
+  },
+  "haier|wd3|ge_appliances": {
+    "company": "GE Appliances",
+    "datacenter": "wd3",
+    "site": "ge_appliances",
+    "tenant": "haier"
+  },
+  "homedepot|wd5|careerdepot": {
+    "company": "The Home Depot",
+    "datacenter": "wd5",
+    "site": "careerdepot",
+    "tenant": "homedepot"
+  },
+  "humana|wd5|humana_external_career_site": {
+    "company": "Humana",
+    "datacenter": "wd5",
+    "site": "Humana_External_Career_Site",
+    "tenant": "humana"
+  },
+  "hyvee|wd1|hyveecareers": {
+    "company": "Hy-Vee",
+    "datacenter": "wd1",
+    "site": "HyVeeCareers",
+    "tenant": "hyvee"
+  },
+  "intel|wd1|external": {
+    "company": "Intel",
+    "datacenter": "wd1",
+    "site": "external",
+    "tenant": "intel"
+  },
+  "liveramp|wd5|liverampcareers": {
+    "company": "LiveRamp",
+    "datacenter": "wd5",
+    "site": "LiveRampCareers",
+    "tenant": "liveramp"
+  },
+  "lplfinancial|wd1|university": {
+    "company": "LPL Financial Holdings",
+    "datacenter": "wd1",
+    "site": "university",
+    "tenant": "lplfinancial"
+  },
+  "manulife|wd3|mfcjh_jobs": {
+    "company": "Manulife",
+    "datacenter": "wd3",
+    "site": "mfcjh_jobs",
+    "tenant": "manulife"
+  },
+  "marvell|wd1|marvellcareers": {
+    "company": "Marvell",
+    "datacenter": "wd1",
+    "site": "marvellcareers",
+    "tenant": "marvell"
+  },
+  "mastercard|wd1|campus": {
+    "company": "Mastercard",
+    "datacenter": "wd1",
+    "site": "campus",
+    "tenant": "mastercard"
+  },
+  "mckesson|wd3|external_careers": {
+    "company": "McKesson",
+    "datacenter": "wd3",
+    "site": "External_Careers",
+    "tenant": "mckesson"
+  },
+  "medline|wd5|medline": {
+    "company": "Medline",
+    "datacenter": "wd5",
+    "site": "Medline",
+    "tenant": "medline"
+  },
+  "medtronic|wd1|medtroniccareers": {
+    "company": "Medtronic",
+    "datacenter": "wd1",
+    "site": "medtroniccareers",
+    "tenant": "medtronic"
+  },
+  "medtronic|wd1|redeploymentmedtroniccareers": {
+    "company": "Medtronic",
+    "datacenter": "wd1",
+    "site": "redeploymentmedtroniccareers",
+    "tenant": "medtronic"
+  },
+  "modernatx|wd1|m_tx": {
+    "company": "Moderna",
+    "datacenter": "wd1",
+    "site": "M_tx",
+    "tenant": "modernatx"
+  },
+  "motorolasolutions|wd5|careers": {
+    "company": "Motorola",
+    "datacenter": "wd5",
+    "site": "Careers",
+    "tenant": "motorolasolutions"
+  },
+  "nebraskablue|wd1|bcbsne": {
+    "company": "BlueCross BlueShield of Nebraska",
+    "datacenter": "wd1",
+    "site": "BCBSNE",
+    "tenant": "nebraskablue"
+  },
+  "newrez|wd1|nrz": {
+    "company": "Newrez",
+    "datacenter": "wd1",
+    "site": "nrz",
+    "tenant": "newrez"
+  },
+  "ngc|wd1|northrop_grumman_external_site": {
+    "company": "Northrop Grumman",
+    "datacenter": "wd1",
+    "site": "northrop_grumman_external_site",
+    "tenant": "ngc"
+  },
+  "nike|wd1|nke": {
+    "company": "Nike",
+    "datacenter": "wd1",
+    "site": "nke",
+    "tenant": "nike"
+  },
+  "nisource|wd1|nisource": {
+    "company": "NiSource",
+    "datacenter": "wd1",
+    "site": "NiSource",
+    "tenant": "nisource"
+  },
+  "ntrs|wd1|northerntrust": {
+    "company": "Northern Trust",
+    "datacenter": "wd1",
+    "site": "northerntrust",
+    "tenant": "ntrs"
+  },
+  "nvidia|wd5|nvidiaexternalcareersite": {
+    "company": "NVIDIA",
+    "datacenter": "wd5",
+    "site": "NVIDIAExternalCareerSite",
+    "tenant": "nvidia"
+  },
+  "oshkoshcorporation|wd5|oshkosh": {
+    "company": "Oshkoshcorporation",
+    "datacenter": "wd5",
+    "site": "oshkosh",
+    "tenant": "oshkoshcorporation"
+  },
+  "osv-cci|wd1|ccicareers": {
+    "company": "Castleton Commodities International",
+    "datacenter": "wd1",
+    "site": "CCICareers",
+    "tenant": "osv-cci"
+  },
+  "pg|wd5|1000": {
+    "company": "Procter & Gamble",
+    "datacenter": "wd5",
+    "site": "1000",
+    "tenant": "pg"
+  },
+  "philips|wd3|jobs-and-careers": {
+    "company": "Philips",
+    "datacenter": "wd3",
+    "site": "jobs-and-careers",
+    "tenant": "philips"
+  },
+  "phillipsedison|wd503|peco": {
+    "company": "Phillipsedison",
+    "datacenter": "wd503",
+    "site": "peco",
+    "tenant": "phillipsedison"
+  },
+  "pimco|wd1|pimco-careers": {
+    "company": "PIMCO",
+    "datacenter": "wd1",
+    "site": "pimco-careers",
+    "tenant": "pimco"
+  },
+  "plexus|wd504|plexus_careers": {
+    "company": "Plexus",
+    "datacenter": "wd504",
+    "site": "Plexus_Careers",
+    "tenant": "plexus"
+  },
+  "pwc|wd3|us_entry_level_careers": {
+    "company": "PricewaterhouseCoopers (PwC)",
+    "datacenter": "wd3",
+    "site": "US_Entry_Level_Careers",
+    "tenant": "pwc"
+  },
+  "regions|wd5|regions_careers": {
+    "company": "Regions Bank",
+    "datacenter": "wd5",
+    "site": "regions_careers",
+    "tenant": "regions"
+  },
+  "rockwellautomation|wd1|external_rockwell_automation": {
+    "company": "Rockwellautomation",
+    "datacenter": "wd1",
+    "site": "external_rockwell_automation",
+    "tenant": "rockwellautomation"
+  },
+  "rsm|wd1|rsmcareers": {
+    "company": "RSM",
+    "datacenter": "wd1",
+    "site": "RSMCareers",
+    "tenant": "rsm"
+  },
+  "saabusa|wd1|saab_careers": {
+    "company": "Saabusa",
+    "datacenter": "wd1",
+    "site": "saab_careers",
+    "tenant": "saabusa"
+  },
+  "salesforce|wd12|external_career_site": {
+    "company": "Salesforce",
+    "datacenter": "wd12",
+    "site": "External_Career_Site",
+    "tenant": "salesforce"
+  },
+  "snc|wd1|snc_external_career_site": {
+    "company": "Snc",
+    "datacenter": "wd1",
+    "site": "snc_external_career_site",
+    "tenant": "snc"
+  },
+  "stryker|wd1|strykercareers": {
+    "company": "Stryker",
+    "datacenter": "wd1",
+    "site": "strykercareers",
+    "tenant": "stryker"
+  },
+  "td|wd3|td_bank_careers": {
+    "company": "TD Bank",
+    "datacenter": "wd3",
+    "site": "TD_Bank_Careers",
+    "tenant": "td"
+  },
+  "thehartford|wd5|careers_external": {
+    "company": "The Hartford",
+    "datacenter": "wd5",
+    "site": "careers_external",
+    "tenant": "thehartford"
+  },
+  "tjx|wd1|tjx_external": {
+    "company": "TJX",
+    "datacenter": "wd1",
+    "site": "tjx_external",
+    "tenant": "tjx"
+  },
+  "uline|wd1|uline_careers": {
+    "company": "Uline",
+    "datacenter": "wd1",
+    "site": "Uline_Careers",
+    "tenant": "uline"
+  },
+  "vanguard|wd5|vanguard_external": {
+    "company": "Vanguard",
+    "datacenter": "wd5",
+    "site": "vanguard_external",
+    "tenant": "vanguard"
+  },
+  "vermeer|wd5|externalcareersite": {
+    "company": "Vermeer",
+    "datacenter": "wd5",
+    "site": "externalcareersite",
+    "tenant": "vermeer"
+  },
+  "walmart|wd504|walmartexternal": {
+    "company": "Walmart",
+    "datacenter": "wd504",
+    "site": "WalmartExternal",
+    "tenant": "walmart"
+  },
+  "workday|wd5|workday": {
+    "company": "Workday",
+    "datacenter": "wd5",
+    "site": "Workday",
+    "tenant": "workday"
+  },
+  "workiva|wd503|careers": {
+    "company": "Workiva",
+    "datacenter": "wd503",
+    "site": "careers",
+    "tenant": "workiva"
+  }
+}

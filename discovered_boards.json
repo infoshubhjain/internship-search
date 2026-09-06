@@ -1,0 +1,382 @@
+{
+  "ashby:Etched": {
+    "company": "Etched",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 105
+  },
+  "ashby:NorthwoodSpace": {
+    "company": "Northwood Space",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 84
+  },
+  "ashby:Sierra": {
+    "company": "Sierra",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 210
+  },
+  "ashby:apex-technology-inc": {
+    "company": "Apex",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 105
+  },
+  "ashby:circleback": {
+    "company": "Circleback",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 11
+  },
+  "ashby:composio": {
+    "company": "Composio",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 30
+  },
+  "ashby:deepgram": {
+    "company": "Deepgram",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 92
+  },
+  "ashby:ellipsislabs": {
+    "company": "Ellipsis Labs",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 13
+  },
+  "ashby:ether.fi": {
+    "company": "Ether.fi",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 13
+  },
+  "ashby:exa": {
+    "company": "Exa",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 55
+  },
+  "ashby:hadrian-automation": {
+    "company": "Hadrian",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 148
+  },
+  "ashby:heliux": {
+    "company": "Heliux",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 12
+  },
+  "ashby:homebase": {
+    "company": "Homebase",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 21
+  },
+  "ashby:hypercubic": {
+    "company": "Hypercubic",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 2
+  },
+  "ashby:kastle": {
+    "company": "Kastle",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 13
+  },
+  "ashby:melius": {
+    "company": "Melius",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 8
+  },
+  "ashby:netic": {
+    "company": "Cybernetic Labs",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 30
+  },
+  "ashby:northwoodspace": {
+    "company": "Northwood Space",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 84
+  },
+  "ashby:persona.ai": {
+    "company": "Persona AI",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 29
+  },
+  "ashby:poshmark": {
+    "company": "Poshmark",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 29
+  },
+  "ashby:primer": {
+    "company": "Primer",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 24
+  },
+  "ashby:pylon-labs": {
+    "company": "Pylon",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 20
+  },
+  "ashby:quadrillion-labs": {
+    "company": "Quadrillion",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 8
+  },
+  "ashby:rivianvw.tech": {
+    "company": "Rivian and Volkswagen Group Technologies",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 123
+  },
+  "ashby:skydio": {
+    "company": "Skydio",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 132
+  },
+  "ashby:telus-digital": {
+    "company": "TELUS Digital",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 88
+  },
+  "ashby:the-exploration-company": {
+    "company": "The Exploration Company",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 100
+  },
+  "ashby:voleon": {
+    "company": "The Voleon Group",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 57
+  },
+  "ashby:zip": {
+    "company": "Zip",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 122
+  },
+  "greenhouse:advancedspace": {
+    "company": "Advanced Space",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 17
+  },
+  "greenhouse:andurilindustries": {
+    "company": "Anduril",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 2211
+  },
+  "greenhouse:appian": {
+    "company": "Appian",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 155
+  },
+  "greenhouse:aquaticcapitalmanagement": {
+    "company": "Aquatic",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 8
+  },
+  "greenhouse:axontalentcommunity": {
+    "company": "Axon",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 6
+  },
+  "greenhouse:bti36021": {
+    "company": "BTI360",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 13
+  },
+  "greenhouse:c3ascend": {
+    "company": "C 3 Ascend",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 2
+  },
+  "greenhouse:chicagotradingcampus": {
+    "company": "Chicago Trading Company",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 8
+  },
+  "greenhouse:compeerfinancial": {
+    "company": "Compeer Financial",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 58
+  },
+  "greenhouse:cssmerge": {
+    "company": "Atoms",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 255
+  },
+  "greenhouse:ctccampusboard": {
+    "company": "Chicago Trading Company",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 6
+  },
+  "greenhouse:devtechnology": {
+    "company": "Dev Technology",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 24
+  },
+  "greenhouse:dvtrading": {
+    "company": "DV Group",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 57
+  },
+  "greenhouse:eulerity": {
+    "company": "Eulerity",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 17
+  },
+  "greenhouse:fiveringsllc": {
+    "company": "Five Rings",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 16
+  },
+  "greenhouse:freeformfuturecorp": {
+    "company": "Freeform",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 74
+  },
+  "greenhouse:gardacp": {
+    "company": "Garda Capital Partners",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 16
+  },
+  "greenhouse:generalmatter": {
+    "company": "General Matter",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 127
+  },
+  "greenhouse:hpiq": {
+    "company": "HP IQ",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 33
+  },
+  "greenhouse:hyannisportresearch": {
+    "company": "HPR",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 10
+  },
+  "greenhouse:idmeuniversityrecruiting": {
+    "company": "ID.me University Recruiting",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 2
+  },
+  "greenhouse:internshiplist2000": {
+    "company": "Internship List",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 31
+  },
+  "greenhouse:k2spacecorporation": {
+    "company": "K2 Space",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 218
+  },
+  "greenhouse:mavensecuritiesholdingltd": {
+    "company": "Maven Securities",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 44
+  },
+  "greenhouse:neuralink": {
+    "company": "Neuralink",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 78
+  },
+  "greenhouse:nisc": {
+    "company": "National Information Solutions Cooperative",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 29
+  },
+  "greenhouse:northmarq": {
+    "company": "Northmarq",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 31
+  },
+  "greenhouse:pdtpartners": {
+    "company": "PDT Partners",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 9
+  },
+  "greenhouse:point72": {
+    "company": "Cubist Systematic Strategies",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 231
+  },
+  "greenhouse:radixuniversity": {
+    "company": "Radix Trading",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 8
+  },
+  "greenhouse:sage49": {
+    "company": "Sage",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 7
+  },
+  "greenhouse:schonfeld": {
+    "company": "Schonfeld",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 67
+  },
+  "greenhouse:scm": {
+    "company": "Stevens Capital Management",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 29
+  },
+  "greenhouse:spacex": {
+    "company": "SpaceX",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 2335
+  },
+  "greenhouse:stokespacetechnologies": {
+    "company": "Stoke Space",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 69
+  },
+  "greenhouse:testnisc": {
+    "company": "National Information Solutions Cooperative",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 22
+  },
+  "greenhouse:thenuclearcompany": {
+    "company": "The Nuclear Company",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 80
+  },
+  "greenhouse:thetradedesk": {
+    "company": "The Trade Desk",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 167
+  },
+  "greenhouse:towerresearchcapital": {
+    "company": "Tower Research Capital",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 85
+  },
+  "greenhouse:verkada": {
+    "company": "Verkada",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 289
+  },
+  "greenhouse:virtu": {
+    "company": "Virtu Financial",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 49
+  },
+  "greenhouse:voloridgeinvestmentmanagement": {
+    "company": "Voloridge Investment Management",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 8
+  },
+  "greenhouse:walleyecapital-external-students": {
+    "company": "Walleye Capital",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 4
+  },
+  "lever:anavationllc": {
+    "company": "AnaVation",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 59
+  },
+  "lever:belvederetrading": {
+    "company": "Belvedere Trading",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 14
+  },
+  "lever:hermeus": {
+    "company": "Hermeus",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 85
+  },
+  "lever:neighbor": {
+    "company": "Neighbor",
+    "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 7
+  }
+}
