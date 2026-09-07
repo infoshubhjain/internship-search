@@ -257,6 +257,12 @@
     "site": "HyVeeCareers",
     "tenant": "hyvee"
   },
+  "icf|wd5|icfexternal_career_site": {
+    "company": "Icf",
+    "datacenter": "wd5",
+    "site": "icfexternal_career_site",
+    "tenant": "icf"
+  },
   "intel|wd1|external": {
     "company": "Intel",
     "datacenter": "wd1",
@@ -467,6 +473,12 @@
     "site": "TD_Bank_Careers",
     "tenant": "td"
   },
+  "tel|wd3|tel-careers": {
+    "company": "Tokyo Electron",
+    "datacenter": "wd3",
+    "site": "tel-careers",
+    "tenant": "tel"
+  },
   "thehartford|wd5|careers_external": {
     "company": "The Hartford",
     "datacenter": "wd5",
@@ -514,5 +526,11 @@
     "datacenter": "wd503",
     "site": "careers",
     "tenant": "workiva"
+  },
+  "xcelenergy|wd1|external": {
+    "company": "Xcel Energy",
+    "datacenter": "wd1",
+    "site": "External",
+    "tenant": "xcelenergy"
   }
 }
