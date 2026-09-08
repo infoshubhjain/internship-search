@@ -119,6 +119,12 @@
     "site": "DeeZee_Careers",
     "tenant": "deezee"
   },
+  "dickssportinggoods|wd1|dsg": {
+    "company": "Dick's Sporting Goods",
+    "datacenter": "wd1",
+    "site": "DSG",
+    "tenant": "dickssportinggoods"
+  },
   "directv|wd1|careers": {
     "company": "DIRECTV",
     "datacenter": "wd1",
@@ -334,6 +340,12 @@
     "datacenter": "wd5",
     "site": "Careers",
     "tenant": "motorolasolutions"
+  },
+  "msd|wd5|searchjobs": {
+    "company": "Merck",
+    "datacenter": "wd5",
+    "site": "searchjobs",
+    "tenant": "msd"
   },
   "nebraskablue|wd1|bcbsne": {
     "company": "BlueCross BlueShield of Nebraska",
