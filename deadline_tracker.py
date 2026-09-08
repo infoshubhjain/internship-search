@@ -128,7 +128,13 @@ class DeadlineTracker:
                 for row in reader:
                     if row['Link'] in expired_links and row['Status'] == 'Not Applied':
                         row['Status'] = 'Closed'
-                        row['Notes'] = f"Deadline passed on {row['Application Deadline']}"
+                        # Notes is a USER_FIELD: the merge protects it, so this
+                        # must append rather than overwrite whatever the user
+                        # wrote on a listing they had not applied to yet.
+                        stamp = f"Deadline passed on {row['Application Deadline']}"
+                        note = (row.get('Notes') or '').strip()
+                        if stamp not in note:
+                            row['Notes'] = f"{note} | {stamp}".strip(' |')
                     
                     updated_rows.append(row)
             

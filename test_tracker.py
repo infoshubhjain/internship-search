@@ -557,6 +557,65 @@ def test_appended_row_survives_a_merge():
 
 
 # --------------------------------------------------------------------------
+# deadline tracker
+# --------------------------------------------------------------------------
+
+def _tracker_with(rows):
+    """Write rows to a throwaway tracker CSV and return its path."""
+    tmp = tempfile.mkdtemp()
+    path = os.path.join(tmp, 'tracker.csv')
+    tracker_io.write_csv(path, rows, tracker_io.TRACKER_FIELDNAMES)
+    return path
+
+
+def test_expiring_a_listing_keeps_the_users_note():
+    """Notes is a USER_FIELD, so closing an expired listing must not erase it."""
+    from deadline_tracker import DeadlineTracker
+
+    path = _tracker_with([tracker_row(**{
+        'Application Deadline': '2020-01-01',
+        'Notes': 'referred by Dana',
+    })])
+    DeadlineTracker(path).mark_expired_as_closed()
+
+    row = tracker_io.read_csv(path)[0]
+    assert row['Status'] == 'Closed', row
+    assert 'referred by Dana' in row['Notes'], row['Notes']
+    assert 'Deadline passed' in row['Notes'], row['Notes']
+
+
+def test_expiring_twice_does_not_duplicate_the_stamp():
+    """The daily run is idempotent: no note should grow on every pass."""
+    from deadline_tracker import DeadlineTracker
+
+    path = _tracker_with([tracker_row(**{'Application Deadline': '2020-01-01'})])
+    DeadlineTracker(path).mark_expired_as_closed()
+    first = tracker_io.read_csv(path)[0]['Notes']
+    # Re-open the listing so the expiry branch runs a second time.
+    rows = tracker_io.read_csv(path)
+    rows[0]['Status'] = 'Not Applied'
+    tracker_io.write_csv(path, rows, tracker_io.TRACKER_FIELDNAMES)
+    DeadlineTracker(path).mark_expired_as_closed()
+
+    assert tracker_io.read_csv(path)[0]['Notes'].count('Deadline passed') == 1, first
+
+
+def test_expiry_leaves_applied_listings_alone():
+    """An application already in flight is not closed by a passing deadline."""
+    from deadline_tracker import DeadlineTracker
+
+    path = _tracker_with([tracker_row(Status='Applied', **{
+        'Application Deadline': '2020-01-01',
+        'Notes': 'phone screen booked',
+    })])
+    DeadlineTracker(path).mark_expired_as_closed()
+
+    row = tracker_io.read_csv(path)[0]
+    assert row['Status'] == 'Applied', row
+    assert row['Notes'] == 'phone screen booked', row['Notes']
+
+
+# --------------------------------------------------------------------------
 # sponsorship data table
 # --------------------------------------------------------------------------
 
