@@ -14,6 +14,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 210
   },
+  "ashby:Talos-Trading": {
+    "company": "Talos",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 17
+  },
   "ashby:apex-technology-inc": {
     "company": "Apex",
     "discovered_on": "2026-09-06",
@@ -94,6 +99,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 84
   },
+  "ashby:oneapp": {
+    "company": "ONE Finance",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 43
+  },
   "ashby:persona.ai": {
     "company": "Persona AI",
     "discovered_on": "2026-09-06",
@@ -119,10 +129,20 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 8
   },
+  "ashby:revel": {
+    "company": "Revel",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 25
+  },
   "ashby:rivianvw.tech": {
     "company": "Rivian and Volkswagen Group Technologies",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 123
+  },
+  "ashby:semgrep": {
+    "company": "Semgrep",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 9
   },
   "ashby:skydio": {
     "company": "Skydio",
@@ -184,6 +204,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 2
   },
+  "greenhouse:chaosindustries": {
+    "company": "CHAOS Industries",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 145
+  },
   "greenhouse:chicagotradingcampus": {
     "company": "Chicago Trading Company",
     "discovered_on": "2026-09-06",
@@ -228,6 +253,11 @@
     "company": "Freeform",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 74
+  },
+  "greenhouse:gallup": {
+    "company": "Gallup",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 55
   },
   "greenhouse:gardacp": {
     "company": "Garda Capital Partners",
@@ -299,6 +329,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 8
   },
+  "greenhouse:rfsmart": {
+    "company": "RF-SMART",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 19
+  },
   "greenhouse:sage49": {
     "company": "Sage",
     "discovered_on": "2026-09-06",
@@ -324,6 +359,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 69
   },
+  "greenhouse:syskahennessy": {
+    "company": "Syska Hennessy Group",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 164
+  },
   "greenhouse:testnisc": {
     "company": "National Information Solutions Cooperative",
     "discovered_on": "2026-09-06",
@@ -344,10 +384,20 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 85
   },
+  "greenhouse:vercel": {
+    "company": "Vercel",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 87
+  },
   "greenhouse:verkada": {
     "company": "Verkada",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 289
+  },
+  "greenhouse:viamrobotics": {
+    "company": "Viam",
+    "discovered_on": "2026-09-09",
+    "jobs_at_discovery": 9
   },
   "greenhouse:virtu": {
     "company": "Virtu Financial",

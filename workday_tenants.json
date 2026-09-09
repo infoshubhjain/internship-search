@@ -1,15 +1,33 @@
 {
+  "abb|wd3|external_career_page": {
+    "company": "ABB",
+    "datacenter": "wd3",
+    "site": "external_career_page",
+    "tenant": "abb"
+  },
   "adobe|wd5|external_experienced": {
     "company": "Adobe",
     "datacenter": "wd5",
     "site": "external_experienced",
     "tenant": "adobe"
   },
+  "allegion|wd5|careers": {
+    "company": "Allegion",
+    "datacenter": "wd5",
+    "site": "careers",
+    "tenant": "allegion"
+  },
   "alliedsolutions|wd501|allied_external": {
     "company": "Allied Solutions",
     "datacenter": "wd501",
     "site": "Allied_External",
     "tenant": "alliedsolutions"
+  },
+  "amat|wd1|external": {
+    "company": "Amat",
+    "datacenter": "wd1",
+    "site": "external",
+    "tenant": "amat"
   },
   "ameriprise|wd5|ameriprise": {
     "company": "Ameriprise Financial",
@@ -71,11 +89,23 @@
     "site": "external",
     "tenant": "caci"
   },
+  "capitalone|wd12|capital_one": {
+    "company": "Capital One",
+    "datacenter": "wd12",
+    "site": "Capital_One",
+    "tenant": "capitalone"
+  },
   "cat|wd5|solarturbines": {
     "company": "Solar Turbines (Caterpillar)",
     "datacenter": "wd5",
     "site": "SolarTurbines",
     "tenant": "cat"
+  },
+  "chrobinson|wd5|chrobinson": {
+    "company": "Chrobinson",
+    "datacenter": "wd5",
+    "site": "chrobinson",
+    "tenant": "chrobinson"
   },
   "cibc|wd3|campus": {
     "company": "CIBC",
@@ -107,6 +137,12 @@
     "site": "copart",
     "tenant": "copart"
   },
+  "countryfinancial|wd5|countrycorporateinternships": {
+    "company": "COUNTRY Financial",
+    "datacenter": "wd5",
+    "site": "COUNTRYCorporateInternships",
+    "tenant": "countryfinancial"
+  },
   "cox|wd1|cox_external_career_site_1": {
     "company": "Cox",
     "datacenter": "wd1",
@@ -124,6 +160,12 @@
     "datacenter": "wd1",
     "site": "DSG",
     "tenant": "dickssportinggoods"
+  },
+  "dimensional|wd5|dfa_careers": {
+    "company": "Dimensional Fund Advisors",
+    "datacenter": "wd5",
+    "site": "dfa_careers",
+    "tenant": "dimensional"
   },
   "directv|wd1|careers": {
     "company": "DIRECTV",
@@ -353,6 +395,12 @@
     "site": "BCBSNE",
     "tenant": "nebraskablue"
   },
+  "nelnet|wd1|mynelnet": {
+    "company": "Nelnet",
+    "datacenter": "wd1",
+    "site": "mynelnet",
+    "tenant": "nelnet"
+  },
   "newrez|wd1|nrz": {
     "company": "Newrez",
     "datacenter": "wd1",
@@ -502,6 +550,12 @@
     "datacenter": "wd1",
     "site": "tjx_external",
     "tenant": "tjx"
+  },
+  "trimble|wd1|trimblecareers": {
+    "company": "Trimble",
+    "datacenter": "wd1",
+    "site": "TrimbleCareers",
+    "tenant": "trimble"
   },
   "uline|wd1|uline_careers": {
     "company": "Uline",
