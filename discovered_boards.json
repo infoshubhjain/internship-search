@@ -139,6 +139,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 123
   },
+  "ashby:saronic": {
+    "company": "Saronic Technologies",
+    "discovered_on": "2026-09-10",
+    "jobs_at_discovery": 201
+  },
   "ashby:semgrep": {
     "company": "Semgrep",
     "discovered_on": "2026-09-09",
@@ -314,6 +319,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 31
   },
+  "greenhouse:pacificfusion": {
+    "company": "Pacific Fusion",
+    "discovered_on": "2026-09-10",
+    "jobs_at_discovery": 37
+  },
   "greenhouse:pdtpartners": {
     "company": "PDT Partners",
     "discovered_on": "2026-09-06",
@@ -333,6 +343,11 @@
     "company": "RF-SMART",
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 19
+  },
+  "greenhouse:rocketlab": {
+    "company": "Rocket Lab Corporation",
+    "discovered_on": "2026-09-10",
+    "jobs_at_discovery": 472
   },
   "greenhouse:sage49": {
     "company": "Sage",
@@ -429,9 +444,19 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 85
   },
+  "lever:immuta": {
+    "company": "Immuta",
+    "discovered_on": "2026-09-10",
+    "jobs_at_discovery": 14
+  },
   "lever:neighbor": {
     "company": "Neighbor",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 7
+  },
+  "lever:shieldai": {
+    "company": "Shield AI",
+    "discovered_on": "2026-09-10",
+    "jobs_at_discovery": 484
   }
 }

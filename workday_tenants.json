@@ -119,6 +119,12 @@
     "site": "search",
     "tenant": "cibc"
   },
+  "cigna|wd5|cignacareers": {
+    "company": "Cigna",
+    "datacenter": "wd5",
+    "site": "cignacareers",
+    "tenant": "cigna"
+  },
   "commercebank|wd1|commercejobs": {
     "company": "Commerce Bank",
     "datacenter": "wd1",
@@ -287,6 +293,12 @@
     "site": "ge_appliances",
     "tenant": "haier"
   },
+  "hmhw|wd12|hmh_careers": {
+    "company": "HMH",
+    "datacenter": "wd12",
+    "site": "hmh_careers",
+    "tenant": "hmhw"
+  },
   "homedepot|wd5|careerdepot": {
     "company": "The Home Depot",
     "datacenter": "wd5",
@@ -298,6 +310,12 @@
     "datacenter": "wd5",
     "site": "Humana_External_Career_Site",
     "tenant": "humana"
+  },
+  "hypertherm|wd503|hypertherm-careers": {
+    "company": "Hypertherm",
+    "datacenter": "wd503",
+    "site": "hypertherm-careers",
+    "tenant": "hypertherm"
   },
   "hyvee|wd1|hyveecareers": {
     "company": "Hy-Vee",
@@ -449,6 +467,12 @@
     "site": "CCICareers",
     "tenant": "osv-cci"
   },
+  "ovintiv|wd3|ovintivcareers": {
+    "company": "Ovintiv",
+    "datacenter": "wd3",
+    "site": "ovintivcareers",
+    "tenant": "ovintiv"
+  },
   "pg|wd5|1000": {
     "company": "Procter & Gamble",
     "datacenter": "wd5",
@@ -521,6 +545,18 @@
     "site": "snc_external_career_site",
     "tenant": "snc"
   },
+  "spgi|wd5|kensho_careers": {
+    "company": "Spgi",
+    "datacenter": "wd5",
+    "site": "kensho_careers",
+    "tenant": "spgi"
+  },
+  "spgi|wd5|spgi_careers": {
+    "company": "S&P Global",
+    "datacenter": "wd5",
+    "site": "SPGI_Careers",
+    "tenant": "spgi"
+  },
   "stryker|wd1|strykercareers": {
     "company": "Stryker",
     "datacenter": "wd1",
@@ -562,6 +598,12 @@
     "datacenter": "wd1",
     "site": "Uline_Careers",
     "tenant": "uline"
+  },
+  "usaa|wd1|usaajobswd": {
+    "company": "USAA",
+    "datacenter": "wd1",
+    "site": "USAAJOBSWD",
+    "tenant": "usaa"
   },
   "vanguard|wd5|vanguard_external": {
     "company": "Vanguard",
