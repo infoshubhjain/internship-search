@@ -5,6 +5,12 @@
     "site": "external_career_page",
     "tenant": "abb"
   },
+  "abglobal|wd1|abcampuscareers": {
+    "company": "Abglobal",
+    "datacenter": "wd1",
+    "site": "abcampuscareers",
+    "tenant": "abglobal"
+  },
   "adobe|wd5|external_experienced": {
     "company": "Adobe",
     "datacenter": "wd5",
@@ -76,6 +82,12 @@
     "datacenter": "wd1",
     "site": "EXTERNAL_CAREERS",
     "tenant": "boeing"
+  },
+  "brevanhoward|wd3|bh_externalcareers": {
+    "company": "Brevanhoward",
+    "datacenter": "wd3",
+    "site": "bh_externalcareers",
+    "tenant": "brevanhoward"
   },
   "brunswick|wd1|search": {
     "company": "Brunswick",
@@ -329,6 +341,12 @@
     "site": "icfexternal_career_site",
     "tenant": "icf"
   },
+  "insulet|wd5|insuletcareers": {
+    "company": "Insulet",
+    "datacenter": "wd5",
+    "site": "insuletcareers",
+    "tenant": "insulet"
+  },
   "intel|wd1|external": {
     "company": "Intel",
     "datacenter": "wd1",
@@ -563,6 +581,12 @@
     "site": "strykercareers",
     "tenant": "stryker"
   },
+  "target|wd5|targetcareers": {
+    "company": "Target",
+    "datacenter": "wd5",
+    "site": "targetcareers",
+    "tenant": "target"
+  },
   "td|wd3|td_bank_careers": {
     "company": "TD Bank",
     "datacenter": "wd3",
@@ -622,6 +646,12 @@
     "datacenter": "wd504",
     "site": "WalmartExternal",
     "tenant": "walmart"
+  },
+  "wellington|wd5|campus": {
+    "company": "Wellington Management",
+    "datacenter": "wd5",
+    "site": "Campus",
+    "tenant": "wellington"
   },
   "workday|wd5|workday": {
     "company": "Workday",

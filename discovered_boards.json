@@ -24,6 +24,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 105
   },
+  "ashby:bedrock-robotics": {
+    "company": "Bedrock Robotics Inc",
+    "discovered_on": "2026-09-11",
+    "jobs_at_discovery": 39
+  },
   "ashby:circleback": {
     "company": "Circleback",
     "discovered_on": "2026-09-06",
@@ -279,6 +284,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 33
   },
+  "greenhouse:hudl": {
+    "company": "Hudl",
+    "discovered_on": "2026-09-11",
+    "jobs_at_discovery": 31
+  },
   "greenhouse:hyannisportresearch": {
     "company": "HPR",
     "discovered_on": "2026-09-06",
@@ -379,6 +389,11 @@
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 164
   },
+  "greenhouse:tanium": {
+    "company": "Tanium",
+    "discovered_on": "2026-09-11",
+    "jobs_at_discovery": 48
+  },
   "greenhouse:testnisc": {
     "company": "National Information Solutions Cooperative",
     "discovered_on": "2026-09-06",
@@ -418,6 +433,11 @@
     "company": "Virtu Financial",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 49
+  },
+  "greenhouse:visiersolutionsinc": {
+    "company": "Visier Solutions",
+    "discovered_on": "2026-09-11",
+    "jobs_at_discovery": 14
   },
   "greenhouse:voloridgeinvestmentmanagement": {
     "company": "Voloridge Investment Management",
