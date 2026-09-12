@@ -1,4 +1,9 @@
 {
+  "ashby:Commure": {
+    "company": "Commure",
+    "discovered_on": "2026-09-12",
+    "jobs_at_discovery": 83
+  },
   "ashby:Etched": {
     "company": "Etched",
     "discovered_on": "2026-09-06",
@@ -33,6 +38,11 @@
     "company": "Circleback",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 11
+  },
+  "ashby:commure": {
+    "company": "Commure",
+    "discovered_on": "2026-09-12",
+    "jobs_at_discovery": 83
   },
   "ashby:composio": {
     "company": "Composio",
@@ -79,6 +89,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 2
   },
+  "ashby:ibotta": {
+    "company": "ibotta",
+    "discovered_on": "2026-09-12",
+    "jobs_at_discovery": 49
+  },
   "ashby:incident": {
     "company": "incident.io",
     "discovered_on": "2026-09-08",
@@ -88,6 +103,11 @@
     "company": "Kastle",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 13
+  },
+  "ashby:megazone": {
+    "company": "Megazone Cloud US",
+    "discovered_on": "2026-09-12",
+    "jobs_at_discovery": 18
   },
   "ashby:melius": {
     "company": "Melius",
@@ -158,6 +178,11 @@
     "company": "Skydio",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 132
+  },
+  "ashby:swarmaero": {
+    "company": "Swarm Aero",
+    "discovered_on": "2026-09-12",
+    "jobs_at_discovery": 25
   },
   "ashby:telus-digital": {
     "company": "TELUS Digital",
@@ -414,6 +439,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 85
   },
+  "greenhouse:veeamsoftware": {
+    "company": "Veeam Software",
+    "discovered_on": "2026-09-12",
+    "jobs_at_discovery": 242
+  },
   "greenhouse:vercel": {
     "company": "Vercel",
     "discovered_on": "2026-09-09",
@@ -478,5 +508,10 @@
     "company": "Shield AI",
     "discovered_on": "2026-09-10",
     "jobs_at_discovery": 484
+  },
+  "lever:xcimer": {
+    "company": "Xcimer Energy",
+    "discovered_on": "2026-09-12",
+    "jobs_at_discovery": 39
   }
 }

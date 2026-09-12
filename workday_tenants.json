@@ -41,6 +41,12 @@
     "site": "Ameriprise",
     "tenant": "ameriprise"
   },
+  "amgen|wd1|careers": {
+    "company": "Amgen",
+    "datacenter": "wd1",
+    "site": "careers",
+    "tenant": "amgen"
+  },
   "aoins|wd5|autoowners": {
     "company": "Aoins",
     "datacenter": "wd5",
@@ -58,6 +64,12 @@
     "datacenter": "wd1",
     "site": "avav",
     "tenant": "avav"
+  },
+  "avisbudget|wd1|abg_careers": {
+    "company": "Avis Budget Group",
+    "datacenter": "wd1",
+    "site": "abg_careers",
+    "tenant": "avisbudget"
   },
   "bah|wd1|bah_jobs": {
     "company": "Bah",
@@ -154,6 +166,12 @@
     "datacenter": "wd12",
     "site": "copart",
     "tenant": "copart"
+  },
+  "corteva|wd5|corteva": {
+    "company": "Corteva",
+    "datacenter": "wd5",
+    "site": "corteva",
+    "tenant": "corteva"
   },
   "countryfinancial|wd5|countrycorporateinternships": {
     "company": "COUNTRY Financial",
