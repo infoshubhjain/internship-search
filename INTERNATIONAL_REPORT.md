@@ -1,6 +1,6 @@
 # International Summer 2027 Internships
 
-_Generated 2026-09-12 · 189 live opportunities from 50 company boards_
+_Generated 2026-09-13 · 197 live opportunities from 51 company boards_
 
 Candidate: UIUC CS sophomore, graduating May 2028, Indian citizen on F-1 in the US.
 Scope: paid Summer 2027 internships outside the United States.
@@ -124,7 +124,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://job-boards.greenhouse.io/schonfeld/jobs/7185553
 
-## 👀 Investigate Further  (138)
+## 👀 Investigate Further  (146)
 
 ### IMC — Machine Learning Research Intern - Summer 2027 - Sydney
 
@@ -653,6 +653,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Summer-Intern-2027---Software-Engineering_JR26081686
 
+### Manulife — Summer Intern 2027 - Software Engineering (8 Months) 🆕
+
+- **Location** Toronto, Canada  ·  **Category** Software Engineering  ·  **Score** 75/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Co-op / internship work permit; often needs the placement to be degree-required
+- **Paid** Yes  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Software Engineering role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time
+- **Apply** https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Summer-Intern-2027---Software-Engineering--8-Months-_JR26081685
+
 ### Perplexity — Internship - Search Machine Learning Engineer
 
 - **Location** London, United Kingdom  ·  **Category** Machine Learning / AI  ·  **Score** 75/100
@@ -767,7 +777,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://www.jumptrading.com/hr/job?gh_jid=8027898
 
-### NVIDIA — System Software Engineer – GPU and SOC (2027 RDSS Intern) 🆕
+### NVIDIA — System Software Engineer – GPU and SOC (2027 RDSS Intern)
 
 - **Location** Taiwan  ·  **Category** Software Engineering  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -776,7 +786,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineer---GPU-and-SOC--2027-RDSS-Intern-_JR2023628
 
-### NVIDIA — Artificial Intelligence Research Intern - Deep Learning 🆕
+### NVIDIA — Artificial Intelligence Research Intern - Deep Learning
 
 - **Location** Taiwan  ·  **Category** Machine Learning / AI  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -785,7 +795,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Artificial-Intelligence-Research-Intern---Deep-Learning_JR2023646
 
-### NVIDIA — Software Engineering Intern, Test Development - 2027 🆕
+### NVIDIA — Software Engineering Intern, Test Development - 2027
 
 - **Location** China  ·  **Category** Software Engineering  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -794,7 +804,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023652
 
-### NVIDIA — Deep Learning Software Engineering Intern, Test Development - 2027 🆕
+### NVIDIA — Deep Learning Software Engineering Intern, Test Development - 2027
 
 - **Location** China  ·  **Category** Machine Learning / AI  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -803,7 +813,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023656
 
-### NVIDIA — Test Development Software Engineering Intern, Aerial - 2027 🆕
+### NVIDIA — Test Development Software Engineering Intern, Aerial - 2027
 
 - **Location** China  ·  **Category** Software Engineering  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -821,7 +831,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-QA-Developer-Intern---2027_JR2023654
 
-### NVIDIA — Software Engineering Intern, Test Development - 2027 🆕
+### NVIDIA — Software Engineering Intern, Test Development - 2027
 
 - **Location** China  ·  **Category** Software Engineering  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -830,7 +840,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023648
 
-### NVIDIA — Software Engineering Intern, CUDA Test Development - 2027 🆕
+### NVIDIA — Software Engineering Intern, CUDA Test Development - 2027
 
 - **Location** China  ·  **Category** Software Engineering  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -839,7 +849,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--CUDA-Test-Development---2027_JR2023645
 
-### NVIDIA — Software Engineering Intern, Test Development - 2027 🆕
+### NVIDIA — Software Engineering Intern, Test Development - 2027
 
 - **Location** China  ·  **Category** Software Engineering  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -848,7 +858,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023649-1
 
-### NVIDIA — Test Development Software Engineering Intern - 2027 🆕
+### NVIDIA — Test Development Software Engineering Intern - 2027
 
 - **Location** China  ·  **Category** Software Engineering  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -857,7 +867,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern---2027_JR2023632
 
-### NVIDIA — CUDA Full Stack & AI Test Dev Intern - 2027 🆕
+### NVIDIA — CUDA Full Stack & AI Test Dev Intern - 2027
 
 - **Location** China  ·  **Category** Machine Learning / AI  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -866,7 +876,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/CUDA-Full-Stack---AI-Test-Dev-Intern---2027_JR2023666-1
 
-### NVIDIA — Deep Learning Software Engineering Intern, Test Development - 2027 🆕
+### NVIDIA — Deep Learning Software Engineering Intern, Test Development - 2027
 
 - **Location** China  ·  **Category** Machine Learning / AI  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -875,7 +885,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023639
 
-### NVIDIA — Deep Learning Software Engineering Intern, Test Development - 2027 🆕
+### NVIDIA — Deep Learning Software Engineering Intern, Test Development - 2027
 
 - **Location** China  ·  **Category** Machine Learning / AI  ·  **Score** 73/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1044,6 +1054,26 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Technology---Innovations---Software-Engineer-Summer-Analyst_45358
 
+### Merck — Engineering Internship - Biotech 🆕
+
+- **Location** IRL - Dublin - Swords (Biotech), Ireland  ·  **Category** Software Engineering  ·  **Score** 71/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://msd.wd5.myworkdayjobs.com/searchjobs/job/IRL---Dublin---Swords-Biotech/Engineering-Internship---Biotech_R412975
+
+### Merck — New Product Introduction, Technical Engineering Internship 🆕
+
+- **Location** IRL - Carlow - Carlow, Ireland  ·  **Category** Software Engineering  ·  **Score** 71/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://msd.wd5.myworkdayjobs.com/searchjobs/job/IRL---Carlow---Carlow/New-Product-Introduction--Technical-Engineering-Internship_R412067
+
 ### TD Bank — Cyber Security Intern/Co-op (Winter 2027)
 
 - **Location** Toronto, Canada  ·  **Category** Cybersecurity  ·  **Score** 71/100
@@ -1131,7 +1161,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://boards.greenhouse.io/point72/jobs/7297657002?gh_jid=7297657002
 
-### Salesforce — AI Builder Intern [Mexico] 🆕
+### Salesforce — AI Builder Intern [Mexico]
 
 - **Location** Mexico - Mexico City, Mexico  ·  **Category** Machine Learning / AI  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1140,7 +1170,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/AI-Builder-Intern--Mexico-_JR359971-2
 
-### Salesforce — AI Builder Intern [Brazil] 🆕
+### Salesforce — AI Builder Intern [Brazil]
 
 - **Location** Brazil - Sao Paulo, Brazil  ·  **Category** Machine Learning / AI  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1404,6 +1434,56 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** General Technology role in Singapore; visa route exists (Training Employment Pass or Work Holiday Pass)
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/XMLNAME-2H-University-Intern---Clean-Tech-Engineering-Module_JR-2502753
+
+### Merck — Engineering (Instrumentation & Maintenance) Internship - Carlow 🆕
+
+- **Location** IRL - Carlow - Carlow, Ireland  ·  **Category** General Technology  ·  **Score** 58/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** General Technology role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://msd.wd5.myworkdayjobs.com/searchjobs/job/IRL---Carlow---Carlow/Engineering--Instrumentation---Maintenance--Internship---Carlow_R411317
+
+### Merck — Engineering Department Intern 🆕
+
+- **Location** IRL - Tipperary - Ballydine, Ireland  ·  **Category** General Technology  ·  **Score** 58/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** General Technology role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://msd.wd5.myworkdayjobs.com/searchjobs/job/IRL---Tipperary---Ballydine/Engineering-Department-Intern_R411420
+
+### Merck — Engineering Facilities Internship 🆕
+
+- **Location** IRL - Carlow - Carlow, Ireland  ·  **Category** General Technology  ·  **Score** 58/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** General Technology role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://msd.wd5.myworkdayjobs.com/searchjobs/job/IRL---Carlow---Carlow/Engineering-Facilities-Internship_R413800
+
+### Merck — Engineering IPT Internship - Brinny 🆕
+
+- **Location** IRL - Cork - Brinny, Ireland  ·  **Category** General Technology  ·  **Score** 58/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** General Technology role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://msd.wd5.myworkdayjobs.com/searchjobs/job/IRL---Cork---Brinny/Engineering-IPT-Internship---Brinny_R411788
+
+### Merck — Operations/Engineering Maintenance Internship 🆕
+
+- **Location** IRL - Carlow - Carlow, Ireland  ·  **Category** General Technology  ·  **Score** 58/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** General Technology role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://msd.wd5.myworkdayjobs.com/searchjobs/job/IRL---Carlow---Carlow/Operations-Engineering-Maintenance-Internship_R410189
 
 ### ABB — Electronics Intern – Production Engineering
 
