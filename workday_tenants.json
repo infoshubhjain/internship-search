@@ -317,6 +317,12 @@
     "site": "external",
     "tenant": "greenheckgroup"
   },
+  "guardianlife|wd5|guardian-life-careers": {
+    "company": "Guardian Life",
+    "datacenter": "wd5",
+    "site": "guardian-life-careers",
+    "tenant": "guardianlife"
+  },
   "haier|wd3|ge_appliances": {
     "company": "GE Appliances",
     "datacenter": "wd3",
