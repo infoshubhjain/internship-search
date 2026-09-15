@@ -17,6 +17,12 @@
     "site": "external_experienced",
     "tenant": "adobe"
   },
+  "aksteel|wd1|careers": {
+    "company": "Cleveland-Cliffs",
+    "datacenter": "wd1",
+    "site": "careers",
+    "tenant": "aksteel"
+  },
   "allegion|wd5|careers": {
     "company": "Allegion",
     "datacenter": "wd5",
@@ -77,6 +83,12 @@
     "site": "bah_jobs",
     "tenant": "bah"
   },
+  "baird|wd1|careers": {
+    "company": "Baird",
+    "datacenter": "wd1",
+    "site": "careers",
+    "tenant": "baird"
+  },
   "barclays|wd3|external_career_site_barclays": {
     "company": "Barclays",
     "datacenter": "wd3",
@@ -112,6 +124,12 @@
     "datacenter": "wd1",
     "site": "external",
     "tenant": "caci"
+  },
+  "cai|wd5|computer_aid": {
+    "company": "CAI",
+    "datacenter": "wd5",
+    "site": "computer_aid",
+    "tenant": "cai"
   },
   "capitalone|wd12|capital_one": {
     "company": "Capital One",
@@ -172,6 +190,12 @@
     "datacenter": "wd5",
     "site": "corteva",
     "tenant": "corteva"
+  },
+  "costar|wd1|costar_campus": {
+    "company": "CoStar Group",
+    "datacenter": "wd1",
+    "site": "Costar_Campus",
+    "tenant": "costar"
   },
   "countryfinancial|wd5|countrycorporateinternships": {
     "company": "COUNTRY Financial",
@@ -251,6 +275,12 @@
     "site": "53careers",
     "tenant": "fifththird"
   },
+  "firstnational|wd12|fnbocareers": {
+    "company": "FNBO",
+    "datacenter": "wd12",
+    "site": "fnbocareers",
+    "tenant": "firstnational"
+  },
   "flir|wd1|flircareers": {
     "company": "Flir",
     "datacenter": "wd1",
@@ -310,6 +340,18 @@
     "datacenter": "wd5",
     "site": "rec_rtx_ext_gateway",
     "tenant": "globalhr"
+  },
+  "gnw|wd1|enact_mi": {
+    "company": "Enact Mortgage Insurance",
+    "datacenter": "wd1",
+    "site": "enact_mi",
+    "tenant": "gnw"
+  },
+  "gnw|wd1|gnw": {
+    "company": "Genworth Financial",
+    "datacenter": "wd1",
+    "site": "GNW",
+    "tenant": "gnw"
   },
   "greenheckgroup|wd5|external": {
     "company": "Greenheck Group",
@@ -382,6 +424,12 @@
     "datacenter": "wd5",
     "site": "LiveRampCareers",
     "tenant": "liveramp"
+  },
+  "lowes|wd5|lws_external_cs": {
+    "company": "Lowe's",
+    "datacenter": "wd5",
+    "site": "LWS_External_CS",
+    "tenant": "lowes"
   },
   "lplfinancial|wd1|university": {
     "company": "LPL Financial Holdings",
@@ -676,6 +724,18 @@
     "datacenter": "wd5",
     "site": "Campus",
     "tenant": "wellington"
+  },
+  "wexinc|wd5|wexinc": {
+    "company": "Wex",
+    "datacenter": "wd5",
+    "site": "WEXInc",
+    "tenant": "wexinc"
+  },
+  "wf|wd1|wellsfargojobs": {
+    "company": "Wf",
+    "datacenter": "wd1",
+    "site": "wellsfargojobs",
+    "tenant": "wf"
   },
   "workday|wd5|workday": {
     "company": "Workday",

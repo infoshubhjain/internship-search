@@ -19,6 +19,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 210
   },
+  "ashby:Superhuman%20Platform%20Inc": {
+    "company": "Superhuman",
+    "discovered_on": "2026-09-15",
+    "jobs_at_discovery": 68
+  },
   "ashby:Talos-Trading": {
     "company": "Talos",
     "discovered_on": "2026-09-09",
@@ -129,6 +134,11 @@
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 43
   },
+  "ashby:opengov": {
+    "company": "OpenGov",
+    "discovered_on": "2026-09-15",
+    "jobs_at_discovery": 71
+  },
   "ashby:persona.ai": {
     "company": "Persona AI",
     "discovered_on": "2026-09-06",
@@ -199,6 +209,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 57
   },
+  "ashby:withpace": {
+    "company": "Pace",
+    "discovered_on": "2026-09-15",
+    "jobs_at_discovery": 22
+  },
   "ashby:zip": {
     "company": "Zip",
     "discovered_on": "2026-09-06",
@@ -268,6 +283,16 @@
     "company": "Dev Technology",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 24
+  },
+  "greenhouse:doordashcanada": {
+    "company": "DoorDash",
+    "discovered_on": "2026-09-15",
+    "jobs_at_discovery": 36
+  },
+  "greenhouse:doordashusa": {
+    "company": "DoorDash USA",
+    "discovered_on": "2026-09-15",
+    "jobs_at_discovery": 455
   },
   "greenhouse:dvtrading": {
     "company": "DV Group",
@@ -343,6 +368,11 @@
     "company": "Maven Securities",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 44
+  },
+  "greenhouse:nationallifeinsurancecompany": {
+    "company": "National Life",
+    "discovered_on": "2026-09-15",
+    "jobs_at_discovery": 83
   },
   "greenhouse:neuralink": {
     "company": "Neuralink",
@@ -484,6 +514,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 4
   },
+  "greenhouse:workshop": {
+    "company": "Workshop",
+    "discovered_on": "2026-09-15",
+    "jobs_at_discovery": 5
+  },
   "lever:anavationllc": {
     "company": "AnaVation",
     "discovered_on": "2026-09-06",
@@ -508,6 +543,11 @@
     "company": "Neighbor",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 7
+  },
+  "lever:sep": {
+    "company": "SEP",
+    "discovered_on": "2026-09-15",
+    "jobs_at_discovery": 8
   },
   "lever:shieldai": {
     "company": "Shield AI",
