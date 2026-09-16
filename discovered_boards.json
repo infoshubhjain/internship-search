@@ -54,6 +54,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 30
   },
+  "ashby:cyvl": {
+    "company": "Cyvl",
+    "discovered_on": "2026-09-16",
+    "jobs_at_discovery": 9
+  },
   "ashby:deepgram": {
     "company": "Deepgram",
     "discovered_on": "2026-09-06",
@@ -229,6 +234,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 2211
   },
+  "greenhouse:aperaaiinc": {
+    "company": "Apera AI",
+    "discovered_on": "2026-09-16",
+    "jobs_at_discovery": 8
+  },
   "greenhouse:appian": {
     "company": "Appian",
     "discovered_on": "2026-09-06",
@@ -293,6 +303,11 @@
     "company": "DoorDash USA",
     "discovered_on": "2026-09-15",
     "jobs_at_discovery": 455
+  },
+  "greenhouse:duolingounirecruitment": {
+    "company": "Duolingo",
+    "discovered_on": "2026-09-16",
+    "jobs_at_discovery": 3
   },
   "greenhouse:dvtrading": {
     "company": "DV Group",

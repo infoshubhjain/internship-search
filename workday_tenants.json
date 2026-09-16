@@ -17,6 +17,12 @@
     "site": "external_experienced",
     "tenant": "adobe"
   },
+  "aero|wd5|external": {
+    "company": "Aero",
+    "datacenter": "wd5",
+    "site": "external",
+    "tenant": "aero"
+  },
   "aksteel|wd1|careers": {
     "company": "Cleveland-Cliffs",
     "datacenter": "wd1",
@@ -305,6 +311,12 @@
     "site": "FTIConsultingCareers",
     "tenant": "fticonsulting"
   },
+  "gdit|wd5|external_career_site": {
+    "company": "GDIT",
+    "datacenter": "wd5",
+    "site": "external_career_site",
+    "tenant": "gdit"
+  },
   "geaerospace|wd5|ge_externalsite": {
     "company": "Geaerospace",
     "datacenter": "wd5",
@@ -418,6 +430,12 @@
     "datacenter": "wd1",
     "site": "external",
     "tenant": "intel"
+  },
+  "liveoakbancshares|wd1|live_oak": {
+    "company": "Live Oak Bank",
+    "datacenter": "wd1",
+    "site": "Live_Oak",
+    "tenant": "liveoakbancshares"
   },
   "liveramp|wd5|liverampcareers": {
     "company": "LiveRamp",
@@ -587,6 +605,12 @@
     "site": "pimco-careers",
     "tenant": "pimco"
   },
+  "plastipak|wd1|plastipak": {
+    "company": "Plastipak",
+    "datacenter": "wd1",
+    "site": "plastipak",
+    "tenant": "plastipak"
+  },
   "plexus|wd504|plexus_careers": {
     "company": "Plexus",
     "datacenter": "wd504",
@@ -599,11 +623,23 @@
     "site": "US_Entry_Level_Careers",
     "tenant": "pwc"
   },
+  "q2ebanking|wd5|q2": {
+    "company": "Q 2 Ebanking",
+    "datacenter": "wd5",
+    "site": "q2",
+    "tenant": "q2ebanking"
+  },
   "regions|wd5|regions_careers": {
     "company": "Regions Bank",
     "datacenter": "wd5",
     "site": "regions_careers",
     "tenant": "regions"
+  },
+  "relx|wd3|lexisnexislegal": {
+    "company": "LexisNexis Legal & Professional",
+    "datacenter": "wd3",
+    "site": "LexisNexisLegal",
+    "tenant": "relx"
   },
   "rockwellautomation|wd1|external_rockwell_automation": {
     "company": "Rockwellautomation",
@@ -700,6 +736,12 @@
     "datacenter": "wd1",
     "site": "USAAJOBSWD",
     "tenant": "usaa"
+  },
+  "usbank|wd1|us_bank_careers": {
+    "company": "U.S. Bank",
+    "datacenter": "wd1",
+    "site": "US_Bank_Careers",
+    "tenant": "usbank"
   },
   "vanguard|wd5|vanguard_external": {
     "company": "Vanguard",
