@@ -71,6 +71,12 @@
     "site": "Campus_Careers",
     "tenant": "arrowstreetcapital"
   },
+  "aspentech|wd5|aspentech": {
+    "company": "AspenTech",
+    "datacenter": "wd5",
+    "site": "aspentech",
+    "tenant": "aspentech"
+  },
   "avav|wd1|avav": {
     "company": "AeroVironment",
     "datacenter": "wd1",
@@ -100,6 +106,12 @@
     "datacenter": "wd3",
     "site": "External_Career_Site_Barclays",
     "tenant": "barclays"
+  },
+  "basspro|wd1|careers": {
+    "company": "Basspro",
+    "datacenter": "wd1",
+    "site": "careers",
+    "tenant": "basspro"
   },
   "blackstone|wd1|blackstone_campus_careers": {
     "company": "Blackstone",
@@ -431,6 +443,12 @@
     "site": "external",
     "tenant": "intel"
   },
+  "itron|wd5|itron": {
+    "company": "Itron",
+    "datacenter": "wd5",
+    "site": "itron",
+    "tenant": "itron"
+  },
   "liveoakbancshares|wd1|live_oak": {
     "company": "Live Oak Bank",
     "datacenter": "wd1",
@@ -514,6 +532,12 @@
     "datacenter": "wd5",
     "site": "searchjobs",
     "tenant": "msd"
+  },
+  "nasdaq|wd1|global_external_site": {
+    "company": "Nasdaq",
+    "datacenter": "wd1",
+    "site": "global_external_site",
+    "tenant": "nasdaq"
   },
   "nebraskablue|wd1|bcbsne": {
     "company": "BlueCross BlueShield of Nebraska",
@@ -665,6 +689,12 @@
     "site": "External_Career_Site",
     "tenant": "salesforce"
   },
+  "smithnephew|wd5|external": {
+    "company": "Smith+Nephew",
+    "datacenter": "wd5",
+    "site": "External",
+    "tenant": "smithnephew"
+  },
   "snc|wd1|snc_external_career_site": {
     "company": "Snc",
     "datacenter": "wd1",
@@ -742,6 +772,12 @@
     "datacenter": "wd1",
     "site": "US_Bank_Careers",
     "tenant": "usbank"
+  },
+  "vanguard|wd5|contractors_restricted": {
+    "company": "Vanguard",
+    "datacenter": "wd5",
+    "site": "contractors_restricted",
+    "tenant": "vanguard"
   },
   "vanguard|wd5|vanguard_external": {
     "company": "Vanguard",

@@ -29,6 +29,11 @@
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 17
   },
+  "ashby:antares": {
+    "company": "Antares",
+    "discovered_on": "2026-09-17",
+    "jobs_at_discovery": 82
+  },
   "ashby:apex-technology-inc": {
     "company": "Apex",
     "discovered_on": "2026-09-06",
@@ -78,6 +83,11 @@
     "company": "Exa",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 55
+  },
+  "ashby:gecko-robotics": {
+    "company": "Gecko Robotics",
+    "discovered_on": "2026-09-17",
+    "jobs_at_discovery": 23
   },
   "ashby:hadrian-automation": {
     "company": "Hadrian",
@@ -143,6 +153,11 @@
     "company": "OpenGov",
     "discovered_on": "2026-09-15",
     "jobs_at_discovery": 71
+  },
+  "ashby:persona": {
+    "company": "Persona",
+    "discovered_on": "2026-09-17",
+    "jobs_at_discovery": 17
   },
   "ashby:persona.ai": {
     "company": "Persona AI",
@@ -263,6 +278,11 @@
     "company": "C 3 Ascend",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 2
+  },
+  "greenhouse:cartesiansystems": {
+    "company": "Cartesian Systems",
+    "discovered_on": "2026-09-17",
+    "jobs_at_discovery": 10
   },
   "greenhouse:chaosindustries": {
     "company": "CHAOS Industries",
@@ -423,6 +443,11 @@
     "company": "Radix Trading",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 8
+  },
+  "greenhouse:relaypro": {
+    "company": "Relay",
+    "discovered_on": "2026-09-17",
+    "jobs_at_discovery": 32
   },
   "greenhouse:rfsmart": {
     "company": "RF-SMART",
