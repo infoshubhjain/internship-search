@@ -113,6 +113,18 @@
     "site": "careers",
     "tenant": "basspro"
   },
+  "bcbsks|wd1|external": {
+    "company": "Blue Cross and Blue Shield of Kansas",
+    "datacenter": "wd1",
+    "site": "External",
+    "tenant": "bcbsks"
+  },
+  "bci|wd10|bci_careers": {
+    "company": "British Columbia Investment",
+    "datacenter": "wd10",
+    "site": "BCI_Careers",
+    "tenant": "bci"
+  },
   "blackstone|wd1|blackstone_campus_careers": {
     "company": "Blackstone",
     "datacenter": "wd1",
@@ -166,6 +178,12 @@
     "datacenter": "wd5",
     "site": "chrobinson",
     "tenant": "chrobinson"
+  },
+  "churchdwight|wd1|chdcareers": {
+    "company": "Church & Dwight",
+    "datacenter": "wd1",
+    "site": "chdcareers",
+    "tenant": "churchdwight"
   },
   "cibc|wd3|campus": {
     "company": "CIBC",
@@ -298,6 +316,12 @@
     "datacenter": "wd12",
     "site": "fnbocareers",
     "tenant": "firstnational"
+  },
+  "fis|wd5|searchjobs": {
+    "company": "Fidelity National Information Services",
+    "datacenter": "wd5",
+    "site": "searchjobs",
+    "tenant": "fis"
   },
   "flir|wd1|flircareers": {
     "company": "Flir",
@@ -473,6 +497,18 @@
     "site": "university",
     "tenant": "lplfinancial"
   },
+  "lseg|wd3|careers": {
+    "company": "LSEG",
+    "datacenter": "wd3",
+    "site": "Careers",
+    "tenant": "lseg"
+  },
+  "lseg|wd3|graduate_careers": {
+    "company": "LSEG",
+    "datacenter": "wd3",
+    "site": "Graduate_Careers",
+    "tenant": "lseg"
+  },
   "manulife|wd3|mfcjh_jobs": {
     "company": "Manulife",
     "datacenter": "wd3",
@@ -580,6 +616,12 @@
     "datacenter": "wd1",
     "site": "northerntrust",
     "tenant": "ntrs"
+  },
+  "ntst|wd1|careers": {
+    "company": "Netsmart",
+    "datacenter": "wd1",
+    "site": "careers",
+    "tenant": "ntst"
   },
   "nvidia|wd5|nvidiaexternalcareersite": {
     "company": "NVIDIA",
@@ -743,6 +785,12 @@
     "site": "careers_external",
     "tenant": "thehartford"
   },
+  "theocc|wd5|careers": {
+    "company": "OCC",
+    "datacenter": "wd5",
+    "site": "careers",
+    "tenant": "theocc"
+  },
   "tjx|wd1|tjx_external": {
     "company": "TJX",
     "datacenter": "wd1",
@@ -790,6 +838,12 @@
     "datacenter": "wd5",
     "site": "externalcareersite",
     "tenant": "vermeer"
+  },
+  "visa|wd5|visa": {
+    "company": "Visa",
+    "datacenter": "wd5",
+    "site": "visa",
+    "tenant": "visa"
   },
   "walmart|wd504|walmartexternal": {
     "company": "Walmart",

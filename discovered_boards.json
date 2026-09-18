@@ -364,6 +364,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 127
   },
+  "greenhouse:genevatrading": {
+    "company": "Geneva Trading",
+    "discovered_on": "2026-09-18",
+    "jobs_at_discovery": 11
+  },
   "greenhouse:hpiq": {
     "company": "HP IQ",
     "discovered_on": "2026-09-06",
