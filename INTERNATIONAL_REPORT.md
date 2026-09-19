@@ -1,13 +1,13 @@
 # International Summer 2027 Internships
 
-_Generated 2026-09-18 · 221 live opportunities from 62 company boards_
+_Generated 2026-09-19 · 223 live opportunities from 64 company boards_
 
 Candidate: UIUC CS sophomore, graduating May 2028, Indian citizen on F-1 in the US.
 Scope: paid Summer 2027 internships outside the United States.
 
 **How to read this.** Visa category A means the employer states it supports international applicants; B means it says nothing either way, which is the usual case and worth a direct question; C means local work rights are required. Scores are out of 100 and weight role fit, international eligibility, pay, company, candidate fit and location.
 
-## 🔥 Apply Immediately  (14)
+## 🔥 Apply Immediately  (13)
 
 ### Jump Trading — Campus ML Research Engineer (Intern)
 
@@ -115,16 +115,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://www.jumptrading.com/hr/job?gh_jid=7974391
 
-### Barclays — 2027 Technology Cyber and Security Summer Internship Programme Knutsford
-
-- **Location** Knutsford, United Kingdom  ·  **Category** Cybersecurity  ·  **Score** 78/100
-- **Visa** A - Clearly international-friendly — names a specific visa route
-- **Route** Government Authorised Exchange (Tier 5 / GAE) covers student internships
-- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open
-- **Why it fits** Cybersecurity role in United Kingdom; employer states international support; explicitly Summer 2027
-- **Barriers** compensation not publicly disclosed
-- **Apply** https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Cyber-and-Security-Summer-Internship-Programme-Knutsford_JR-0000129173
-
 ### Schonfeld — Quantitative Research / Developer - Intern
 
 - **Location** Hong Kong  ·  **Category** Quantitative Technology  ·  **Score** 76/100
@@ -144,7 +134,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Bengaluru/Data-Science-Intern_R5040035-1
 
-## 👀 Investigate Further  (174)
+## 👀 Investigate Further  (177)
 
 ### IMC — Machine Learning Research Intern - Summer 2027 - Sydney
 
@@ -306,7 +296,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://stripe.com/jobs/search?gh_jid=8097801
 
-### Tower Research Capital — Stagiaire en développement de logiciels (été 2027) / Software Developer Intern (Summer 2027) 🆕
+### Tower Research Capital — Stagiaire en développement de logiciels (été 2027) / Software Developer Intern (Summer 2027)
 
 - **Location** Montreal, Canada  ·  **Category** Software Engineering  ·  **Score** 83/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -733,7 +723,17 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4711074006
 
-### British Columbia Investment — AI and Automation Engineer Co-op/Internship (Winter & Summer 2027) 🆕
+### Bmo — AI/Platform Analyst, Winter 2027 (Co-op/Internship) - 8 months 🆕
+
+- **Location** Toronto, Canada  ·  **Category** Machine Learning / AI  ·  **Score** 75/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Co-op / internship work permit; often needs the placement to be degree-required
+- **Paid** Yes  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Machine Learning / AI role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time
+- **Apply** https://bmo.wd3.myworkdayjobs.com/campus/job/Toronto-ON-CAN/AI-Platform-Analyst--8-months--Co-op-Internship----8-months_R260026129-3
+
+### British Columbia Investment — AI and Automation Engineer Co-op/Internship (Winter & Summer 2027)
 
 - **Location** Victoria, Canada  ·  **Category** Machine Learning / AI  ·  **Score** 75/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -743,7 +743,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/AI-and-Automation-Engineer-Co-op-Internship--Winter---Summer-2027-_JR101597-1
 
-### British Columbia Investment — Software Engineer Co-op/Internship (Winter 2027) 🆕
+### British Columbia Investment — Software Engineer Co-op/Internship (Winter 2027)
 
 - **Location** Vancouver, Canada  ·  **Category** Software Engineering  ·  **Score** 75/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -912,6 +912,26 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Software Engineering role in Canada; visa route exists (Co-op / internship work permit); explicitly Summer 2027
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/5f1f25ee-709d-4ae0-ada4-d1f243bde89c
+
+### Together AI — Research Intern, Model Shaping (Summer 2027) 🆕
+
+- **Location** San Francisco, Netherlands  ·  **Category** Research  ·  **Score** 74/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Intern residence permit sponsored by a recognised employer
+- **Paid** Yes  ·  **English** Unclear  ·  **Status** Open
+- **Why it fits** Research role in Netherlands; visa route exists (Intern residence permit sponsored by a recognised employer); paid; explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time; English working environment unconfirmed
+- **Apply** https://job-boards.greenhouse.io/togetherai/jobs/5238466007
+
+### Together AI — Research Intern, Model Shaping (Winter 2027) 🆕
+
+- **Location** San Francisco, Netherlands  ·  **Category** Research  ·  **Score** 74/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Intern residence permit sponsored by a recognised employer
+- **Paid** Yes  ·  **English** Unclear  ·  **Status** Open
+- **Why it fits** Research role in Netherlands; visa route exists (Intern residence permit sponsored by a recognised employer); paid; explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time; English working environment unconfirmed
+- **Apply** https://job-boards.greenhouse.io/togetherai/jobs/5238465007
 
 ### Tower Research Capital — Quantitative Developer Intern
 
@@ -1107,7 +1127,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://amat.wd1.myworkdayjobs.com/external/job/SingaporeSGP/Engineering-Intern_R2627218
 
-### British Columbia Investment — Platform Engineer ServiceNow Co-op/Internship (Winter 2027 & Summer 2027) 🆕
+### British Columbia Investment — Platform Engineer ServiceNow Co-op/Internship (Winter 2027 & Summer 2027)
 
 - **Location** Victoria, Canada  ·  **Category** Cloud / DevOps / Infrastructure  ·  **Score** 72/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1117,7 +1137,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/Platform-Engineer-ServiceNow-Co-op-Internship--Winter-2027---Summer-2027-_JR101585
 
-### British Columbia Investment — Infrastructure & Renewable Resources - Portfolio Management & Insights Co-op/Internship (Winter or Summer 2027) 🆕
+### British Columbia Investment — Infrastructure & Renewable Resources - Portfolio Management & Insights Co-op/Internship (Winter or Summer 2027)
 
 - **Location** Victoria, Canada  ·  **Category** Cloud / DevOps / Infrastructure  ·  **Score** 72/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1177,7 +1197,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Summer-Intern-2027---Data-Engineering_JR26081683
 
-### Manulife — Summer Intern 2027 - Infrastructure Equity Internship 🆕
+### Manulife — Summer Intern 2027 - Infrastructure Equity Internship
 
 - **Location** Toronto, Canada  ·  **Category** Cloud / DevOps / Infrastructure  ·  **Score** 72/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1206,16 +1226,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Quantitative Technology role in Singapore; visa route exists (Training Employment Pass or Work Holiday Pass)
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://boards.greenhouse.io/point72/jobs/7297598002?gh_jid=7297598002
-
-### Rockwellautomation — AI Engineering Solution Trainee
-
-- **Location** Singapore  ·  **Category** Machine Learning / AI  ·  **Score** 72/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Training Employment Pass or Work Holiday Pass
-- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** Machine Learning / AI role in Singapore; visa route exists (Training Employment Pass or Work Holiday Pass)
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
-- **Apply** https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Singapore-Singapore/AI-Engineering-Solution-Trainee_R26-4227
 
 ### TD Bank — Cloud/DevOps Intern/Co-op​ (Winter 2027)
 
@@ -1267,6 +1277,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Technology---Innovations---Software-Engineer-Summer-Analyst_45358
 
+### Bmo — Quantitative Developer (Alpha Research Team) - GAM, Summer 2027 (Co-op/Internship) - 12 months 🆕
+
+- **Location** Toronto, Canada  ·  **Category** Quantitative Technology  ·  **Score** 71/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Co-op / internship work permit; often needs the placement to be degree-required
+- **Paid** Yes  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Quantitative Technology role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time
+- **Apply** https://bmo.wd3.myworkdayjobs.com/campus/job/Toronto-ON-CAN/Quantitative-Developer--Alpha-Research-Team----GAM--Summer-2027--Co-op-Internship----12-months_R260026715
+
 ### Schonfeld — 2027 DMFI Quant Developer Intern
 
 - **Location** London, United Kingdom  ·  **Category** Quantitative Technology  ·  **Score** 71/100
@@ -1307,7 +1327,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://abb.wd3.myworkdayjobs.com/external_career_page/job/Pointe-Claire-Quebec-Canada/Engineering-Intern---Winter-2027_JR00047111
 
-### British Columbia Investment — Client Performance & Analytics Co-op/Internship (Winter 2027) 🆕
+### British Columbia Investment — Client Performance & Analytics Co-op/Internship (Winter 2027)
 
 - **Location** Victoria, Canada  ·  **Category** Data Science  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1317,7 +1337,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/Client-Performance---Analytics-Co-op-Internship--Winter-2027-_JR101606
 
-### British Columbia Investment — Investment Risk Analytics Solutions Co-op/Internship (Winter 2027) 🆕
+### British Columbia Investment — Investment Risk Analytics Solutions Co-op/Internship (Winter 2027)
 
 - **Location** Victoria, Canada  ·  **Category** Data Science  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1327,7 +1347,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/Investment-Risk-Analytics-Solutions-Co-op-Internship--Winter-2027-_JR101608
 
-### British Columbia Investment — Investment Tech/Data & Analytics -  Software Engineer Co-op Internship (Winter 2027 or Winter & Summer 2027) 🆕
+### British Columbia Investment — Investment Tech/Data & Analytics -  Software Engineer Co-op Internship (Winter 2027 or Winter & Summer 2027)
 
 - **Location** Victoria, Canada  ·  **Category** Data Science  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1366,7 +1386,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://job-boards.greenhouse.io/internshiplist2000/jobs/5406651008
 
-### Man Group — 2027 Summer Technology Internship Programme 🆕
+### Man Group — 2027 Summer Technology Internship Programme
 
 - **Location** London, United Kingdom  ·  **Category** General Technology  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1423,6 +1443,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://boards.greenhouse.io/point72/jobs/7297657002?gh_jid=7297657002
 
+### Royal Bank of Canada — 2027 Winter - GRM, Data Scientist Intern (8 Months) 🆕
+
+- **Location** TORONTO, Canada  ·  **Category** Data Science  ·  **Score** 70/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Co-op / internship work permit; often needs the placement to be degree-required
+- **Paid** Yes  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Data Science role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time
+- **Apply** https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--Data-Scientist-Intern--8-Months-_R-0000184624
+
 ### Schonfeld — 2027 DMFI Quant Research Intern
 
 - **Location** London, United Kingdom  ·  **Category** Research  ·  **Score** 70/100
@@ -1442,36 +1472,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Data Science role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Data-Analyst-Co-op---Intern---Winter-2027-_R_1509804
-
-### TD Bank — AI2 Business Intelligence Co-op/Intern (WINTER 2027)
-
-- **Location** Toronto, Canada  ·  **Category** Data Science  ·  **Score** 70/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Co-op / internship work permit; often needs the placement to be degree-required
-- **Paid** Yes  ·  **English** Yes  ·  **Status** Open
-- **Why it fits** Data Science role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
-- **Barriers** work authorization unstated - confirm before investing time
-- **Apply** https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/AI2-Business-Intelligence-Co-op-Intern--WINTER-2027-_R_1506122
-
-### TD Bank — Mobile Software Engineer Intern/Co-op​ (Winter 2027)
-
-- **Location** Toronto, Canada  ·  **Category** Mobile Engineering  ·  **Score** 70/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Co-op / internship work permit; often needs the placement to be degree-required
-- **Paid** Yes  ·  **English** Yes  ·  **Status** Open
-- **Why it fits** Mobile Engineering role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
-- **Barriers** work authorization unstated - confirm before investing time
-- **Apply** https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Mobile-Software-Engineer-Co-op---Intern---Winter-2027-_R_1509825
-
-### TD Bank — Data Science Intern/Co-op (WINTER 2027)
-
-- **Location** Toronto, Canada  ·  **Category** Data Science  ·  **Score** 70/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Co-op / internship work permit; often needs the placement to be degree-required
-- **Paid** Yes  ·  **English** Yes  ·  **Status** Open
-- **Why it fits** Data Science role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
-- **Barriers** work authorization unstated - confirm before investing time
-- **Apply** https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Enterprise-Real-Estate-Intern-Co-op_R_1504711
 
 ### DV Trading — 2027 Software Developer Intern  (DV Equities)
 
@@ -1520,7 +1520,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Infrastructure-Partners-Summer-Analyst---Private-Equity-Infrastructure-Investment---Private-Equity-Infrastructure-Asset-Management--London-_43613
 
-### Mastercard — Intern, Data Engineering 🆕
+### Mastercard — Intern, Data Engineering
 
 - **Location** Dublin, Ireland  ·  **Category** Data Engineering  ·  **Score** 68/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1596,6 +1596,25 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/XMLNAME-2027-Canada-Summer-Co-op---Quantitative-Analyst_JR26080358
 
+### Medtronic — Intern: Finance & Data Analytics 🆕
+
+- **Location** Prague, Czechia  ·  **Category** Data Science  ·  **Score** 65/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Paid** Yes  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Data Science role in Czechia; paid
+- **Barriers** work authorization unstated - confirm before investing time; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Prague-Hlavni-MestoPraha-Czech-Republic/Intern--Finance---Data-Analytics_R77370-1
+
+### Merck — Intern - Applied Statistics - Innovation & Engineering 🆕
+
+- **Location** NLD - North Brabant - Boxmeer, Netherlands  ·  **Category** Data Science  ·  **Score** 65/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Intern residence permit sponsored by a recognised employer
+- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Data Science role in Netherlands; visa route exists (Intern residence permit sponsored by a recognised employer)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://msd.wd5.myworkdayjobs.com/searchjobs/job/NLD---North-Brabant---Boxmeer/Intern---Data-Science---BioStatistics--Manufacturing_R390572-1
+
 ### Motorola — Intern Software Developer (Java)
 
 - **Location** Krakow, Poland  ·  **Category** Software Engineering  ·  **Score** 65/100
@@ -1659,7 +1678,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://stryker.wd1.myworkdayjobs.com/strykercareers/job/Skawina-Poland/Engineering-Intern_R573990
 
-### Virtu Financial — 2027 Internship - Quantitative Researcher (PhD) 🆕
+### Virtu Financial — 2027 Internship - Quantitative Researcher (PhD)
 
 - **Location** Singapore  ·  **Category** Quantitative Technology  ·  **Score** 64/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1669,7 +1688,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; appears to target PhD candidates
 - **Apply** https://job-boards.greenhouse.io/virtu/jobs/7617953002
 
-### LSEG — Engineering Summer Internship Programme 🆕
+### LSEG — Engineering Summer Internship Programme
 
 - **Location** London, United Kingdom  ·  **Category** General Technology  ·  **Score** 63/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1699,7 +1718,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; appears to target PhD candidates
 - **Apply** https://job-boards.greenhouse.io/virtu/jobs/8631180002
 
-### British Columbia Investment — Technology Solutions Engineer Co-op/Internship (Winter 2027) 🆕
+### British Columbia Investment — Technology Solutions Engineer Co-op/Internship (Winter 2027)
 
 - **Location** Victoria, Canada  ·  **Category** General Technology  ·  **Score** 62/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1709,7 +1728,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/Technology-Solutions-Engineer-Co-op-Internship--Winter-2027-_JR101601
 
-### British Columbia Investment — Technology Specialist Co-op/Internship (Winter 2027) 🆕
+### British Columbia Investment — Technology Specialist Co-op/Internship (Winter 2027)
 
 - **Location** Victoria, Canada  ·  **Category** General Technology  ·  **Score** 62/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed

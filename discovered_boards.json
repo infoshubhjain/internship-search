@@ -269,6 +269,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 6
   },
+  "greenhouse:botauto": {
+    "company": "Bot Auto",
+    "discovered_on": "2026-09-19",
+    "jobs_at_discovery": 19
+  },
   "greenhouse:bti36021": {
     "company": "BTI360",
     "discovered_on": "2026-09-06",
@@ -513,6 +518,11 @@
     "company": "The Trade Desk",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 167
+  },
+  "greenhouse:togetherai": {
+    "company": "Together AI",
+    "discovered_on": "2026-09-19",
+    "jobs_at_discovery": 78
   },
   "greenhouse:towerresearchcapital": {
     "company": "Tower Research Capital",

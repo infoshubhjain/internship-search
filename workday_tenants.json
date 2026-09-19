@@ -77,6 +77,12 @@
     "site": "aspentech",
     "tenant": "aspentech"
   },
+  "athene|wd5|athene_careers": {
+    "company": "Athene",
+    "datacenter": "wd5",
+    "site": "athene_careers",
+    "tenant": "athene"
+  },
   "avav|wd1|avav": {
     "company": "AeroVironment",
     "datacenter": "wd1",
@@ -130,6 +136,12 @@
     "datacenter": "wd1",
     "site": "Blackstone_Campus_Careers",
     "tenant": "blackstone"
+  },
+  "bmo|wd3|campus": {
+    "company": "Bmo",
+    "datacenter": "wd3",
+    "site": "campus",
+    "tenant": "bmo"
   },
   "boeing|wd1|external_careers": {
     "company": "Boeing",
@@ -202,6 +214,12 @@
     "datacenter": "wd5",
     "site": "cignacareers",
     "tenant": "cigna"
+  },
+  "cmegroup|wd1|cme_careers": {
+    "company": "CME Group",
+    "datacenter": "wd1",
+    "site": "cme_careers",
+    "tenant": "cmegroup"
   },
   "commercebank|wd1|commercejobs": {
     "company": "Commerce Bank",
@@ -370,6 +388,12 @@
     "datacenter": "wd5",
     "site": "vernova_externalsite",
     "tenant": "gevernova"
+  },
+  "gfs|wd5|usjobs-gen-gfs": {
+    "company": "Gordon Food Service",
+    "datacenter": "wd5",
+    "site": "usjobs-gen-gfs",
+    "tenant": "gfs"
   },
   "globalfoundries|wd1|external": {
     "company": "GlobalFoundries",
@@ -695,6 +719,12 @@
     "site": "q2",
     "tenant": "q2ebanking"
   },
+  "rbc|wd3|rbcglobal1": {
+    "company": "Royal Bank of Canada",
+    "datacenter": "wd3",
+    "site": "rbcglobal1",
+    "tenant": "rbc"
+  },
   "regions|wd5|regions_careers": {
     "company": "Regions Bank",
     "datacenter": "wd5",
@@ -790,6 +820,12 @@
     "datacenter": "wd5",
     "site": "careers",
     "tenant": "theocc"
+  },
+  "thrivent|wd5|external": {
+    "company": "Thrivent",
+    "datacenter": "wd5",
+    "site": "external",
+    "tenant": "thrivent"
   },
   "tjx|wd1|tjx_external": {
     "company": "TJX",
