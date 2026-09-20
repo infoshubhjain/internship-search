@@ -95,6 +95,12 @@
     "site": "abg_careers",
     "tenant": "avisbudget"
   },
+  "axiomspace|wd5|external_career_site": {
+    "company": "Axiom Space",
+    "datacenter": "wd5",
+    "site": "External_Career_Site",
+    "tenant": "axiomspace"
+  },
   "bah|wd1|bah_jobs": {
     "company": "Bah",
     "datacenter": "wd1",
