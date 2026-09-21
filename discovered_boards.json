@@ -414,6 +414,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 44
   },
+  "greenhouse:mercury": {
+    "company": "Mercury",
+    "discovered_on": "2026-09-21",
+    "jobs_at_discovery": 65
+  },
   "greenhouse:nationallifeinsurancecompany": {
     "company": "National Life",
     "discovered_on": "2026-09-15",
@@ -443,6 +448,11 @@
     "company": "PDT Partners",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 9
+  },
+  "greenhouse:perpay": {
+    "company": "Perpay",
+    "discovered_on": "2026-09-21",
+    "jobs_at_discovery": 18
   },
   "greenhouse:point72": {
     "company": "Cubist Systematic Strategies",
