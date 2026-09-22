@@ -353,6 +353,12 @@
     "site": "flircareers",
     "tenant": "flir"
   },
+  "fmr|wd1|fidelitycareers": {
+    "company": "Fmr",
+    "datacenter": "wd1",
+    "site": "fidelitycareers",
+    "tenant": "fmr"
+  },
   "fnbcorp|wd501|fnbcorp": {
     "company": "First National Bank",
     "datacenter": "wd501",
@@ -382,6 +388,18 @@
     "datacenter": "wd5",
     "site": "ge_externalsite",
     "tenant": "geaerospace"
+  },
+  "gehc|wd5|gehc_externalsite": {
+    "company": "GE HealthCare",
+    "datacenter": "wd5",
+    "site": "gehc_externalsite",
+    "tenant": "gehc"
+  },
+  "generalmotors|wd5|careers_gm": {
+    "company": "General Motors",
+    "datacenter": "wd5",
+    "site": "Careers_GM",
+    "tenant": "generalmotors"
   },
   "gevernova|wd5|only_confidential_executive_recruiting": {
     "company": "GE Vernova",
@@ -436,6 +454,12 @@
     "datacenter": "wd5",
     "site": "external",
     "tenant": "greenheckgroup"
+  },
+  "gresearch|wd103|g-research": {
+    "company": "G-Research",
+    "datacenter": "wd103",
+    "site": "G-Research",
+    "tenant": "gresearch"
   },
   "guardianlife|wd5|guardian-life-careers": {
     "company": "Guardian Life",
@@ -850,6 +874,18 @@
     "datacenter": "wd1",
     "site": "Uline_Careers",
     "tenant": "uline"
+  },
+  "upbound|wd501|acima": {
+    "company": "Acima",
+    "datacenter": "wd501",
+    "site": "Acima",
+    "tenant": "upbound"
+  },
+  "upbound|wd501|upbound": {
+    "company": "Upbound Group",
+    "datacenter": "wd501",
+    "site": "Upbound",
+    "tenant": "upbound"
   },
   "usaa|wd1|usaajobswd": {
     "company": "USAA",
