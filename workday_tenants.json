@@ -191,6 +191,12 @@
     "site": "SolarTurbines",
     "tenant": "cat"
   },
+  "chartermfg|wd5|charter_careers": {
+    "company": "Charter Manufacturing",
+    "datacenter": "wd5",
+    "site": "Charter_Careers",
+    "tenant": "chartermfg"
+  },
   "chrobinson|wd5|chrobinson": {
     "company": "Chrobinson",
     "datacenter": "wd5",
@@ -467,6 +473,12 @@
     "site": "guardian-life-careers",
     "tenant": "guardianlife"
   },
+  "guidestone|wd1|guidestone": {
+    "company": "Guidestone",
+    "datacenter": "wd1",
+    "site": "guidestone",
+    "tenant": "guidestone"
+  },
   "haier|wd3|ge_appliances": {
     "company": "GE Appliances",
     "datacenter": "wd3",
@@ -526,6 +538,12 @@
     "datacenter": "wd5",
     "site": "itron",
     "tenant": "itron"
+  },
+  "leidos|wd5|external": {
+    "company": "Leidos",
+    "datacenter": "wd5",
+    "site": "External",
+    "tenant": "leidos"
   },
   "liveoakbancshares|wd1|live_oak": {
     "company": "Live Oak Bank",
@@ -748,6 +766,12 @@
     "datacenter": "wd5",
     "site": "q2",
     "tenant": "q2ebanking"
+  },
+  "rbc|wd3|rbcearlytalent1": {
+    "company": "Royal Bank of Canada",
+    "datacenter": "wd3",
+    "site": "RBCEARLYTALENT1",
+    "tenant": "rbc"
   },
   "rbc|wd3|rbcglobal1": {
     "company": "Royal Bank of Canada",

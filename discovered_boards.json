@@ -89,6 +89,11 @@
     "discovered_on": "2026-09-17",
     "jobs_at_discovery": 23
   },
+  "ashby:grow-therapy": {
+    "company": "Grow Therapy",
+    "discovered_on": "2026-09-23",
+    "jobs_at_discovery": 31
+  },
   "ashby:hadrian-automation": {
     "company": "Hadrian",
     "discovered_on": "2026-09-06",
@@ -224,6 +229,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 100
   },
+  "ashby:vital-lyfe": {
+    "company": "Vital Lyfe",
+    "discovered_on": "2026-09-23",
+    "jobs_at_discovery": 11
+  },
   "ashby:voleon": {
     "company": "The Voleon Group",
     "discovered_on": "2026-09-06",
@@ -263,6 +273,11 @@
     "company": "Aquatic",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 8
+  },
+  "greenhouse:astranis": {
+    "company": "Astranis",
+    "discovered_on": "2026-09-23",
+    "jobs_at_discovery": 129
   },
   "greenhouse:axontalentcommunity": {
     "company": "Axon",
@@ -439,6 +454,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 31
   },
+  "greenhouse:optiverprivate": {
+    "company": "Optiver Private Jobs",
+    "discovered_on": "2026-09-23",
+    "jobs_at_discovery": 11
+  },
   "greenhouse:pacificfusion": {
     "company": "Pacific Fusion",
     "discovered_on": "2026-09-10",
@@ -493,6 +513,11 @@
     "company": "Stevens Capital Management",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 29
+  },
+  "greenhouse:singlestore": {
+    "company": "SingleStore",
+    "discovered_on": "2026-09-23",
+    "jobs_at_discovery": 43
   },
   "greenhouse:spacex": {
     "company": "SpaceX",
