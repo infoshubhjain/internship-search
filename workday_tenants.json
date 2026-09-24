@@ -329,6 +329,12 @@
     "site": "DriveTime",
     "tenant": "drivetime"
   },
+  "dukeenergy|wd1|nosearch": {
+    "company": "Nosearch",
+    "datacenter": "wd1",
+    "site": "nosearch",
+    "tenant": "dukeenergy"
+  },
   "ecolab|wd1|ecolab_external": {
     "company": "Ecolab",
     "datacenter": "wd1",
@@ -387,6 +393,12 @@
     "company": "GDIT",
     "datacenter": "wd5",
     "site": "external_career_site",
+    "tenant": "gdit"
+  },
+  "gdit|wd5|gdit_earlytalent": {
+    "company": "General Dynamics Information Technology",
+    "datacenter": "wd5",
+    "site": "gdit_earlytalent",
     "tenant": "gdit"
   },
   "geaerospace|wd5|ge_externalsite": {
@@ -580,6 +592,12 @@
     "datacenter": "wd3",
     "site": "Graduate_Careers",
     "tenant": "lseg"
+  },
+  "lthc|wd1|excellusbcbscareers": {
+    "company": "Excellus BCBS",
+    "datacenter": "wd1",
+    "site": "ExcellusBCBSCareers",
+    "tenant": "lthc"
   },
   "manulife|wd3|mfcjh_jobs": {
     "company": "Manulife",
@@ -851,6 +869,12 @@
     "site": "targetcareers",
     "tenant": "target"
   },
+  "tcenergy|wd3|career_site_tc": {
+    "company": "TC Energy",
+    "datacenter": "wd3",
+    "site": "CAREER_SITE_TC",
+    "tenant": "tcenergy"
+  },
   "td|wd3|td_bank_careers": {
     "company": "TD Bank",
     "datacenter": "wd3",
@@ -957,6 +981,12 @@
     "company": "Wellington Management",
     "datacenter": "wd5",
     "site": "Campus",
+    "tenant": "wellington"
+  },
+  "wellington|wd5|external": {
+    "company": "Wellington Management",
+    "datacenter": "wd5",
+    "site": "external",
     "tenant": "wellington"
   },
   "wexinc|wd5|wexinc": {

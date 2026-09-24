@@ -189,6 +189,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 8
   },
+  "ashby:qumulo": {
+    "company": "Qumulo",
+    "discovered_on": "2026-09-24",
+    "jobs_at_discovery": 22
+  },
   "ashby:revel": {
     "company": "Revel",
     "discovered_on": "2026-09-09",
