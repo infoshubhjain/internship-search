@@ -89,6 +89,11 @@
     "discovered_on": "2026-09-17",
     "jobs_at_discovery": 23
   },
+  "ashby:genesis-molecular-ai": {
+    "company": "Genesis Molecular AI",
+    "discovered_on": "2026-09-25",
+    "jobs_at_discovery": 13
+  },
   "ashby:grow-therapy": {
     "company": "Grow Therapy",
     "discovered_on": "2026-09-23",
@@ -219,6 +224,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 132
   },
+  "ashby:snowflake": {
+    "company": "Snowflake",
+    "discovered_on": "2026-09-25",
+    "jobs_at_discovery": 352
+  },
   "ashby:swarmaero": {
     "company": "Swarm Aero",
     "discovered_on": "2026-09-12",
@@ -348,6 +358,11 @@
     "company": "DoorDash USA",
     "discovered_on": "2026-09-15",
     "jobs_at_discovery": 455
+  },
+  "greenhouse:drwuniversityjobs": {
+    "company": "DRW - University Jobs",
+    "discovered_on": "2026-09-25",
+    "jobs_at_discovery": 2
   },
   "greenhouse:duolingounirecruitment": {
     "company": "Duolingo",

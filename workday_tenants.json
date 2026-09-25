@@ -221,6 +221,12 @@
     "site": "search",
     "tenant": "cibc"
   },
+  "ciena|wd5|careers": {
+    "company": "Ciena",
+    "datacenter": "wd5",
+    "site": "careers",
+    "tenant": "ciena"
+  },
   "cigna|wd5|cignacareers": {
     "company": "Cigna",
     "datacenter": "wd5",
@@ -784,6 +790,12 @@
     "datacenter": "wd5",
     "site": "q2",
     "tenant": "q2ebanking"
+  },
+  "radiancetech|wd12|radiance_external": {
+    "company": "Radiance Technologies",
+    "datacenter": "wd12",
+    "site": "Radiance_External",
+    "tenant": "radiancetech"
   },
   "rbc|wd3|rbcearlytalent1": {
     "company": "Royal Bank of Canada",
