@@ -84,6 +84,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 55
   },
+  "ashby:flint": {
+    "company": "Flint",
+    "discovered_on": "2026-09-26",
+    "jobs_at_discovery": 6
+  },
   "ashby:gecko-robotics": {
     "company": "Gecko Robotics",
     "discovered_on": "2026-09-17",

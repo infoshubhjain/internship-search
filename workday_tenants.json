@@ -47,6 +47,12 @@
     "site": "external",
     "tenant": "amat"
   },
+  "americancentury|wd5|americancenturyinvestments": {
+    "company": "American Century Investments",
+    "datacenter": "wd5",
+    "site": "AmericanCenturyInvestments",
+    "tenant": "americancentury"
+  },
   "ameriprise|wd5|ameriprise": {
     "company": "Ameriprise Financial",
     "datacenter": "wd5",
@@ -346,6 +352,12 @@
     "datacenter": "wd1",
     "site": "ecolab_external",
     "tenant": "ecolab"
+  },
+  "elkay|wd1|elkay_external": {
+    "company": "Elkay",
+    "datacenter": "wd1",
+    "site": "elkay_external",
+    "tenant": "elkay"
   },
   "fifththird|wd5|53careers": {
     "company": "Fifththird",
@@ -665,6 +677,12 @@
     "site": "searchjobs",
     "tenant": "msd"
   },
+  "myhrabc|wd5|global": {
+    "company": "Cencora",
+    "datacenter": "wd5",
+    "site": "Global",
+    "tenant": "myhrabc"
+  },
   "nasdaq|wd1|global_external_site": {
     "company": "Nasdaq",
     "datacenter": "wd1",
@@ -707,6 +725,12 @@
     "site": "NiSource",
     "tenant": "nisource"
   },
+  "northwesternmutual|wd5|corporate-careers": {
+    "company": "Northwestern Mutual",
+    "datacenter": "wd5",
+    "site": "corporate-careers",
+    "tenant": "northwesternmutual"
+  },
   "ntrs|wd1|northerntrust": {
     "company": "Northern Trust",
     "datacenter": "wd1",
@@ -742,6 +766,12 @@
     "datacenter": "wd3",
     "site": "ovintivcareers",
     "tenant": "ovintiv"
+  },
+  "pacificlife|wd1|pacificlifecareers": {
+    "company": "Pacific Life",
+    "datacenter": "wd1",
+    "site": "PacificLifeCareers",
+    "tenant": "pacificlife"
   },
   "pg|wd5|1000": {
     "company": "Procter & Gamble",
@@ -820,6 +850,12 @@
     "datacenter": "wd3",
     "site": "LexisNexisLegal",
     "tenant": "relx"
+  },
+  "rockwellautomation|wd1|external-rockwell-automation-early-careers": {
+    "company": "Rockwell Automation",
+    "datacenter": "wd1",
+    "site": "External-Rockwell-Automation-Early-Careers",
+    "tenant": "rockwellautomation"
   },
   "rockwellautomation|wd1|external_rockwell_automation": {
     "company": "Rockwellautomation",
