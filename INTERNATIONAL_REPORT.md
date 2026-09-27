@@ -1,6 +1,6 @@
 # International Summer 2027 Internships
 
-_Generated 2026-09-26 · 257 live opportunities from 72 company boards_
+_Generated 2026-09-27 · 257 live opportunities from 72 company boards_
 
 Candidate: UIUC CS sophomore, graduating May 2028, Indian citizen on F-1 in the US.
 Scope: paid Summer 2027 internships outside the United States.
@@ -60,21 +60,21 @@ Scope: paid Summer 2027 internships outside the United States.
 
 ### Datadog — Software Engineering Intern
 
-- **Location** Madrid, Spain  ·  **Category** Software Engineering  ·  **Score** 88/100
-- **Visa** A - Clearly international-friendly — offers relocation support
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open
-- **Why it fits** Software Engineering role in Spain; employer states international support; explicitly Summer 2027
-- **Barriers** compensation not publicly disclosed; English working environment unconfirmed
-- **Apply** https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161
-
-### Datadog — Software Engineering Intern
-
 - **Location** Paris, France  ·  **Category** Software Engineering  ·  **Score** 88/100
 - **Visa** A - Clearly international-friendly — offers relocation support
 - **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
 - **Why it fits** Software Engineering role in France; employer states international support
 - **Barriers** compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186
+
+### Datadog — Software Engineering Intern
+
+- **Location** Madrid, Spain  ·  **Category** Software Engineering  ·  **Score** 88/100
+- **Visa** A - Clearly international-friendly — offers relocation support
+- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open
+- **Why it fits** Software Engineering role in Spain; employer states international support; explicitly Summer 2027
+- **Barriers** compensation not publicly disclosed; English working environment unconfirmed
+- **Apply** https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161
 
 ### Jump Trading — Campus AI/ML Researcher (Intern)
 
@@ -115,7 +115,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://www.jumptrading.com/hr/job?gh_jid=7974391
 
-### Rockwell Automation — Co-op, Robotics Research - Physical AI (OTTO at Rockwell Automation) 🆕
+### Rockwell Automation — Co-op, Robotics Research - Physical AI (OTTO at Rockwell Automation)
 
 - **Location** Waterloo, Canada  ·  **Category** Machine Learning / AI  ·  **Score** 81/100
 - **Visa** A - Clearly international-friendly — offers relocation support
@@ -135,7 +135,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed
 - **Apply** https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Cyber-and-Security-Summer-Internship-Programme-Knutsford_JR-0000129173
 
-### Rockwell Automation — Co-op, Robotics Research – Data Engineering (OTTO at Rockwell Automation) 🆕
+### Rockwell Automation — Co-op, Robotics Research – Data Engineering (OTTO at Rockwell Automation)
 
 - **Location** Waterloo, Canada  ·  **Category** Data Engineering  ·  **Score** 78/100
 - **Visa** A - Clearly international-friendly — offers relocation support
@@ -155,7 +155,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed
 - **Apply** https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Glasgow-Campus/XMLNAME-2027-Customer-and-Digital---Data-and-Analytics-Summer-Internship-Programme-Glasgow_JR-0000129278
 
-### Barclays — 2027 Customer and Digital - Data and Analytics Summer Internship Programme London 🆕
+### Barclays — 2027 Customer and Digital - Data and Analytics Summer Internship Programme London
 
 - **Location** Canary Wharf, United Kingdom  ·  **Category** Data Science  ·  **Score** 77/100
 - **Visa** A - Clearly international-friendly — names a specific visa route
@@ -193,7 +193,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed
 - **Apply** https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Northampton_JR-0000129379
 
-### Barclays — 2027 Technology Analyst Summer Internship Programme Northampton 🆕
+### Barclays — 2027 Technology Analyst Summer Internship Programme Northampton
 
 - **Location** Northampton, United Kingdom  ·  **Category** General Technology  ·  **Score** 69/100
 - **Visa** A - Clearly international-friendly — names a specific visa route
@@ -203,7 +203,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed
 - **Apply** https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Analyst-Summer-Internship-Programme-Northampton_JR-0000129498
 
-### Barclays — 2027 Technology Analyst Summer Internship Programme Glasgow 🆕
+### Barclays — 2027 Technology Analyst Summer Internship Programme Glasgow
 
 - **Location** Glasgow Campus, United Kingdom  ·  **Category** General Technology  ·  **Score** 69/100
 - **Visa** A - Clearly international-friendly — names a specific visa route
@@ -223,7 +223,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed
 - **Apply** https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-London_JR-0000129397
 
-### Barclays — 2027 Technology Analyst Summer Internship Programme London 🆕
+### Barclays — 2027 Technology Analyst Summer Internship Programme London
 
 - **Location** Canary Wharf, United Kingdom  ·  **Category** General Technology  ·  **Score** 69/100
 - **Visa** A - Clearly international-friendly — names a specific visa route
@@ -233,7 +233,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed
 - **Apply** https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Technology-Analyst-Summer-Internship-Programme-London_JR-0000129434
 
-### Barclays — 2027 Technology Analyst Summer Internship Programme Knutsford 🆕
+### Barclays — 2027 Technology Analyst Summer Internship Programme Knutsford
 
 - **Location** Knutsford, United Kingdom  ·  **Category** General Technology  ·  **Score** 69/100
 - **Visa** A - Clearly international-friendly — names a specific visa route
@@ -243,7 +243,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed
 - **Apply** https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Analyst-Summer-Internship-Programme-Knutsford_JR-0000129510
 
-### Barclays — 2027 Technology Developer Summer Internship Programme Knutsford 🆕
+### Barclays — 2027 Technology Developer Summer Internship Programme Knutsford
 
 - **Location** Knutsford, United Kingdom  ·  **Category** General Technology  ·  **Score** 69/100
 - **Visa** A - Clearly international-friendly — names a specific visa route
@@ -253,7 +253,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed
 - **Apply** https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Knutsford_JR-0000129381
 
-### Barclays — 2027 Technology Developer Summer Internship Programme Glasgow 🆕
+### Barclays — 2027 Technology Developer Summer Internship Programme Glasgow
 
 - **Location** Glasgow Campus, United Kingdom  ·  **Category** General Technology  ·  **Score** 69/100
 - **Visa** A - Clearly international-friendly — names a specific visa route
@@ -1757,7 +1757,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; English working environment unconfirmed
 - **Apply** https://pg.wd5.myworkdayjobs.com/1000/job/PARIS-GO-ASNIERES-SUR-SEINE/Data-Engineering-Intern_R000155891
 
-### Royal Bank of Canada — 2027 Corporate Treasury, Winter Risk Initiatives & Infrastructure, Intern (4 Months) 🆕
+### Royal Bank of Canada — 2027 Corporate Treasury, Winter Risk Initiatives & Infrastructure, Intern (4 Months)
 
 - **Location** TORONTO, Canada  ·  **Category** Cloud / DevOps / Infrastructure  ·  **Score** 67/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1787,7 +1787,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://ciena.wd5.myworkdayjobs.com/careers/job/Ottawa/ASIC-Engineer-Intern_R031750
 
-### Ciena — ASIC Processor Complex Engineering Co-op (January 2027 - 4 months) 🆕
+### Ciena — ASIC Processor Complex Engineering Co-op (January 2027 - 4 months)
 
 - **Location** Ottawa, Canada  ·  **Category** Hardware / Embedded  ·  **Score** 66/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1882,7 +1882,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Intern-Software-Developer--Java-_R68285
 
-### Motorola — Intern Software Developer (C#) 🆕
+### Motorola — Intern Software Developer (C#)
 
 - **Location** Krakow, Poland  ·  **Category** Software Engineering  ·  **Score** 65/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1891,7 +1891,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Intern-Software-Developer--C--_R68703
 
-### Motorola — Intern Software Developer - Java 🆕
+### Motorola — Intern Software Developer - Java
 
 - **Location** Krakow, Poland  ·  **Category** Software Engineering  ·  **Score** 65/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1900,7 +1900,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Intern-Software-Developer---Java_R68799
 
-### Motorola — Intern Software Developer (C/C++) 🆕
+### Motorola — Intern Software Developer (C/C++)
 
 - **Location** Krakow, Poland  ·  **Category** Software Engineering  ·  **Score** 65/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
