@@ -965,6 +965,12 @@
     "site": "TrimbleCareers",
     "tenant": "trimble"
   },
+  "ttmtech|wd5|jobs": {
+    "company": "Ttmtech",
+    "datacenter": "wd5",
+    "site": "jobs",
+    "tenant": "ttmtech"
+  },
   "uline|wd1|uline_careers": {
     "company": "Uline",
     "datacenter": "wd1",
@@ -1012,6 +1018,12 @@
     "datacenter": "wd5",
     "site": "externalcareersite",
     "tenant": "vermeer"
+  },
+  "veteransunited|wd1|vuhl": {
+    "company": "Veteransunited",
+    "datacenter": "wd1",
+    "site": "vuhl",
+    "tenant": "veteransunited"
   },
   "visa|wd5|visa": {
     "company": "Visa",
