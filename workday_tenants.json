@@ -563,6 +563,18 @@
     "site": "external",
     "tenant": "intel"
   },
+  "invesco|wd1|ivz": {
+    "company": "Invesco",
+    "datacenter": "wd1",
+    "site": "IVZ",
+    "tenant": "invesco"
+  },
+  "invesco|wd1|ivzearlycareers": {
+    "company": "Invesco",
+    "datacenter": "wd1",
+    "site": "IVZearlycareers",
+    "tenant": "invesco"
+  },
   "itron|wd5|itron": {
     "company": "Itron",
     "datacenter": "wd5",
@@ -627,6 +639,12 @@
     "company": "Marvell",
     "datacenter": "wd1",
     "site": "marvellcareers",
+    "tenant": "marvell"
+  },
+  "marvell|wd1|marvellcareers2": {
+    "company": "Marvell",
+    "datacenter": "wd1",
+    "site": "marvellcareers2",
     "tenant": "marvell"
   },
   "mastercard|wd1|campus": {

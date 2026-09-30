@@ -14,6 +14,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 84
   },
+  "ashby:Perchwell": {
+    "company": "Perchwell",
+    "discovered_on": "2026-09-30",
+    "jobs_at_discovery": 5
+  },
   "ashby:Sierra": {
     "company": "Sierra",
     "discovered_on": "2026-09-06",
@@ -274,6 +279,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 17
   },
+  "greenhouse:amca": {
+    "company": "Amca",
+    "discovered_on": "2026-09-30",
+    "jobs_at_discovery": 46
+  },
   "greenhouse:andurilindustries": {
     "company": "Anduril",
     "discovered_on": "2026-09-06",
@@ -379,6 +389,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 57
   },
+  "greenhouse:enova": {
+    "company": "Enova International",
+    "discovered_on": "2026-09-30",
+    "jobs_at_discovery": 30
+  },
   "greenhouse:eulerity": {
     "company": "Eulerity",
     "discovered_on": "2026-09-06",
@@ -413,6 +428,11 @@
     "company": "Geneva Trading",
     "discovered_on": "2026-09-18",
     "jobs_at_discovery": 11
+  },
+  "greenhouse:gitai": {
+    "company": "GITAI",
+    "discovered_on": "2026-09-30",
+    "jobs_at_discovery": 17
   },
   "greenhouse:hpiq": {
     "company": "HP IQ",
@@ -458,6 +478,11 @@
     "company": "Mercury",
     "discovered_on": "2026-09-21",
     "jobs_at_discovery": 65
+  },
+  "greenhouse:muonspace": {
+    "company": "Muon Space",
+    "discovered_on": "2026-09-30",
+    "jobs_at_discovery": 129
   },
   "greenhouse:nationallifeinsurancecompany": {
     "company": "National Life",
