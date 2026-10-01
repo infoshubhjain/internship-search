@@ -83,6 +83,12 @@
     "site": "aspentech",
     "tenant": "aspentech"
   },
+  "assurant|wd1|external_limited_posting": {
+    "company": "Assurant",
+    "datacenter": "wd1",
+    "site": "External_Limited_Posting",
+    "tenant": "assurant"
+  },
   "athene|wd5|athene_careers": {
     "company": "Athene",
     "datacenter": "wd5",
@@ -322,6 +328,12 @@
     "datacenter": "wd5",
     "site": "dma",
     "tenant": "dmainc"
+  },
+  "dow|wd1|externalcareers": {
+    "company": "Dow",
+    "datacenter": "wd1",
+    "site": "externalcareers",
+    "tenant": "dow"
   },
   "draftkings|wd1|campus_career_portal": {
     "company": "DraftKings",
@@ -677,6 +689,12 @@
     "site": "redeploymentmedtroniccareers",
     "tenant": "medtronic"
   },
+  "mfs|wd1|mfs-careers": {
+    "company": "Mfs",
+    "datacenter": "wd1",
+    "site": "mfs-careers",
+    "tenant": "mfs"
+  },
   "modernatx|wd1|m_tx": {
     "company": "Moderna",
     "datacenter": "wd1",
@@ -827,6 +845,12 @@
     "site": "Plexus_Careers",
     "tenant": "plexus"
   },
+  "poet|wd1|poet": {
+    "company": "Poet",
+    "datacenter": "wd1",
+    "site": "poet",
+    "tenant": "poet"
+  },
   "pwc|wd3|us_entry_level_careers": {
     "company": "PricewaterhouseCoopers (PwC)",
     "datacenter": "wd3",
@@ -928,6 +952,12 @@
     "datacenter": "wd1",
     "site": "strykercareers",
     "tenant": "stryker"
+  },
+  "swa|wd1|external": {
+    "company": "Swa",
+    "datacenter": "wd1",
+    "site": "external",
+    "tenant": "swa"
   },
   "target|wd5|targetcareers": {
     "company": "Target",

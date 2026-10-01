@@ -69,6 +69,11 @@
     "discovered_on": "2026-09-16",
     "jobs_at_discovery": 9
   },
+  "ashby:dandy": {
+    "company": "Dandy",
+    "discovered_on": "2026-10-01",
+    "jobs_at_discovery": 75
+  },
   "ashby:deepgram": {
     "company": "Deepgram",
     "discovered_on": "2026-09-06",
@@ -614,6 +619,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 85
   },
+  "greenhouse:vardaspace": {
+    "company": "Varda Space Industries",
+    "discovered_on": "2026-10-01",
+    "jobs_at_discovery": 100
+  },
   "greenhouse:veeamsoftware": {
     "company": "Veeam Software",
     "discovered_on": "2026-09-12",
@@ -688,6 +698,11 @@
     "company": "Neighbor",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 7
+  },
+  "lever:patchmypc": {
+    "company": "Patch My PC",
+    "discovered_on": "2026-10-01",
+    "jobs_at_discovery": 8
   },
   "lever:sep": {
     "company": "SEP",
