@@ -439,6 +439,11 @@
     "discovered_on": "2026-09-30",
     "jobs_at_discovery": 17
   },
+  "greenhouse:gleanwork": {
+    "company": "Glean",
+    "discovered_on": "2026-10-02",
+    "jobs_at_discovery": 130
+  },
   "greenhouse:hpiq": {
     "company": "HP IQ",
     "discovered_on": "2026-09-06",
@@ -548,6 +553,11 @@
     "company": "RF-SMART",
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 19
+  },
+  "greenhouse:riotgamesup": {
+    "company": "Riot Games",
+    "discovered_on": "2026-10-02",
+    "jobs_at_discovery": 1
   },
   "greenhouse:rocketlab": {
     "company": "Rocket Lab Corporation",

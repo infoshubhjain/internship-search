@@ -95,6 +95,18 @@
     "site": "athene_careers",
     "tenant": "athene"
   },
+  "autodesk|wd1|ext": {
+    "company": "Autodesk",
+    "datacenter": "wd1",
+    "site": "Ext",
+    "tenant": "autodesk"
+  },
+  "autodesk|wd1|uni": {
+    "company": "Autodesk",
+    "datacenter": "wd1",
+    "site": "uni",
+    "tenant": "autodesk"
+  },
   "avav|wd1|avav": {
     "company": "AeroVironment",
     "datacenter": "wd1",
@@ -881,6 +893,12 @@
     "site": "rbcglobal1",
     "tenant": "rbc"
   },
+  "rb|wd5|frs": {
+    "company": "Rb",
+    "datacenter": "wd5",
+    "site": "frs",
+    "tenant": "rb"
+  },
   "regions|wd5|regions_careers": {
     "company": "Regions Bank",
     "datacenter": "wd5",
@@ -1006,6 +1024,12 @@
     "datacenter": "wd1",
     "site": "tjx_external",
     "tenant": "tjx"
+  },
+  "travelers|wd5|external": {
+    "company": "Travelers",
+    "datacenter": "wd5",
+    "site": "External",
+    "tenant": "travelers"
   },
   "trimble|wd1|trimblecareers": {
     "company": "Trimble",
