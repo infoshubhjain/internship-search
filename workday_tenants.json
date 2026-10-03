@@ -377,6 +377,12 @@
     "site": "ecolab_external",
     "tenant": "ecolab"
   },
+  "elevancehealth|wd1|elv-et": {
+    "company": "Elevance Health",
+    "datacenter": "wd1",
+    "site": "ELV-ET",
+    "tenant": "elevancehealth"
+  },
   "elkay|wd1|elkay_external": {
     "company": "Elkay",
     "datacenter": "wd1",
@@ -544,6 +550,18 @@
     "datacenter": "wd12",
     "site": "hmh_careers",
     "tenant": "hmhw"
+  },
+  "hntb|wd5|hntb_careers": {
+    "company": "Hntb",
+    "datacenter": "wd5",
+    "site": "hntb_careers",
+    "tenant": "hntb"
+  },
+  "hntb|wd5|hntb_university_careers": {
+    "company": "HNTB",
+    "datacenter": "wd5",
+    "site": "hntb_university_careers",
+    "tenant": "hntb"
   },
   "homedepot|wd5|careerdepot": {
     "company": "The Home Depot",

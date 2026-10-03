@@ -309,6 +309,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 8
   },
+  "greenhouse:arcboatcompany": {
+    "company": "Arc",
+    "discovered_on": "2026-10-03",
+    "jobs_at_discovery": 40
+  },
   "greenhouse:astranis": {
     "company": "Astranis",
     "discovered_on": "2026-09-23",
@@ -684,6 +689,11 @@
     "discovered_on": "2026-09-15",
     "jobs_at_discovery": 5
   },
+  "greenhouse:xai": {
+    "company": "SpaceXAI",
+    "discovered_on": "2026-10-03",
+    "jobs_at_discovery": 301
+  },
   "lever:anavationllc": {
     "company": "AnaVation",
     "discovered_on": "2026-09-06",
@@ -713,6 +723,11 @@
     "company": "Patch My PC",
     "discovered_on": "2026-10-01",
     "jobs_at_discovery": 8
+  },
+  "lever:ro": {
+    "company": "Ro",
+    "discovered_on": "2026-10-03",
+    "jobs_at_discovery": 56
   },
   "lever:sep": {
     "company": "SEP",
