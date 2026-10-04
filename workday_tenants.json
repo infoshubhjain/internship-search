@@ -437,6 +437,12 @@
     "site": "FTIConsultingCareers",
     "tenant": "fticonsulting"
   },
+  "gartner|wd5|ext": {
+    "company": "Gartner",
+    "datacenter": "wd5",
+    "site": "EXT",
+    "tenant": "gartner"
+  },
   "gdit|wd5|external_career_site": {
     "company": "GDIT",
     "datacenter": "wd5",
@@ -928,6 +934,12 @@
     "datacenter": "wd3",
     "site": "LexisNexisLegal",
     "tenant": "relx"
+  },
+  "revvity|wd103|external": {
+    "company": "Revvity",
+    "datacenter": "wd103",
+    "site": "external",
+    "tenant": "revvity"
   },
   "rockwellautomation|wd1|external-rockwell-automation-early-careers": {
     "company": "Rockwell Automation",
