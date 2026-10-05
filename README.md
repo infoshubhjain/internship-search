@@ -23,6 +23,12 @@ python3 calibrate.py         # are the scores actually predicting responses?
 
 Run everything from the repo root.
 
+### Application assistant (OpenCode)
+
+Run `opencode` from the repo root, connect a provider with `/connect`, select a browser-capable model, and enter `/apply-jobs` (optionally name a company or role). The command loads the repo-local `.opencode/skills/job-application/SKILL.md` workflow. OpenCode discovers the skill automatically from this checkout.
+
+Jobright or another aggregator is used for discovery only; applications are completed on the verified employer careers site or its ATS. The workflow uses `shubhinterncontext.md` and the resume paths listed there, asks about unknown required facts, and reports only submissions confirmed by the employer site. It does not store passwords or edit tracker CSVs directly. CAPTCHA, applicant certifications, and blocked resume uploads are handed back for your action.
+
 ## Your data
 
 `Summer2027_SWE_Tracker.csv` and `Summer2027_Intl_Tracker.csv` are the files that matter. Open them in Excel, Sheets, or the dashboard.

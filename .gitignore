@@ -28,3 +28,5 @@ credentials.json
 .ats_cache.json
 new_listings.json
 internship_tracker.db
+.wayup-chrome/
+.application-resumes/
