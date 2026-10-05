@@ -47,6 +47,12 @@
     "site": "external",
     "tenant": "amat"
   },
+  "ameren|wd1|external": {
+    "company": "Ameren",
+    "datacenter": "wd1",
+    "site": "External",
+    "tenant": "ameren"
+  },
   "americancentury|wd5|americancenturyinvestments": {
     "company": "American Century Investments",
     "datacenter": "wd5",
@@ -388,6 +394,12 @@
     "datacenter": "wd1",
     "site": "elkay_external",
     "tenant": "elkay"
+  },
+  "fanniemae|wd1|fanniemaecareers": {
+    "company": "Fannie Mae",
+    "datacenter": "wd1",
+    "site": "FannieMaeCareers",
+    "tenant": "fanniemae"
   },
   "fifththird|wd5|53careers": {
     "company": "Fifththird",
@@ -1030,6 +1042,12 @@
     "datacenter": "wd3",
     "site": "tel-careers",
     "tenant": "tel"
+  },
+  "thales|wd3|careers": {
+    "company": "Thales",
+    "datacenter": "wd3",
+    "site": "Careers",
+    "tenant": "thales"
   },
   "thehartford|wd5|careers_external": {
     "company": "The Hartford",
