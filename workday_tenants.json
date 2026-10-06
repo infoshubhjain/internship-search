@@ -395,6 +395,12 @@
     "site": "elkay_external",
     "tenant": "elkay"
   },
+  "expedia|wd108|private": {
+    "company": "Expedia Group",
+    "datacenter": "wd108",
+    "site": "private",
+    "tenant": "expedia"
+  },
   "fanniemae|wd1|fanniemaecareers": {
     "company": "Fannie Mae",
     "datacenter": "wd1",
@@ -587,6 +593,12 @@
     "site": "careerdepot",
     "tenant": "homedepot"
   },
+  "hpe|wd5|jobsathpe": {
+    "company": "Hewlett Packard Enterprise",
+    "datacenter": "wd5",
+    "site": "jobsathpe",
+    "tenant": "hpe"
+  },
   "humana|wd5|humana_external_career_site": {
     "company": "Humana",
     "datacenter": "wd5",
@@ -743,6 +755,12 @@
     "site": "mfs-careers",
     "tenant": "mfs"
   },
+  "midlandsb|wd1|msbcareers": {
+    "company": "Midland States Bank",
+    "datacenter": "wd1",
+    "site": "msbcareers",
+    "tenant": "midlandsb"
+  },
   "modernatx|wd1|m_tx": {
     "company": "Moderna",
     "datacenter": "wd1",
@@ -844,6 +862,12 @@
     "datacenter": "wd1",
     "site": "CCICareers",
     "tenant": "osv-cci"
+  },
+  "osv-rubicon|wd5|magnitecareers": {
+    "company": "Magnite",
+    "datacenter": "wd5",
+    "site": "MagniteCareers",
+    "tenant": "osv-rubicon"
   },
   "ovintiv|wd3|ovintivcareers": {
     "company": "Ovintiv",
