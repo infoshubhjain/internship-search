@@ -164,6 +164,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 30
   },
+  "ashby:niantic-spatial": {
+    "company": "Niantic Spatial",
+    "discovered_on": "2026-10-07",
+    "jobs_at_discovery": 18
+  },
   "ashby:northwoodspace": {
     "company": "Northwood Space",
     "discovered_on": "2026-09-06",
@@ -359,6 +364,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 58
   },
+  "greenhouse:courierhealth": {
+    "company": "Courier Health",
+    "discovered_on": "2026-10-07",
+    "jobs_at_discovery": 17
+  },
   "greenhouse:cssmerge": {
     "company": "Atoms",
     "discovered_on": "2026-09-06",
@@ -549,6 +559,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 231
   },
+  "greenhouse:purestorage": {
+    "company": "Everpure",
+    "discovered_on": "2026-10-07",
+    "jobs_at_discovery": 353
+  },
   "greenhouse:radixuniversity": {
     "company": "Radix Trading",
     "discovered_on": "2026-09-06",
@@ -588,6 +603,11 @@
     "company": "Stevens Capital Management",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 29
+  },
+  "greenhouse:sigmacomputing": {
+    "company": "Sigma Computing",
+    "discovered_on": "2026-10-07",
+    "jobs_at_discovery": 73
   },
   "greenhouse:signifyd95": {
     "company": "Signifyd",

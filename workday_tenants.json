@@ -65,6 +65,12 @@
     "site": "Ameriprise",
     "tenant": "ameriprise"
   },
+  "amfam|wd1|amfamgroupinterncareers": {
+    "company": "American Family Insurance Group",
+    "datacenter": "wd1",
+    "site": "AmFamGroupInternCareers",
+    "tenant": "amfam"
+  },
   "amgen|wd1|careers": {
     "company": "Amgen",
     "datacenter": "wd1",
@@ -406,6 +412,12 @@
     "datacenter": "wd1",
     "site": "FannieMaeCareers",
     "tenant": "fanniemae"
+  },
+  "ffive|wd5|f5jobs": {
+    "company": "F5",
+    "datacenter": "wd5",
+    "site": "f5jobs",
+    "tenant": "ffive"
   },
   "fifththird|wd5|53careers": {
     "company": "Fifththird",
