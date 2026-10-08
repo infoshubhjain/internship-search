@@ -35,6 +35,12 @@
     "site": "careers",
     "tenant": "allegion"
   },
+  "alliance|wd3|nissanjobs": {
+    "company": "Nissan Global",
+    "datacenter": "wd3",
+    "site": "nissanjobs",
+    "tenant": "alliance"
+  },
   "alliedsolutions|wd501|allied_external": {
     "company": "Allied Solutions",
     "datacenter": "wd501",
@@ -352,6 +358,12 @@
     "datacenter": "wd5",
     "site": "dma",
     "tenant": "dmainc"
+  },
+  "dowjones|wd1|dow_jones_career": {
+    "company": "Dow Jones",
+    "datacenter": "wd1",
+    "site": "Dow_Jones_Career",
+    "tenant": "dowjones"
   },
   "dow|wd1|externalcareers": {
     "company": "Dow",
@@ -1012,6 +1024,12 @@
     "datacenter": "wd1",
     "site": "saab_careers",
     "tenant": "saabusa"
+  },
+  "sailpoint|wd1|sailpoint": {
+    "company": "SailPoint",
+    "datacenter": "wd1",
+    "site": "SailPoint",
+    "tenant": "sailpoint"
   },
   "salesforce|wd12|external_career_site": {
     "company": "Salesforce",
