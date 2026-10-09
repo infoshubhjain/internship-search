@@ -677,6 +677,12 @@
     "site": "itron",
     "tenant": "itron"
   },
+  "jll|wd1|jllcareers": {
+    "company": "Jones Lang LaSalle",
+    "datacenter": "wd1",
+    "site": "jllcareers",
+    "tenant": "jll"
+  },
   "leidos|wd5|external": {
     "company": "Leidos",
     "datacenter": "wd5",
@@ -791,6 +797,18 @@
     "site": "M_tx",
     "tenant": "modernatx"
   },
+  "modmed|wd501|modmed12": {
+    "company": "Modernizing Medicine",
+    "datacenter": "wd501",
+    "site": "ModMed12",
+    "tenant": "modmed"
+  },
+  "moog|wd5|moog_external_career_site": {
+    "company": "Moog",
+    "datacenter": "wd5",
+    "site": "moog_external_career_site",
+    "tenant": "moog"
+  },
   "motorolasolutions|wd5|careers": {
     "company": "Motorola",
     "datacenter": "wd5",
@@ -802,6 +820,12 @@
     "datacenter": "wd5",
     "site": "searchjobs",
     "tenant": "msd"
+  },
+  "my7elevenhr|wd12|careers": {
+    "company": "7-Eleven",
+    "datacenter": "wd12",
+    "site": "Careers",
+    "tenant": "my7elevenhr"
   },
   "myhrabc|wd5|global": {
     "company": "Cencora",

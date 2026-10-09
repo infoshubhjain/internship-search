@@ -589,6 +589,11 @@
     "discovered_on": "2026-09-10",
     "jobs_at_discovery": 472
   },
+  "greenhouse:ruggedrobotics": {
+    "company": "Rugged Robotics",
+    "discovered_on": "2026-10-09",
+    "jobs_at_discovery": 4
+  },
   "greenhouse:sage49": {
     "company": "Sage",
     "discovered_on": "2026-09-06",
@@ -773,6 +778,16 @@
     "company": "Shield AI",
     "discovered_on": "2026-09-10",
     "jobs_at_discovery": 484
+  },
+  "lever:solopulseco": {
+    "company": "SoloPulse",
+    "discovered_on": "2026-10-09",
+    "jobs_at_discovery": 10
+  },
+  "lever:viget": {
+    "company": "Viget",
+    "discovered_on": "2026-10-09",
+    "jobs_at_discovery": 4
   },
   "lever:xcimer": {
     "company": "Xcimer Energy",
