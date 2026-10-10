@@ -35,6 +35,12 @@
     "site": "careers",
     "tenant": "allegion"
   },
+  "allegion|wd5|earlytalent_careers": {
+    "company": "Allegion",
+    "datacenter": "wd5",
+    "site": "earlytalent_careers",
+    "tenant": "allegion"
+  },
   "alliance|wd3|nissanjobs": {
     "company": "Nissan Global",
     "datacenter": "wd3",
@@ -400,6 +406,12 @@
     "datacenter": "wd1",
     "site": "ecolab_external",
     "tenant": "ecolab"
+  },
+  "elanco|wd5|external_career": {
+    "company": "Elanco",
+    "datacenter": "wd5",
+    "site": "External_Career",
+    "tenant": "elanco"
   },
   "elevancehealth|wd1|elv-et": {
     "company": "Elevance Health",
@@ -929,6 +941,12 @@
     "site": "PacificLifeCareers",
     "tenant": "pacificlife"
   },
+  "papajohns|wd1|papajohnscareers": {
+    "company": "Papa John's",
+    "datacenter": "wd1",
+    "site": "papajohnscareers",
+    "tenant": "papajohns"
+  },
   "pg|wd5|1000": {
     "company": "Procter & Gamble",
     "datacenter": "wd5",
@@ -1235,6 +1253,12 @@
     "site": "WalmartExternal",
     "tenant": "walmart"
   },
+  "wawa|wd1|careers": {
+    "company": "Wawa",
+    "datacenter": "wd1",
+    "site": "careers",
+    "tenant": "wawa"
+  },
   "wellington|wd5|campus": {
     "company": "Wellington Management",
     "datacenter": "wd5",
@@ -1263,6 +1287,12 @@
     "company": "Workday",
     "datacenter": "wd5",
     "site": "Workday",
+    "tenant": "workday"
+  },
+  "workday|wd5|workday_early_career": {
+    "company": "Workday",
+    "datacenter": "wd5",
+    "site": "Workday_Early_Career",
     "tenant": "workday"
   },
   "workiva|wd503|careers": {
