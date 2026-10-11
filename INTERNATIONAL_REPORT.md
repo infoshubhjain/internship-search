@@ -1,6 +1,6 @@
 # International Summer 2027 Internships
 
-_Generated 2026-10-10 · 275 live opportunities from 86 company boards_
+_Generated 2026-10-11 · 274 live opportunities from 86 company boards_
 
 Candidate: UIUC CS sophomore, graduating May 2028, Indian citizen on F-1 in the US.
 Scope: paid Summer 2027 internships outside the United States.
@@ -1552,7 +1552,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://job-boards.greenhouse.io/virtu/jobs/8547254002
 
-### Autodesk — Intern, Software Engineer 🆕
+### Autodesk — Intern, Software Engineer
 
 - **Location** Kraków, Poland  ·  **Category** Software Engineering  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1714,7 +1714,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; English working environment unconfirmed
 - **Apply** https://job-boards.greenhouse.io/schonfeld/jobs/8238448
 
-### TD Bank — Equity Research Intern/Co-op 🆕
+### TD Bank — Equity Research Intern/Co-op
 
 - **Location** Toronto, Canada  ·  **Category** Research  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -2186,7 +2186,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://corteva.wd5.myworkdayjobs.com/corteva/job/Elche-Alicante-Spain/Engineering---Maintenance-Intern_248298W
 
-## ⚠️ Work Authorization Barrier  (51)
+## ⚠️ Work Authorization Barrier  (50)
 
 ### Anduril Industries — 2027 Software Engineer Intern
 
@@ -2349,15 +2349,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Machine Learning / AI role in India; paid
 - **Barriers** local work authorization likely required; appears to target PhD candidates; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Hyderabad/Research-Intern--PhD---Storage-Systems-for-AI_2604256
-
-### Marvell — Research Intern (PhD), AI-Scale Protocols & Simulation
-
-- **Location** Hyderabad, India  ·  **Category** Machine Learning / AI  ·  **Score** 40/100
-- **Visa** C - Local work authorization likely required — citizenship or PR required
-- **Paid** Yes  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** Machine Learning / AI role in India; paid
-- **Barriers** local work authorization likely required; appears to target PhD candidates; English working environment unconfirmed; not confirmed as a Summer 2027 posting
-- **Apply** https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255
 
 ### Marvell — AI Intern
 
@@ -2629,7 +2620,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** local work authorization likely required; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://thales.wd3.myworkdayjobs.com/Careers/job/Singapore/Software-Development-and-Integration-Engineer--Intern-_R0339158
 
-### Workday — Machine Learning Engineer Intern 🆕
+### Workday — Machine Learning Engineer Intern
 
 - **Location** Canada  ·  **Category** Machine Learning / AI  ·  **Score** 40/100
 - **Visa** C - Local work authorization likely required — sponsorship not available
@@ -2638,7 +2629,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** local work authorization likely required; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Machine-Learning-Engineer-Intern_JR-0110806
 
-### Workday — Software Development Engineer Intern 🆕
+### Workday — Software Development Engineer Intern
 
 - **Location** Canada  ·  **Category** Software Engineering  ·  **Score** 40/100
 - **Visa** C - Local work authorization likely required — sponsorship not available
