@@ -695,6 +695,12 @@
     "site": "jllcareers",
     "tenant": "jll"
   },
+  "kainos|wd3|kainos": {
+    "company": "Kainos",
+    "datacenter": "wd3",
+    "site": "kainos",
+    "tenant": "kainos"
+  },
   "leidos|wd5|external": {
     "company": "Leidos",
     "datacenter": "wd5",
@@ -1245,6 +1251,12 @@
     "company": "Visa",
     "datacenter": "wd5",
     "site": "visa",
+    "tenant": "visa"
+  },
+  "visa|wd5|visa_early_careers": {
+    "company": "Visa",
+    "datacenter": "wd5",
+    "site": "visa_early_careers",
     "tenant": "visa"
   },
   "walmart|wd504|walmartexternal": {
