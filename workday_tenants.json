@@ -431,6 +431,12 @@
     "site": "private",
     "tenant": "expedia"
   },
+  "expedia|wd108|search": {
+    "company": "Expedia Group",
+    "datacenter": "wd108",
+    "site": "search",
+    "tenant": "expedia"
+  },
   "fanniemae|wd1|fanniemaecareers": {
     "company": "Fannie Mae",
     "datacenter": "wd1",
@@ -683,6 +689,12 @@
     "site": "IVZearlycareers",
     "tenant": "invesco"
   },
+  "itron|wd5|early_careers": {
+    "company": "Itron",
+    "datacenter": "wd5",
+    "site": "early_careers",
+    "tenant": "itron"
+  },
   "itron|wd5|itron": {
     "company": "Itron",
     "datacenter": "wd5",
@@ -706,6 +718,12 @@
     "datacenter": "wd5",
     "site": "External",
     "tenant": "leidos"
+  },
+  "lifefitness|wd1|searchlfn": {
+    "company": "Life Fitness",
+    "datacenter": "wd1",
+    "site": "searchLFN",
+    "tenant": "lifefitness"
   },
   "liveoakbancshares|wd1|live_oak": {
     "company": "Live Oak Bank",
@@ -1085,6 +1103,12 @@
     "site": "External_Career_Site",
     "tenant": "salesforce"
   },
+  "slihrms|wd3|careers": {
+    "company": "AtkinsR\u00e9alis",
+    "datacenter": "wd3",
+    "site": "careers",
+    "tenant": "slihrms"
+  },
   "smithnephew|wd5|external": {
     "company": "Smith+Nephew",
     "datacenter": "wd5",
@@ -1096,6 +1120,12 @@
     "datacenter": "wd1",
     "site": "snc_external_career_site",
     "tenant": "snc"
+  },
+  "spectrumhealth|wd5|corewellhealthcareers": {
+    "company": "Corewell Health",
+    "datacenter": "wd5",
+    "site": "CorewellHealthCareers",
+    "tenant": "spectrumhealth"
   },
   "spgi|wd5|kensho_careers": {
     "company": "Spgi",
