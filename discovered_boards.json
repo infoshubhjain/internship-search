@@ -44,6 +44,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 105
   },
+  "ashby:armadin": {
+    "company": "Armadin",
+    "discovered_on": "2026-10-14",
+    "jobs_at_discovery": 23
+  },
   "ashby:bedrock-robotics": {
     "company": "Bedrock Robotics Inc",
     "discovered_on": "2026-09-11",
@@ -649,6 +654,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 2335
   },
+  "greenhouse:stateaffairs": {
+    "company": "State Affairs",
+    "discovered_on": "2026-10-14",
+    "jobs_at_discovery": 9
+  },
   "greenhouse:stokespacetechnologies": {
     "company": "Stoke Space",
     "discovered_on": "2026-09-06",
@@ -783,6 +793,11 @@
     "company": "Patch My PC",
     "discovered_on": "2026-10-01",
     "jobs_at_discovery": 8
+  },
+  "lever:rhombus-systems": {
+    "company": "Rhombus",
+    "discovered_on": "2026-10-14",
+    "jobs_at_discovery": 7
   },
   "lever:ro": {
     "company": "Ro",

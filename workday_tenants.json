@@ -197,11 +197,23 @@
     "site": "campus",
     "tenant": "bmo"
   },
+  "bmo|wd3|privileged": {
+    "company": "Bmo",
+    "datacenter": "wd3",
+    "site": "privileged",
+    "tenant": "bmo"
+  },
   "boeing|wd1|external_careers": {
     "company": "Boeing",
     "datacenter": "wd1",
     "site": "EXTERNAL_CAREERS",
     "tenant": "boeing"
+  },
+  "bpinternational|wd3|bpearlycareers": {
+    "company": "BP",
+    "datacenter": "wd3",
+    "site": "bpEarlyCareers",
+    "tenant": "bpinternational"
   },
   "brevanhoward|wd3|bh_externalcareers": {
     "company": "Brevanhoward",
