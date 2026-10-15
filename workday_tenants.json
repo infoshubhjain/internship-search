@@ -107,6 +107,12 @@
     "site": "aspentech",
     "tenant": "aspentech"
   },
+  "assurant|wd1|assurant_careers": {
+    "company": "Assurant",
+    "datacenter": "wd1",
+    "site": "assurant_careers",
+    "tenant": "assurant"
+  },
   "assurant|wd1|external_limited_posting": {
     "company": "Assurant",
     "datacenter": "wd1",
@@ -334,6 +340,12 @@
     "datacenter": "wd5",
     "site": "COUNTRYCorporateInternships",
     "tenant": "countryfinancial"
+  },
+  "covestro|wd3|cov_external": {
+    "company": "Covestro",
+    "datacenter": "wd3",
+    "site": "cov_external",
+    "tenant": "covestro"
   },
   "cox|wd1|cox_external_career_site_1": {
     "company": "Cox",
@@ -713,6 +725,12 @@
     "site": "itron",
     "tenant": "itron"
   },
+  "jainglobal|wd5|externalsite": {
+    "company": "Jain Global",
+    "datacenter": "wd5",
+    "site": "ExternalSite",
+    "tenant": "jainglobal"
+  },
   "jll|wd1|jllcareers": {
     "company": "Jones Lang LaSalle",
     "datacenter": "wd1",
@@ -778,6 +796,12 @@
     "datacenter": "wd1",
     "site": "ExcellusBCBSCareers",
     "tenant": "lthc"
+  },
+  "manulife|wd3|mfcjh_adminjobs": {
+    "company": "Manulife Financial",
+    "datacenter": "wd3",
+    "site": "MFCJH_adminJobs",
+    "tenant": "manulife"
   },
   "manulife|wd3|mfcjh_jobs": {
     "company": "Manulife",
@@ -982,6 +1006,12 @@
     "datacenter": "wd1",
     "site": "papajohnscareers",
     "tenant": "papajohns"
+  },
+  "parsons|wd5|search": {
+    "company": "Parsons",
+    "datacenter": "wd5",
+    "site": "Search",
+    "tenant": "parsons"
   },
   "pg|wd5|1000": {
     "company": "Procter & Gamble",
