@@ -257,6 +257,12 @@
     "site": "SolarTurbines",
     "tenant": "cat"
   },
+  "centene|wd5|centene_external": {
+    "company": "Centene",
+    "datacenter": "wd5",
+    "site": "centene_external",
+    "tenant": "centene"
+  },
   "chartermfg|wd5|charter_careers": {
     "company": "Charter Manufacturing",
     "datacenter": "wd5",
@@ -827,6 +833,12 @@
     "site": "campus",
     "tenant": "mastercard"
   },
+  "mckesson|wd3|covermymeds_external_careers": {
+    "company": "CoverMyMeds",
+    "datacenter": "wd3",
+    "site": "CoverMyMeds_External_Careers",
+    "tenant": "mckesson"
+  },
   "mckesson|wd3|external_careers": {
     "company": "McKesson",
     "datacenter": "wd3",
@@ -1246,6 +1258,12 @@
     "datacenter": "wd1",
     "site": "tjx_external",
     "tenant": "tjx"
+  },
+  "tmobile|wd1|external": {
+    "company": "T-Mobile",
+    "datacenter": "wd1",
+    "site": "External",
+    "tenant": "tmobile"
   },
   "travelers|wd5|external": {
     "company": "Travelers",

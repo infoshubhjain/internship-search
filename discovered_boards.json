@@ -34,6 +34,11 @@
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 17
   },
+  "ashby:abridge": {
+    "company": "Abridge",
+    "discovered_on": "2026-10-16",
+    "jobs_at_discovery": 43
+  },
   "ashby:antares": {
     "company": "Antares",
     "discovered_on": "2026-09-17",
@@ -509,6 +514,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 31
   },
+  "greenhouse:inversionspace": {
+    "company": "Inversion",
+    "discovered_on": "2026-10-16",
+    "jobs_at_discovery": 88
+  },
   "greenhouse:k2spacecorporation": {
     "company": "K2 Space",
     "discovered_on": "2026-09-06",
@@ -778,6 +788,11 @@
     "company": "Belvedere Trading",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 14
+  },
+  "lever:cfsenergy": {
+    "company": "Commonwealth Fusion Systems",
+    "discovered_on": "2026-10-16",
+    "jobs_at_discovery": 129
   },
   "lever:hermeus": {
     "company": "Hermeus",
