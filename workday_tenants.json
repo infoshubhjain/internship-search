@@ -251,6 +251,12 @@
     "site": "Capital_One",
     "tenant": "capitalone"
   },
+  "carrier|wd5|jobs": {
+    "company": "Carrier",
+    "datacenter": "wd5",
+    "site": "jobs",
+    "tenant": "carrier"
+  },
   "cat|wd5|solarturbines": {
     "company": "Solar Turbines (Caterpillar)",
     "datacenter": "wd5",
@@ -1138,6 +1144,18 @@
     "datacenter": "wd1",
     "site": "RSMCareers",
     "tenant": "rsm"
+  },
+  "ryan|wd1|ryancareers": {
+    "company": "Ryan",
+    "datacenter": "wd1",
+    "site": "ryancareers",
+    "tenant": "ryan"
+  },
+  "ryan|wd1|students-graduates": {
+    "company": "Ryan",
+    "datacenter": "wd1",
+    "site": "Students-Graduates",
+    "tenant": "ryan"
   },
   "saabusa|wd1|saab_careers": {
     "company": "Saabusa",
