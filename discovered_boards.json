@@ -319,6 +319,11 @@
     "discovered_on": "2026-09-30",
     "jobs_at_discovery": 46
   },
+  "greenhouse:amperesand": {
+    "company": "Amperesand",
+    "discovered_on": "2026-10-18",
+    "jobs_at_discovery": 58
+  },
   "greenhouse:andurilindustries": {
     "company": "Anduril",
     "discovered_on": "2026-09-06",
@@ -533,6 +538,11 @@
     "company": "K2 Space",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 218
+  },
+  "greenhouse:kensingtontours": {
+    "company": "Kensington",
+    "discovered_on": "2026-10-18",
+    "jobs_at_discovery": 25
   },
   "greenhouse:khanacademy": {
     "company": "Khan Academy",
@@ -789,6 +799,11 @@
     "discovered_on": "2026-10-03",
     "jobs_at_discovery": 301
   },
+  "lever:acronaviation": {
+    "company": "Acron Aviation",
+    "discovered_on": "2026-10-18",
+    "jobs_at_discovery": 53
+  },
   "lever:anavationllc": {
     "company": "AnaVation",
     "discovered_on": "2026-09-06",
@@ -813,6 +828,11 @@
     "company": "Immuta",
     "discovered_on": "2026-09-10",
     "jobs_at_discovery": 14
+  },
+  "lever:kepler": {
+    "company": "Kensington",
+    "discovered_on": "2026-10-18",
+    "jobs_at_discovery": 21
   },
   "lever:neighbor": {
     "company": "Neighbor",
@@ -858,5 +878,10 @@
     "company": "Xcimer Energy",
     "discovered_on": "2026-09-12",
     "jobs_at_discovery": 39
+  },
+  "lever:zoox": {
+    "company": "Zoox",
+    "discovered_on": "2026-10-18",
+    "jobs_at_discovery": 240
   }
 }

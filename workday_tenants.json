@@ -23,6 +23,12 @@
     "site": "external",
     "tenant": "aero"
   },
+  "ag|wd3|airbus": {
+    "company": "Airbus",
+    "datacenter": "wd3",
+    "site": "airbus",
+    "tenant": "ag"
+  },
   "aksteel|wd1|careers": {
     "company": "Cleveland-Cliffs",
     "datacenter": "wd1",
@@ -52,6 +58,12 @@
     "datacenter": "wd501",
     "site": "Allied_External",
     "tenant": "alliedsolutions"
+  },
+  "altera|wd1|altera": {
+    "company": "Altera",
+    "datacenter": "wd1",
+    "site": "altera",
+    "tenant": "altera"
   },
   "amat|wd1|external": {
     "company": "Amat",
@@ -95,6 +107,18 @@
     "site": "autoowners",
     "tenant": "aoins"
   },
+  "aptiv|wd5|aptiv_careers": {
+    "company": "Aptiv",
+    "datacenter": "wd5",
+    "site": "aptiv_careers",
+    "tenant": "aptiv"
+  },
+  "ardian|wd103|ardiancareers": {
+    "company": "Ardian",
+    "datacenter": "wd103",
+    "site": "ArdianCareers",
+    "tenant": "ardian"
+  },
   "arrowstreetcapital|wd5|campus_careers": {
     "company": "Arrowstreet Capital",
     "datacenter": "wd5",
@@ -118,6 +142,12 @@
     "datacenter": "wd1",
     "site": "External_Limited_Posting",
     "tenant": "assurant"
+  },
+  "astreya|wd5|life-at-astreya-opportunities": {
+    "company": "Astreya",
+    "datacenter": "wd5",
+    "site": "life-at-astreya-opportunities",
+    "tenant": "astreya"
   },
   "athene|wd5|athene_careers": {
     "company": "Athene",
@@ -263,6 +293,12 @@
     "site": "SolarTurbines",
     "tenant": "cat"
   },
+  "cboe|wd1|external_career_cboe": {
+    "company": "Cboe Global Markets",
+    "datacenter": "wd1",
+    "site": "external_career_cboe",
+    "tenant": "cboe"
+  },
   "centene|wd5|centene_external": {
     "company": "Centene",
     "datacenter": "wd5",
@@ -364,6 +400,12 @@
     "datacenter": "wd1",
     "site": "cox_external_career_site_1",
     "tenant": "cox"
+  },
+  "danaher|wd1|danaherjobs": {
+    "company": "Danaher Corporation",
+    "datacenter": "wd1",
+    "site": "danaherjobs",
+    "tenant": "danaher"
   },
   "deezee|wd108|deezee_careers": {
     "company": "Dee Zee",
@@ -587,6 +629,12 @@
     "site": "usjobs-gen-gfs",
     "tenant": "gfs"
   },
+  "gilead|wd1|gileadcareers": {
+    "company": "Gilead Sciences",
+    "datacenter": "wd1",
+    "site": "gileadcareers",
+    "tenant": "gilead"
+  },
   "globalfoundries|wd1|external": {
     "company": "GlobalFoundries",
     "datacenter": "wd1",
@@ -755,11 +803,23 @@
     "site": "kainos",
     "tenant": "kainos"
   },
+  "kla|wd1|search": {
+    "company": "KLA",
+    "datacenter": "wd1",
+    "site": "Search",
+    "tenant": "kla"
+  },
   "leidos|wd5|external": {
     "company": "Leidos",
     "datacenter": "wd5",
     "site": "External",
     "tenant": "leidos"
+  },
+  "leonardocompany|wd3|leonardocareersite": {
+    "company": "Leonardo",
+    "datacenter": "wd3",
+    "site": "LeonardoCareerSite",
+    "tenant": "leonardocompany"
   },
   "lifefitness|wd1|searchlfn": {
     "company": "Life Fitness",
@@ -833,6 +893,12 @@
     "site": "marvellcareers2",
     "tenant": "marvell"
   },
+  "maryfreebed|wd12|mfb": {
+    "company": "Mary Free Bed Rehabilitation Hospital",
+    "datacenter": "wd12",
+    "site": "mfb",
+    "tenant": "maryfreebed"
+  },
   "mastercard|wd1|campus": {
     "company": "Mastercard",
     "datacenter": "wd1",
@@ -881,6 +947,12 @@
     "site": "msbcareers",
     "tenant": "midlandsb"
   },
+  "mmc|wd1|mmc": {
+    "company": "Marsh",
+    "datacenter": "wd1",
+    "site": "MMC",
+    "tenant": "mmc"
+  },
   "modernatx|wd1|m_tx": {
     "company": "Moderna",
     "datacenter": "wd1",
@@ -892,6 +964,12 @@
     "datacenter": "wd501",
     "site": "ModMed12",
     "tenant": "modmed"
+  },
+  "monolithicpower|wd12|mps_careers": {
+    "company": "Monolithic Power Systems",
+    "datacenter": "wd12",
+    "site": "MPS_Careers",
+    "tenant": "monolithicpower"
   },
   "moog|wd5|moog_external_career_site": {
     "company": "Moog",
@@ -1085,6 +1163,12 @@
     "site": "q2",
     "tenant": "q2ebanking"
   },
+  "quickenloans|wd5|rocket_careers": {
+    "company": "Rocket Companies",
+    "datacenter": "wd5",
+    "site": "rocket_careers",
+    "tenant": "quickenloans"
+  },
   "radiancetech|wd12|radiance_external": {
     "company": "Radiance Technologies",
     "datacenter": "wd12",
@@ -1139,6 +1223,12 @@
     "site": "external_rockwell_automation",
     "tenant": "rockwellautomation"
   },
+  "rockwoolgroup|wd3|rockwool": {
+    "company": "ROCKWOOL Group",
+    "datacenter": "wd3",
+    "site": "ROCKWOOL",
+    "tenant": "rockwoolgroup"
+  },
   "rsm|wd1|rsmcareers": {
     "company": "RSM",
     "datacenter": "wd1",
@@ -1187,11 +1277,23 @@
     "site": "External",
     "tenant": "smithnephew"
   },
+  "snapchat|wd1|snap": {
+    "company": "Snap",
+    "datacenter": "wd1",
+    "site": "snap",
+    "tenant": "snapchat"
+  },
   "snc|wd1|snc_external_career_site": {
     "company": "Snc",
     "datacenter": "wd1",
     "site": "snc_external_career_site",
     "tenant": "snc"
+  },
+  "soti|wd3|soti-next-gen": {
+    "company": "SOTI",
+    "datacenter": "wd3",
+    "site": "SOTI-Next-Gen",
+    "tenant": "soti"
   },
   "spectrumhealth|wd5|corewellhealthcareers": {
     "company": "Corewell Health",
@@ -1247,6 +1349,12 @@
     "site": "tel-careers",
     "tenant": "tel"
   },
+  "tencent|wd1|tencent_careers": {
+    "company": "Tencent",
+    "datacenter": "wd1",
+    "site": "tencent_careers",
+    "tenant": "tencent"
+  },
   "thales|wd3|careers": {
     "company": "Thales",
     "datacenter": "wd3",
@@ -1294,6 +1402,12 @@
     "datacenter": "wd1",
     "site": "TrimbleCareers",
     "tenant": "trimble"
+  },
+  "ttc|wd1|toro_external_careers": {
+    "company": "The Toro Company",
+    "datacenter": "wd1",
+    "site": "Toro_External_Careers",
+    "tenant": "ttc"
   },
   "ttmtech|wd5|jobs": {
     "company": "Ttmtech",
