@@ -69,6 +69,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 11
   },
+  "ashby:clera": {
+    "company": "Clera",
+    "discovered_on": "2026-10-19",
+    "jobs_at_discovery": 293
+  },
   "ashby:commure": {
     "company": "Commure",
     "discovered_on": "2026-09-12",
@@ -873,6 +878,11 @@
     "company": "Viget",
     "discovered_on": "2026-10-09",
     "jobs_at_discovery": 4
+  },
+  "lever:waabi": {
+    "company": "Waabi",
+    "discovered_on": "2026-10-19",
+    "jobs_at_discovery": 93
   },
   "lever:xcimer": {
     "company": "Xcimer Energy",

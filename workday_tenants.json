@@ -695,6 +695,12 @@
     "site": "ge_appliances",
     "tenant": "haier"
   },
+  "hcsc|wd1|hcsc_external": {
+    "company": "HCSC",
+    "datacenter": "wd1",
+    "site": "HCSC_External",
+    "tenant": "hcsc"
+  },
   "hmhw|wd12|hmh_careers": {
     "company": "HMH",
     "datacenter": "wd12",
