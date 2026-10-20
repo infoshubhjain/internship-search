@@ -39,6 +39,11 @@
     "discovered_on": "2026-10-16",
     "jobs_at_discovery": 43
   },
+  "ashby:amplify": {
+    "company": "Amplify",
+    "discovered_on": "2026-10-20",
+    "jobs_at_discovery": 36
+  },
   "ashby:antares": {
     "company": "Antares",
     "discovered_on": "2026-09-17",
@@ -208,6 +213,11 @@
     "company": "OpenGov",
     "discovered_on": "2026-09-15",
     "jobs_at_discovery": 71
+  },
+  "ashby:patreon": {
+    "company": "Patreon",
+    "discovered_on": "2026-10-20",
+    "jobs_at_discovery": 16
   },
   "ashby:persona": {
     "company": "Persona",
@@ -649,6 +659,11 @@
     "discovered_on": "2026-09-10",
     "jobs_at_discovery": 472
   },
+  "greenhouse:rothesaygraduates": {
+    "company": "Rothesay",
+    "discovered_on": "2026-10-20",
+    "jobs_at_discovery": 6
+  },
   "greenhouse:ruggedrobotics": {
     "company": "Rugged Robotics",
     "discovered_on": "2026-10-09",
@@ -843,6 +858,11 @@
     "company": "Neighbor",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 7
+  },
+  "lever:parallelwireless": {
+    "company": "Parallel Wireless",
+    "discovered_on": "2026-10-20",
+    "jobs_at_discovery": 49
   },
   "lever:patchmypc": {
     "company": "Patch My PC",

@@ -353,6 +353,12 @@
     "site": "cme_careers",
     "tenant": "cmegroup"
   },
+  "cognex|wd1|external_career_site": {
+    "company": "Cognex",
+    "datacenter": "wd1",
+    "site": "External_Career_Site",
+    "tenant": "cognex"
+  },
   "commercebank|wd1|commercejobs": {
     "company": "Commerce Bank",
     "datacenter": "wd1",
@@ -1013,6 +1019,12 @@
     "site": "global_external_site",
     "tenant": "nasdaq"
   },
+  "nationwide|wd1|nationwide_career": {
+    "company": "Nationwide",
+    "datacenter": "wd1",
+    "site": "Nationwide_Career",
+    "tenant": "nationwide"
+  },
   "nebraskablue|wd1|bcbsne": {
     "company": "BlueCross BlueShield of Nebraska",
     "datacenter": "wd1",
@@ -1269,6 +1281,12 @@
     "company": "Salesforce",
     "datacenter": "wd12",
     "site": "External_Career_Site",
+    "tenant": "salesforce"
+  },
+  "salesforce|wd12|futureforce_internships": {
+    "company": "Salesforce",
+    "datacenter": "wd12",
+    "site": "Futureforce_Internships",
     "tenant": "salesforce"
   },
   "slihrms|wd3|careers": {
@@ -1546,5 +1564,11 @@
     "datacenter": "wd1",
     "site": "External",
     "tenant": "xcelenergy"
+  },
+  "zebra|wd501|zebra_careers": {
+    "company": "zebra",
+    "datacenter": "wd501",
+    "site": "zebra_careers",
+    "tenant": "zebra"
   }
 }
