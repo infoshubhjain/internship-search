@@ -154,6 +154,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 12
   },
+  "ashby:heron-power": {
+    "company": "Heron Power",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 51
+  },
   "ashby:homebase": {
     "company": "Homebase",
     "discovered_on": "2026-09-06",
@@ -169,10 +174,20 @@
     "discovered_on": "2026-09-12",
     "jobs_at_discovery": 49
   },
+  "ashby:illumio": {
+    "company": "Illumio",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 66
+  },
   "ashby:incident": {
     "company": "incident.io",
     "discovered_on": "2026-09-08",
     "jobs_at_discovery": 24
+  },
+  "ashby:integrate": {
+    "company": "Integrate",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 7
   },
   "ashby:kastle": {
     "company": "Kastle",
@@ -254,6 +269,11 @@
     "discovered_on": "2026-09-24",
     "jobs_at_discovery": 22
   },
+  "ashby:red-gate": {
+    "company": "Redgate",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 11
+  },
   "ashby:revel": {
     "company": "Revel",
     "discovered_on": "2026-09-09",
@@ -283,6 +303,11 @@
     "company": "Snowflake",
     "discovered_on": "2026-09-25",
     "jobs_at_discovery": 352
+  },
+  "ashby:steel": {
+    "company": "Steel",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 3
   },
   "ashby:swarmaero": {
     "company": "Swarm Aero",
@@ -444,6 +469,11 @@
     "discovered_on": "2026-09-15",
     "jobs_at_discovery": 455
   },
+  "greenhouse:drivewealth": {
+    "company": "DriveWealth",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 22
+  },
   "greenhouse:drwuniversityjobs": {
     "company": "DRW - University Jobs",
     "discovered_on": "2026-09-25",
@@ -519,6 +549,16 @@
     "discovered_on": "2026-10-02",
     "jobs_at_discovery": 130
   },
+  "greenhouse:gravitonresearchcapital": {
+    "company": "Graviton",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 24
+  },
+  "greenhouse:horizonindustrieslimited": {
+    "company": "Horizon Industries",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 36
+  },
   "greenhouse:hpiq": {
     "company": "HP IQ",
     "discovered_on": "2026-09-06",
@@ -568,6 +608,11 @@
     "company": "Klaviyo",
     "discovered_on": "2026-09-13",
     "jobs_at_discovery": 3
+  },
+  "greenhouse:legendcareers": {
+    "company": "Legend Biotech",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 79
   },
   "greenhouse:mavensecuritiesholdingltd": {
     "company": "Maven Securities",
@@ -843,6 +888,11 @@
     "company": "Hermeus",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 85
+  },
+  "lever:humble-robotics": {
+    "company": "Humble Robotics",
+    "discovered_on": "2026-10-21",
+    "jobs_at_discovery": 24
   },
   "lever:immuta": {
     "company": "Immuta",

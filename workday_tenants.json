@@ -17,6 +17,12 @@
     "site": "external_experienced",
     "tenant": "adobe"
   },
+  "aep|wd1|aepcareersite": {
+    "company": "American Electric Power",
+    "datacenter": "wd1",
+    "site": "AEPCareerSite",
+    "tenant": "aep"
+  },
   "aero|wd5|external": {
     "company": "Aero",
     "datacenter": "wd5",
@@ -59,6 +65,12 @@
     "site": "Allied_External",
     "tenant": "alliedsolutions"
   },
+  "allstate|wd5|sourcing_event": {
+    "company": "Allstate",
+    "datacenter": "wd5",
+    "site": "sourcing_event",
+    "tenant": "allstate"
+  },
   "altera|wd1|altera": {
     "company": "Altera",
     "datacenter": "wd1",
@@ -82,6 +94,12 @@
     "datacenter": "wd5",
     "site": "AmericanCenturyInvestments",
     "tenant": "americancentury"
+  },
+  "americanfidelity|wd5|external": {
+    "company": "American Fidelity",
+    "datacenter": "wd5",
+    "site": "External",
+    "tenant": "americanfidelity"
   },
   "ameriprise|wd5|ameriprise": {
     "company": "Ameriprise Financial",
@@ -233,6 +251,12 @@
     "site": "campus",
     "tenant": "bmo"
   },
+  "bmo|wd3|external": {
+    "company": "BMO Financial Group",
+    "datacenter": "wd3",
+    "site": "External",
+    "tenant": "bmo"
+  },
   "bmo|wd3|privileged": {
     "company": "Bmo",
     "datacenter": "wd3",
@@ -262,6 +286,12 @@
     "datacenter": "wd1",
     "site": "search",
     "tenant": "brunswick"
+  },
+  "caa|wd1|careers": {
+    "company": "Creative Artists Agency",
+    "datacenter": "wd1",
+    "site": "Careers",
+    "tenant": "caa"
   },
   "caci|wd1|external": {
     "company": "CACI",
@@ -298,6 +328,12 @@
     "datacenter": "wd1",
     "site": "external_career_cboe",
     "tenant": "cboe"
+  },
+  "cbrands|wd5|cbi_external_careers": {
+    "company": "Constellation Brands",
+    "datacenter": "wd5",
+    "site": "CBI_External_Careers",
+    "tenant": "cbrands"
   },
   "centene|wd5|centene_external": {
     "company": "Centene",
@@ -611,6 +647,12 @@
     "site": "gehc_externalsite",
     "tenant": "gehc"
   },
+  "generac|wd5|external": {
+    "company": "Generac",
+    "datacenter": "wd5",
+    "site": "External",
+    "tenant": "generac"
+  },
   "generalmotors|wd5|careers_gm": {
     "company": "General Motors",
     "datacenter": "wd5",
@@ -707,6 +749,12 @@
     "site": "HCSC_External",
     "tenant": "hcsc"
   },
+  "highmarkhealth|wd1|highmark": {
+    "company": "Highmark Health",
+    "datacenter": "wd1",
+    "site": "highmark",
+    "tenant": "highmarkhealth"
+  },
   "hmhw|wd12|hmh_careers": {
     "company": "HMH",
     "datacenter": "wd12",
@@ -802,6 +850,12 @@
     "datacenter": "wd5",
     "site": "ExternalSite",
     "tenant": "jainglobal"
+  },
+  "jj|wd5|jj": {
+    "company": "Johnson & Johnson",
+    "datacenter": "wd5",
+    "site": "JJ",
+    "tenant": "jj"
   },
   "jll|wd1|jllcareers": {
     "company": "Jones Lang LaSalle",
@@ -952,6 +1006,12 @@
     "datacenter": "wd1",
     "site": "mfs-careers",
     "tenant": "mfs"
+  },
+  "micron|wd1|external": {
+    "company": "Micron Technology",
+    "datacenter": "wd1",
+    "site": "External",
+    "tenant": "micron"
   },
   "midlandsb|wd1|msbcareers": {
     "company": "Midland States Bank",
@@ -1229,6 +1289,12 @@
     "site": "external",
     "tenant": "revvity"
   },
+  "roche|wd3|rog-a2o-gene": {
+    "company": "Genentech",
+    "datacenter": "wd3",
+    "site": "ROG-A2O-GENE",
+    "tenant": "roche"
+  },
   "rockwellautomation|wd1|external-rockwell-automation-early-careers": {
     "company": "Rockwell Automation",
     "datacenter": "wd1",
@@ -1246,6 +1312,12 @@
     "datacenter": "wd3",
     "site": "ROCKWOOL",
     "tenant": "rockwoolgroup"
+  },
+  "roguefitness|wd1|roguefitness_external_careers": {
+    "company": "Rogue Fitness",
+    "datacenter": "wd1",
+    "site": "RogueFitness_External_Careers",
+    "tenant": "roguefitness"
   },
   "rsm|wd1|rsmcareers": {
     "company": "RSM",
@@ -1312,6 +1384,12 @@
     "datacenter": "wd1",
     "site": "snc_external_career_site",
     "tenant": "snc"
+  },
+  "sonyglobal|wd1|sonyglobalcareers": {
+    "company": "Sony",
+    "datacenter": "wd1",
+    "site": "sonyglobalcareers",
+    "tenant": "sonyglobal"
   },
   "soti|wd3|soti-next-gen": {
     "company": "SOTI",
@@ -1427,6 +1505,12 @@
     "site": "TrimbleCareers",
     "tenant": "trimble"
   },
+  "trustage|wd1|trustage": {
+    "company": "TruStage",
+    "datacenter": "wd1",
+    "site": "TruStage",
+    "tenant": "trustage"
+  },
   "ttc|wd1|toro_external_careers": {
     "company": "The Toro Company",
     "datacenter": "wd1",
@@ -1480,6 +1564,12 @@
     "datacenter": "wd5",
     "site": "vanguard_external",
     "tenant": "vanguard"
+  },
+  "verizon|wd12|verizon-careers": {
+    "company": "Verizon Communications",
+    "datacenter": "wd12",
+    "site": "verizon-careers",
+    "tenant": "verizon"
   },
   "vermeer|wd5|externalcareersite": {
     "company": "Vermeer",
