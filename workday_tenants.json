@@ -113,6 +113,12 @@
     "site": "AmFamGroupInternCareers",
     "tenant": "amfam"
   },
+  "amfam|wd1|careers": {
+    "company": "American Family Insurance Group",
+    "datacenter": "wd1",
+    "site": "Careers",
+    "tenant": "amfam"
+  },
   "amgen|wd1|careers": {
     "company": "Amgen",
     "datacenter": "wd1",
@@ -383,6 +389,12 @@
     "site": "cignacareers",
     "tenant": "cigna"
   },
+  "cisco|wd5|cisco_careers": {
+    "company": "Cisco",
+    "datacenter": "wd5",
+    "site": "Cisco_Careers",
+    "tenant": "cisco"
+  },
   "cmegroup|wd1|cme_careers": {
     "company": "CME Group",
     "datacenter": "wd1",
@@ -519,6 +531,12 @@
     "company": "Nosearch",
     "datacenter": "wd1",
     "site": "nosearch",
+    "tenant": "dukeenergy"
+  },
+  "dukeenergy|wd1|search": {
+    "company": "Duke Energy Corporation",
+    "datacenter": "wd1",
+    "site": "search",
     "tenant": "dukeenergy"
   },
   "ecolab|wd1|ecolab_external": {
@@ -779,6 +797,12 @@
     "site": "careerdepot",
     "tenant": "homedepot"
   },
+  "hpe|wd5|acjobsite": {
+    "company": "Hewlett Packard Enterprise",
+    "datacenter": "wd5",
+    "site": "acjobsite",
+    "tenant": "hpe"
+  },
   "hpe|wd5|jobsathpe": {
     "company": "Hewlett Packard Enterprise",
     "datacenter": "wd5",
@@ -808,6 +832,12 @@
     "datacenter": "wd5",
     "site": "icfexternal_career_site",
     "tenant": "icf"
+  },
+  "inmar|wd1|inmarcareers": {
+    "company": "Inmar Intelligence",
+    "datacenter": "wd1",
+    "site": "inmarcareers",
+    "tenant": "inmar"
   },
   "insulet|wd5|insuletcareers": {
     "company": "Insulet",
@@ -905,6 +935,12 @@
     "site": "LiveRampCareers",
     "tenant": "liveramp"
   },
+  "lnw|wd5|lightwonderexternalcareers": {
+    "company": "Light & Wonder",
+    "datacenter": "wd5",
+    "site": "LightWonderExternalCareers",
+    "tenant": "lnw"
+  },
   "lowes|wd5|lws_external_cs": {
     "company": "Lowe's",
     "datacenter": "wd5",
@@ -934,6 +970,12 @@
     "datacenter": "wd1",
     "site": "ExcellusBCBSCareers",
     "tenant": "lthc"
+  },
+  "lumentum|wd5|lite": {
+    "company": "Lumentum",
+    "datacenter": "wd5",
+    "site": "LITE",
+    "tenant": "lumentum"
   },
   "manulife|wd3|mfcjh_adminjobs": {
     "company": "Manulife Financial",
@@ -1006,6 +1048,12 @@
     "datacenter": "wd1",
     "site": "mfs-careers",
     "tenant": "mfs"
+  },
+  "microchiphr|wd5|external": {
+    "company": "Microchip Technology",
+    "datacenter": "wd5",
+    "site": "External",
+    "tenant": "microchiphr"
   },
   "micron|wd1|external": {
     "company": "Micron Technology",
@@ -1361,6 +1409,18 @@
     "site": "Futureforce_Internships",
     "tenant": "salesforce"
   },
+  "selinc|wd1|sel": {
+    "company": "Schweitzer Engineering Laboratories",
+    "datacenter": "wd1",
+    "site": "SEL",
+    "tenant": "selinc"
+  },
+  "sierraspace|wd1|sierra_space_external_career_site": {
+    "company": "Sierra Space",
+    "datacenter": "wd1",
+    "site": "Sierra_Space_External_Career_Site",
+    "tenant": "sierraspace"
+  },
   "slihrms|wd3|careers": {
     "company": "AtkinsR\u00e9alis",
     "datacenter": "wd3",
@@ -1492,6 +1552,12 @@
     "datacenter": "wd1",
     "site": "External",
     "tenant": "tmobile"
+  },
+  "toyota|wd503|tmna": {
+    "company": "Toyota",
+    "datacenter": "wd503",
+    "site": "tmna",
+    "tenant": "toyota"
   },
   "travelers|wd5|external": {
     "company": "Travelers",
@@ -1660,5 +1726,11 @@
     "datacenter": "wd501",
     "site": "zebra_careers",
     "tenant": "zebra"
+  },
+  "zillow|wd5|zillow_group_external": {
+    "company": "Zillow",
+    "datacenter": "wd5",
+    "site": "Zillow_Group_External",
+    "tenant": "zillow"
   }
 }

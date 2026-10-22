@@ -89,6 +89,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 30
   },
+  "ashby:crusoe": {
+    "company": "Crusoe",
+    "discovered_on": "2026-10-22",
+    "jobs_at_discovery": 345
+  },
   "ashby:cyvl": {
     "company": "Cyvl",
     "discovered_on": "2026-09-16",
@@ -204,6 +209,16 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 8
   },
+  "ashby:metalenz": {
+    "company": "Metalenz",
+    "discovered_on": "2026-10-22",
+    "jobs_at_discovery": 1
+  },
+  "ashby:metamorphic": {
+    "company": "Metamorphic",
+    "discovered_on": "2026-10-22",
+    "jobs_at_discovery": 5
+  },
   "ashby:netic": {
     "company": "Cybernetic Labs",
     "discovered_on": "2026-09-06",
@@ -223,6 +238,11 @@
     "company": "ONE Finance",
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 43
+  },
+  "ashby:openart": {
+    "company": "OpenArt AI",
+    "discovered_on": "2026-10-22",
+    "jobs_at_discovery": 27
   },
   "ashby:opengov": {
     "company": "OpenGov",
@@ -278,6 +298,11 @@
     "company": "Revel",
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 25
+  },
+  "ashby:rhoda-ai": {
+    "company": "Rhoda AI",
+    "discovered_on": "2026-10-22",
+    "jobs_at_discovery": 45
   },
   "ashby:rivianvw.tech": {
     "company": "Rivian and Volkswagen Group Technologies",
@@ -338,6 +363,11 @@
     "company": "The Voleon Group",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 57
+  },
+  "ashby:walrusfi": {
+    "company": "Walrus",
+    "discovered_on": "2026-10-22",
+    "jobs_at_discovery": 3
   },
   "ashby:withpace": {
     "company": "Pace",
@@ -579,6 +609,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 2
   },
+  "greenhouse:insomniac": {
+    "company": "Insomniac Games",
+    "discovered_on": "2026-10-22",
+    "jobs_at_discovery": 26
+  },
   "greenhouse:internshiplist2000": {
     "company": "Internship List",
     "discovered_on": "2026-09-06",
@@ -803,6 +838,11 @@
     "company": "Tower Research Capital",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 85
+  },
+  "greenhouse:trace3": {
+    "company": "Trace3",
+    "discovered_on": "2026-10-22",
+    "jobs_at_discovery": 87
   },
   "greenhouse:vardaspace": {
     "company": "Varda Space Industries",
