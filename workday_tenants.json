@@ -455,6 +455,12 @@
     "site": "cox_external_career_site_1",
     "tenant": "cox"
   },
+  "cvshealth|wd1|cvs_health_careers": {
+    "company": "CVS Health",
+    "datacenter": "wd1",
+    "site": "CVS_Health_Careers",
+    "tenant": "cvshealth"
+  },
   "danaher|wd1|danaherjobs": {
     "company": "Danaher Corporation",
     "datacenter": "wd1",
@@ -513,6 +519,12 @@
     "company": "DraftKings",
     "datacenter": "wd1",
     "site": "Campus_Career_Portal",
+    "tenant": "draftkings"
+  },
+  "draftkings|wd1|draftkings": {
+    "company": "DraftKings",
+    "datacenter": "wd1",
+    "site": "draftkings",
     "tenant": "draftkings"
   },
   "draper|wd5|draper_careers": {
@@ -773,6 +785,12 @@
     "site": "highmark",
     "tenant": "highmarkhealth"
   },
+  "hitachi|wd1|hitachi": {
+    "company": "Hitachi",
+    "datacenter": "wd1",
+    "site": "hitachi",
+    "tenant": "hitachi"
+  },
   "hmhw|wd12|hmh_careers": {
     "company": "HMH",
     "datacenter": "wd12",
@@ -904,6 +922,12 @@
     "datacenter": "wd1",
     "site": "Search",
     "tenant": "kla"
+  },
+  "labcorp|wd1|external": {
+    "company": "LabCorp",
+    "datacenter": "wd1",
+    "site": "external",
+    "tenant": "labcorp"
   },
   "leidos|wd5|external": {
     "company": "Leidos",
