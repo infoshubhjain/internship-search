@@ -39,6 +39,11 @@
     "discovered_on": "2026-10-16",
     "jobs_at_discovery": 43
   },
+  "ashby:allen-control-systems": {
+    "company": "Allen Control Systems",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 30
+  },
   "ashby:amplify": {
     "company": "Amplify",
     "discovered_on": "2026-10-20",
@@ -199,6 +204,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 13
   },
+  "ashby:linkup": {
+    "company": "Linkup",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 12
+  },
   "ashby:megazone": {
     "company": "Megazone Cloud US",
     "discovered_on": "2026-09-12",
@@ -314,6 +324,11 @@
     "discovered_on": "2026-09-10",
     "jobs_at_discovery": 201
   },
+  "ashby:scout-ai": {
+    "company": "Scout AI",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 25
+  },
   "ashby:semgrep": {
     "company": "Semgrep",
     "discovered_on": "2026-09-09",
@@ -354,6 +369,16 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 100
   },
+  "ashby:tracelabs": {
+    "company": "Trace Labs",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 4
+  },
+  "ashby:veeda-ai": {
+    "company": "Veeda AI",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 8
+  },
   "ashby:vital-lyfe": {
     "company": "Vital Lyfe",
     "discovered_on": "2026-09-23",
@@ -382,6 +407,11 @@
   "greenhouse:advancedspace": {
     "company": "Advanced Space",
     "discovered_on": "2026-09-06",
+    "jobs_at_discovery": 17
+  },
+  "greenhouse:aidashinc": {
+    "company": "AiDASH",
+    "discovered_on": "2026-10-24",
     "jobs_at_discovery": 17
   },
   "greenhouse:amca": {
@@ -418,6 +448,11 @@
     "company": "Arc",
     "discovered_on": "2026-10-03",
     "jobs_at_discovery": 40
+  },
+  "greenhouse:arcesiumllc": {
+    "company": "Arcesium",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 51
   },
   "greenhouse:astranis": {
     "company": "Astranis",
@@ -684,6 +719,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 31
   },
+  "greenhouse:opensesame": {
+    "company": "OpenSesame",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 22
+  },
   "greenhouse:optiverprivate": {
     "company": "Optiver Private Jobs",
     "discovered_on": "2026-09-23",
@@ -779,6 +819,11 @@
     "discovered_on": "2026-09-23",
     "jobs_at_discovery": 43
   },
+  "greenhouse:skhynixmemorysolutionsamericainc": {
+    "company": "SK Hynix Memory Solution",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 31
+  },
   "greenhouse:solutions": {
     "company": "Cadence Solutions",
     "discovered_on": "2026-10-06",
@@ -804,6 +849,11 @@
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 164
   },
+  "greenhouse:systemstechnologyresearch": {
+    "company": "STR",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 140
+  },
   "greenhouse:tanium": {
     "company": "Tanium",
     "discovered_on": "2026-09-11",
@@ -813,6 +863,11 @@
     "company": "Tenet3",
     "discovered_on": "2026-10-10",
     "jobs_at_discovery": 7
+  },
+  "greenhouse:tenstorrentuniversity": {
+    "company": "Tenstorrent",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 12
   },
   "greenhouse:testnisc": {
     "company": "National Information Solutions Cooperative",
@@ -843,6 +898,11 @@
     "company": "Trace3",
     "discovered_on": "2026-10-22",
     "jobs_at_discovery": 87
+  },
+  "greenhouse:twitch": {
+    "company": "Twitch",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 58
   },
   "greenhouse:vardaspace": {
     "company": "Varda Space Industries",
@@ -904,6 +964,11 @@
     "discovered_on": "2026-10-03",
     "jobs_at_discovery": 301
   },
+  "lever:SimbeRobotics": {
+    "company": "Simbe Robotics",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 18
+  },
   "lever:acronaviation": {
     "company": "Acron Aviation",
     "discovered_on": "2026-10-18",
@@ -944,6 +1009,11 @@
     "discovered_on": "2026-10-18",
     "jobs_at_discovery": 21
   },
+  "lever:multiplylabs": {
+    "company": "Multiply Labs",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 12
+  },
   "lever:neighbor": {
     "company": "Neighbor",
     "discovered_on": "2026-09-06",
@@ -958,6 +1028,11 @@
     "company": "Patch My PC",
     "discovered_on": "2026-10-01",
     "jobs_at_discovery": 8
+  },
+  "lever:pattern": {
+    "company": "Pattern",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 98
   },
   "lever:rhombus-systems": {
     "company": "Rhombus",
@@ -983,6 +1058,11 @@
     "company": "SoloPulse",
     "discovered_on": "2026-10-09",
     "jobs_at_discovery": 10
+  },
+  "lever:tri": {
+    "company": "Toyota Research Institute",
+    "discovered_on": "2026-10-24",
+    "jobs_at_discovery": 11
   },
   "lever:viget": {
     "company": "Viget",

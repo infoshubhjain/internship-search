@@ -83,6 +83,12 @@
     "site": "external",
     "tenant": "amat"
   },
+  "ambarella|wd108|ambarella": {
+    "company": "Ambarella",
+    "datacenter": "wd108",
+    "site": "ambarella",
+    "tenant": "ambarella"
+  },
   "ameren|wd1|external": {
     "company": "Ameren",
     "datacenter": "wd1",
@@ -131,6 +137,12 @@
     "site": "autoowners",
     "tenant": "aoins"
   },
+  "aoins|wd5|concord": {
+    "company": "Auto-Owners Insurance",
+    "datacenter": "wd5",
+    "site": "concord",
+    "tenant": "aoins"
+  },
   "aptiv|wd5|aptiv_careers": {
     "company": "Aptiv",
     "datacenter": "wd5",
@@ -148,6 +160,12 @@
     "datacenter": "wd5",
     "site": "Campus_Careers",
     "tenant": "arrowstreetcapital"
+  },
+  "asml|wd3|asmlext1": {
+    "company": "ASML",
+    "datacenter": "wd3",
+    "site": "asmlext1",
+    "tenant": "asml"
   },
   "aspentech|wd5|aspentech": {
     "company": "AspenTech",
@@ -245,6 +263,12 @@
     "site": "BCI_Careers",
     "tenant": "bci"
   },
+  "biibhr|wd3|external": {
+    "company": "Biogen",
+    "datacenter": "wd3",
+    "site": "external",
+    "tenant": "biibhr"
+  },
   "blackstone|wd1|blackstone_campus_careers": {
     "company": "Blackstone",
     "datacenter": "wd1",
@@ -268,6 +292,12 @@
     "datacenter": "wd3",
     "site": "privileged",
     "tenant": "bmo"
+  },
+  "bnl|wd1|externa": {
+    "company": "Brookhaven Lab",
+    "datacenter": "wd1",
+    "site": "externa",
+    "tenant": "bnl"
   },
   "boeing|wd1|external_careers": {
     "company": "Boeing",
@@ -394,6 +424,12 @@
     "datacenter": "wd5",
     "site": "Cisco_Careers",
     "tenant": "cisco"
+  },
+  "citi|wd5|2": {
+    "company": "Citi",
+    "datacenter": "wd5",
+    "site": "2",
+    "tenant": "citi"
   },
   "cmegroup|wd1|cme_careers": {
     "company": "CME Group",
@@ -641,6 +677,12 @@
     "site": "external",
     "tenant": "freddiemac"
   },
+  "freight|wd108|fxf_external_career_site": {
+    "company": "FedEx Freight",
+    "datacenter": "wd108",
+    "site": "FXF_External_Career_Site",
+    "tenant": "freight"
+  },
   "fticonsulting|wd108|fticonsultingcareers": {
     "company": "FTI Consulting",
     "datacenter": "wd108",
@@ -856,6 +898,12 @@
     "datacenter": "wd1",
     "site": "inmarcareers",
     "tenant": "inmar"
+  },
+  "insperity|wd12|nsp": {
+    "company": "Insperity",
+    "datacenter": "wd12",
+    "site": "NSP",
+    "tenant": "insperity"
   },
   "insulet|wd5|insuletcareers": {
     "company": "Insulet",
@@ -1132,6 +1180,12 @@
     "datacenter": "wd5",
     "site": "searchjobs",
     "tenant": "msd"
+  },
+  "mtb|wd5|campus": {
+    "company": "M&T Bank",
+    "datacenter": "wd5",
+    "site": "Campus",
+    "tenant": "mtb"
   },
   "my7elevenhr|wd12|careers": {
     "company": "7-Eleven",
@@ -1499,11 +1553,23 @@
     "site": "SPGI_Careers",
     "tenant": "spgi"
   },
+  "spscommerce|wd108|sps": {
+    "company": "SPS Commerce",
+    "datacenter": "wd108",
+    "site": "SPS",
+    "tenant": "spscommerce"
+  },
   "stryker|wd1|strykercareers": {
     "company": "Stryker",
     "datacenter": "wd1",
     "site": "strykercareers",
     "tenant": "stryker"
+  },
+  "sunlife|wd3|campus": {
+    "company": "Sun Life",
+    "datacenter": "wd3",
+    "site": "Campus",
+    "tenant": "sunlife"
   },
   "swa|wd1|external": {
     "company": "Swa",
@@ -1511,11 +1577,23 @@
     "site": "external",
     "tenant": "swa"
   },
+  "synchronyfinancial|wd5|university": {
+    "company": "Synchrony Financial",
+    "datacenter": "wd5",
+    "site": "University",
+    "tenant": "synchronyfinancial"
+  },
   "target|wd5|targetcareers": {
     "company": "Target",
     "datacenter": "wd5",
     "site": "targetcareers",
     "tenant": "target"
+  },
+  "taylor|wd1|external": {
+    "company": "Taylor",
+    "datacenter": "wd1",
+    "site": "external",
+    "tenant": "taylor"
   },
   "tcenergy|wd3|career_site_tc": {
     "company": "TC Energy",
@@ -1558,6 +1636,12 @@
     "datacenter": "wd5",
     "site": "careers",
     "tenant": "theocc"
+  },
+  "thermofisher|wd5|thermofishercareers": {
+    "company": "Thermo Fisher Scientific",
+    "datacenter": "wd5",
+    "site": "ThermoFisherCareers",
+    "tenant": "thermofisher"
   },
   "thrivent|wd5|external": {
     "company": "Thrivent",
