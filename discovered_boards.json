@@ -69,6 +69,11 @@
     "discovered_on": "2026-10-17",
     "jobs_at_discovery": 35
   },
+  "ashby:aurora-operations-inc": {
+    "company": "Aurora Innovation",
+    "discovered_on": "2026-10-27",
+    "jobs_at_discovery": 107
+  },
   "ashby:bedrock-robotics": {
     "company": "Bedrock Robotics Inc",
     "discovered_on": "2026-09-11",
@@ -168,6 +173,11 @@
     "company": "Heron Power",
     "discovered_on": "2026-10-21",
     "jobs_at_discovery": 51
+  },
+  "ashby:hiya": {
+    "company": "Hiya",
+    "discovered_on": "2026-10-27",
+    "jobs_at_discovery": 27
   },
   "ashby:homebase": {
     "company": "Homebase",
@@ -618,6 +628,11 @@
     "company": "Graviton",
     "discovered_on": "2026-10-21",
     "jobs_at_discovery": 24
+  },
+  "greenhouse:hivefinancialsystems": {
+    "company": "Hive Financial Systems",
+    "discovered_on": "2026-10-27",
+    "jobs_at_discovery": 5
   },
   "greenhouse:horizonindustrieslimited": {
     "company": "Horizon Industries",

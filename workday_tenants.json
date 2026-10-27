@@ -443,6 +443,12 @@
     "site": "External_Career_Site",
     "tenant": "cognex"
   },
+  "cohesity|wd5|cohesity_careers": {
+    "company": "Cohesity",
+    "datacenter": "wd5",
+    "site": "Cohesity_Careers",
+    "tenant": "cohesity"
+  },
   "commercebank|wd1|commercejobs": {
     "company": "Commerce Bank",
     "datacenter": "wd1",
@@ -1354,6 +1360,12 @@
     "datacenter": "wd1",
     "site": "poet",
     "tenant": "poet"
+  },
+  "ptc|wd1|ptc": {
+    "company": "PTC",
+    "datacenter": "wd1",
+    "site": "ptc",
+    "tenant": "ptc"
   },
   "pwc|wd3|us_entry_level_careers": {
     "company": "PricewaterhouseCoopers (PwC)",
