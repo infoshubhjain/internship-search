@@ -383,6 +383,12 @@
     "site": "Charter_Careers",
     "tenant": "chartermfg"
   },
+  "chathamfinancial|wd501|chathamfinancial": {
+    "company": "chathamfinancial",
+    "datacenter": "wd501",
+    "site": "chathamfinancial",
+    "tenant": "chathamfinancial"
+  },
   "chrobinson|wd5|chrobinson": {
     "company": "Chrobinson",
     "datacenter": "wd5",
@@ -694,6 +700,12 @@
     "datacenter": "wd108",
     "site": "FTIConsultingCareers",
     "tenant": "fticonsulting"
+  },
+  "gaig|wd1|gaig_external": {
+    "company": "Gaig",
+    "datacenter": "wd1",
+    "site": "gaig_external",
+    "tenant": "gaig"
   },
   "gartner|wd5|ext": {
     "company": "Gartner",
@@ -1643,6 +1655,12 @@
     "site": "careers_external",
     "tenant": "thehartford"
   },
+  "thehartford|wd5|careers_restricted": {
+    "company": "The Hartford",
+    "datacenter": "wd5",
+    "site": "careers_restricted",
+    "tenant": "thehartford"
+  },
   "theocc|wd5|careers": {
     "company": "OCC",
     "datacenter": "wd5",
@@ -1780,6 +1798,12 @@
     "datacenter": "wd5",
     "site": "visa_early_careers",
     "tenant": "visa"
+  },
+  "vsp|wd1|vspvisioncareers": {
+    "company": "VSP Vision",
+    "datacenter": "wd1",
+    "site": "vspvisioncareers",
+    "tenant": "vsp"
   },
   "walmart|wd504|walmartexternal": {
     "company": "Walmart",

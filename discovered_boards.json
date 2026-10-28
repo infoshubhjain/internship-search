@@ -119,6 +119,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 92
   },
+  "ashby:drivewealth": {
+    "company": "DriveWealth",
+    "discovered_on": "2026-10-28",
+    "jobs_at_discovery": 25
+  },
   "ashby:ellipsislabs": {
     "company": "Ellipsis Labs",
     "discovered_on": "2026-09-06",
@@ -133,6 +138,11 @@
     "company": "Exa",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 55
+  },
+  "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a": {
+    "company": "Shield AI",
+    "discovered_on": "2026-10-28",
+    "jobs_at_discovery": 684
   },
   "ashby:flint": {
     "company": "Flint",
@@ -1003,6 +1013,11 @@
     "company": "Commonwealth Fusion Systems",
     "discovered_on": "2026-10-16",
     "jobs_at_discovery": 129
+  },
+  "lever:futo-org": {
+    "company": "FUTO",
+    "discovered_on": "2026-10-28",
+    "jobs_at_discovery": 2
   },
   "lever:hermeus": {
     "company": "Hermeus",
