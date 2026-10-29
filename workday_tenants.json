@@ -11,6 +11,12 @@
     "site": "abcampuscareers",
     "tenant": "abglobal"
   },
+  "acehardware|wd1|external": {
+    "company": "Ace Hardware",
+    "datacenter": "wd1",
+    "site": "External",
+    "tenant": "acehardware"
+  },
   "adobe|wd5|external_experienced": {
     "company": "Adobe",
     "datacenter": "wd5",
@@ -887,6 +893,18 @@
     "site": "jobsathpe",
     "tenant": "hpe"
   },
+  "hp|wd5|externalcareersite": {
+    "company": "HP Inc.",
+    "datacenter": "wd5",
+    "site": "externalcareersite",
+    "tenant": "hp"
+  },
+  "hp|wd5|exteu-ac-careersite": {
+    "company": "HP Inc.",
+    "datacenter": "wd5",
+    "site": "EXTEU-AC-CareerSite",
+    "tenant": "hp"
+  },
   "humana|wd5|humana_external_career_site": {
     "company": "Humana",
     "datacenter": "wd5",
@@ -1421,6 +1439,12 @@
     "site": "frs",
     "tenant": "rb"
   },
+  "regeneron|wd1|careers": {
+    "company": "Regeneron Pharmaceuticals",
+    "datacenter": "wd1",
+    "site": "Careers",
+    "tenant": "regeneron"
+  },
   "regions|wd5|regions_careers": {
     "company": "Regions Bank",
     "datacenter": "wd5",
@@ -1546,6 +1570,12 @@
     "datacenter": "wd1",
     "site": "snc_external_career_site",
     "tenant": "snc"
+  },
+  "sonos|wd1|sonos": {
+    "company": "Sonos",
+    "datacenter": "wd1",
+    "site": "Sonos",
+    "tenant": "sonos"
   },
   "sonyglobal|wd1|sonyglobalcareers": {
     "company": "Sony",
