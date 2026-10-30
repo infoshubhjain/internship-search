@@ -159,6 +159,11 @@
     "discovered_on": "2026-09-25",
     "jobs_at_discovery": 13
   },
+  "ashby:geniusai": {
+    "company": "Genius AI",
+    "discovered_on": "2026-10-30",
+    "jobs_at_discovery": 18
+  },
   "ashby:goodlord": {
     "company": "Goodlord",
     "discovered_on": "2026-10-13",
@@ -263,6 +268,11 @@
     "company": "Northwood Space",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 84
+  },
+  "ashby:olix": {
+    "company": "OLIX",
+    "discovered_on": "2026-10-30",
+    "jobs_at_discovery": 21
   },
   "ashby:oneapp": {
     "company": "ONE Finance",
@@ -734,6 +744,11 @@
     "discovered_on": "2026-09-15",
     "jobs_at_discovery": 83
   },
+  "greenhouse:ncinoearlytalent": {
+    "company": "Ncino",
+    "discovered_on": "2026-10-30",
+    "jobs_at_discovery": 1
+  },
   "greenhouse:neuralink": {
     "company": "Neuralink",
     "discovered_on": "2026-09-06",
@@ -748,6 +763,11 @@
     "company": "Northmarq",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 31
+  },
+  "greenhouse:oneethos": {
+    "company": "OneEthos",
+    "discovered_on": "2026-10-30",
+    "jobs_at_discovery": 4
   },
   "greenhouse:opensesame": {
     "company": "OpenSesame",
@@ -783,6 +803,11 @@
     "company": "Everpure",
     "discovered_on": "2026-10-07",
     "jobs_at_discovery": 353
+  },
+  "greenhouse:quberesearchandtechnologies": {
+    "company": "Qube Research & Technologies",
+    "discovered_on": "2026-10-30",
+    "jobs_at_discovery": 195
   },
   "greenhouse:radixuniversity": {
     "company": "Radix Trading",

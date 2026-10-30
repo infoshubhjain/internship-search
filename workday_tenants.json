@@ -995,6 +995,12 @@
     "site": "jllcareers",
     "tenant": "jll"
   },
+  "jmfamily|wd1|jmfamily_external": {
+    "company": "JM Family",
+    "datacenter": "wd1",
+    "site": "jmfamily_external",
+    "tenant": "jmfamily"
+  },
   "kainos|wd3|kainos": {
     "company": "Kainos",
     "datacenter": "wd3",
