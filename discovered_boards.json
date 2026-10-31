@@ -79,6 +79,11 @@
     "discovered_on": "2026-09-11",
     "jobs_at_discovery": 39
   },
+  "ashby:brainco": {
+    "company": "Brain Co.",
+    "discovered_on": "2026-10-31",
+    "jobs_at_discovery": 49
+  },
   "ashby:circleback": {
     "company": "Circleback",
     "discovered_on": "2026-09-06",
@@ -148,6 +153,11 @@
     "company": "Flint",
     "discovered_on": "2026-09-26",
     "jobs_at_discovery": 6
+  },
+  "ashby:gearset": {
+    "company": "Gearset",
+    "discovered_on": "2026-10-31",
+    "jobs_at_discovery": 12
   },
   "ashby:gecko-robotics": {
     "company": "Gecko Robotics",
@@ -509,6 +519,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 2
   },
+  "greenhouse:cambridgeconsultantslimited": {
+    "company": "Cambridge Consultants",
+    "discovered_on": "2026-10-31",
+    "jobs_at_discovery": 88
+  },
   "greenhouse:capstoneinvestmentadvisors": {
     "company": "Capstone Investment Advisors",
     "discovered_on": "2026-10-10",
@@ -593,6 +608,11 @@
     "company": "Eulerity",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 17
+  },
+  "greenhouse:farmersmutualhailinsurancecompany": {
+    "company": "Farmers Mutual Hail",
+    "discovered_on": "2026-10-31",
+    "jobs_at_discovery": 23
   },
   "greenhouse:figureai": {
     "company": "Figure",
@@ -798,6 +818,11 @@
     "company": "Cubist Systematic Strategies",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 231
+  },
+  "greenhouse:pretiuminternships2027": {
+    "company": "Pretium",
+    "discovered_on": "2026-10-31",
+    "jobs_at_discovery": 11
   },
   "greenhouse:purestorage": {
     "company": "Everpure",
