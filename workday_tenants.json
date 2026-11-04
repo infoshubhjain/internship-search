@@ -155,6 +155,12 @@
     "site": "aptiv_careers",
     "tenant": "aptiv"
   },
+  "archgroup|wd1|careers": {
+    "company": "Arch Capital Group",
+    "datacenter": "wd1",
+    "site": "careers",
+    "tenant": "archgroup"
+  },
   "ardian|wd103|ardiancareers": {
     "company": "Ardian",
     "datacenter": "wd103",
