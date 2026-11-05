@@ -1361,6 +1361,12 @@
     "site": "Search",
     "tenant": "parsons"
   },
+  "paypal|wd1|jobs": {
+    "company": "Paypal",
+    "datacenter": "wd1",
+    "site": "jobs",
+    "tenant": "paypal"
+  },
   "pg|wd5|1000": {
     "company": "Procter & Gamble",
     "datacenter": "wd5",
