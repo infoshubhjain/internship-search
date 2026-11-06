@@ -515,6 +515,12 @@
     "site": "cox_external_career_site_1",
     "tenant": "cox"
   },
+  "crowdstrike|wd5|crowdstrikecareers": {
+    "company": "CrowdStrike",
+    "datacenter": "wd5",
+    "site": "crowdstrikecareers",
+    "tenant": "crowdstrike"
+  },
   "cvshealth|wd1|cvs_health_careers": {
     "company": "CVS Health",
     "datacenter": "wd1",

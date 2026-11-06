@@ -749,6 +749,11 @@
     "discovered_on": "2026-10-21",
     "jobs_at_discovery": 79
   },
+  "greenhouse:lumbermens": {
+    "company": "Lumbermen's",
+    "discovered_on": "2026-11-06",
+    "jobs_at_discovery": 27
+  },
   "greenhouse:mavensecuritiesholdingltd": {
     "company": "Maven Securities",
     "discovered_on": "2026-09-06",
@@ -853,6 +858,11 @@
     "company": "Radix Trading",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 8
+  },
+  "greenhouse:raft": {
+    "company": "Raft Company Website",
+    "discovered_on": "2026-11-06",
+    "jobs_at_discovery": 30
   },
   "greenhouse:relaypro": {
     "company": "Relay",
