@@ -1061,6 +1061,12 @@
     "site": "LiveRampCareers",
     "tenant": "liveramp"
   },
+  "llbean|wd1|llbean_careers": {
+    "company": "Llbean",
+    "datacenter": "wd1",
+    "site": "llbean_careers",
+    "tenant": "llbean"
+  },
   "lnw|wd5|lightwonderexternalcareers": {
     "company": "Light & Wonder",
     "datacenter": "wd5",

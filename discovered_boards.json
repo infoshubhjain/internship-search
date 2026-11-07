@@ -84,6 +84,11 @@
     "discovered_on": "2026-10-31",
     "jobs_at_discovery": 49
   },
+  "ashby:category-labs": {
+    "company": "Category Labs",
+    "discovered_on": "2026-11-07",
+    "jobs_at_discovery": 1
+  },
   "ashby:circleback": {
     "company": "Circleback",
     "discovered_on": "2026-09-06",
@@ -564,6 +569,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 6
   },
+  "greenhouse:deeplocal": {
+    "company": "Deeplocal",
+    "discovered_on": "2026-11-07",
+    "jobs_at_discovery": 4
+  },
   "greenhouse:devtechnology": {
     "company": "Dev Technology",
     "discovered_on": "2026-09-06",
@@ -978,6 +988,11 @@
     "company": "National Information Solutions Cooperative",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 22
+  },
+  "greenhouse:thenewyorktimes": {
+    "company": "The New York Times",
+    "discovered_on": "2026-11-07",
+    "jobs_at_discovery": 170
   },
   "greenhouse:thenuclearcompany": {
     "company": "The Nuclear Company",
