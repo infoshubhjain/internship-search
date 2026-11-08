@@ -19,6 +19,11 @@
     "discovered_on": "2026-09-30",
     "jobs_at_discovery": 5
   },
+  "ashby:Perplexity": {
+    "company": "Perplexity",
+    "discovered_on": "2026-11-08",
+    "jobs_at_discovery": 137
+  },
   "ashby:Sierra": {
     "company": "Sierra",
     "discovered_on": "2026-09-06",
