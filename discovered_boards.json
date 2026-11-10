@@ -154,6 +154,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 55
   },
+  "ashby:f40d14d9-07f4-403d-802b-37453deccf0a": {
+    "company": "Klaviyo",
+    "discovered_on": "2026-11-10",
+    "jobs_at_discovery": 151
+  },
   "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a": {
     "company": "Shield AI",
     "discovered_on": "2026-10-28",
@@ -354,6 +359,11 @@
     "discovered_on": "2026-10-21",
     "jobs_at_discovery": 11
   },
+  "ashby:regent": {
+    "company": "REGENT",
+    "discovered_on": "2026-11-10",
+    "jobs_at_discovery": 50
+  },
   "ashby:revel": {
     "company": "Revel",
     "discovered_on": "2026-09-09",
@@ -423,6 +433,11 @@
     "company": "Trace Labs",
     "discovered_on": "2026-10-24",
     "jobs_at_discovery": 4
+  },
+  "ashby:uipath": {
+    "company": "UiPath",
+    "discovered_on": "2026-11-10",
+    "jobs_at_discovery": 101
   },
   "ashby:veeda-ai": {
     "company": "Veeda AI",
@@ -924,6 +939,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 29
   },
+  "greenhouse:scoutmotors": {
+    "company": "Scout Motors",
+    "discovered_on": "2026-11-10",
+    "jobs_at_discovery": 206
+  },
   "greenhouse:sigmacomputing": {
     "company": "Sigma Computing",
     "discovered_on": "2026-10-07",
@@ -1163,6 +1183,11 @@
     "company": "Pattern",
     "discovered_on": "2026-10-24",
     "jobs_at_discovery": 98
+  },
+  "lever:pivotal": {
+    "company": "Pivotal",
+    "discovered_on": "2026-11-10",
+    "jobs_at_discovery": 36
   },
   "lever:rhombus-systems": {
     "company": "Rhombus",
