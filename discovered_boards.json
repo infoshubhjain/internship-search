@@ -169,6 +169,11 @@
     "discovered_on": "2026-09-26",
     "jobs_at_discovery": 6
   },
+  "ashby:formulary": {
+    "company": "Formulary Financial",
+    "discovered_on": "2026-11-11",
+    "jobs_at_discovery": 7
+  },
   "ashby:gearset": {
     "company": "Gearset",
     "discovered_on": "2026-10-31",
@@ -394,6 +399,11 @@
     "discovered_on": "2026-09-09",
     "jobs_at_discovery": 9
   },
+  "ashby:shield": {
+    "company": "Shield AI",
+    "discovered_on": "2026-11-11",
+    "jobs_at_discovery": 707
+  },
   "ashby:skydio": {
     "company": "Skydio",
     "discovered_on": "2026-09-06",
@@ -468,6 +478,11 @@
     "company": "Zip",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 122
+  },
+  "greenhouse:addepar1": {
+    "company": "Addepar",
+    "discovered_on": "2026-11-11",
+    "jobs_at_discovery": 116
   },
   "greenhouse:advancedspace": {
     "company": "Advanced Space",
@@ -1158,6 +1173,11 @@
     "company": "Kensington",
     "discovered_on": "2026-10-18",
     "jobs_at_discovery": 21
+  },
+  "lever:matillion": {
+    "company": "Matillion",
+    "discovered_on": "2026-11-11",
+    "jobs_at_discovery": 19
   },
   "lever:multiplylabs": {
     "company": "Multiply Labs",

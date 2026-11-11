@@ -1,13 +1,13 @@
 # International Summer 2027 Internships
 
-_Generated 2026-11-10 · 390 live opportunities from 118 company boards_
+_Generated 2026-11-11 · 399 live opportunities from 127 company boards_
 
 Candidate: UIUC CS sophomore, graduating May 2028, Indian citizen on F-1 in the US.
 Scope: paid Summer 2027 internships outside the United States.
 
 **How to read this.** Visa category A means the employer states it supports international applicants; B means it says nothing either way, which is the usual case and worth a direct question; C means local work rights are required. Scores are out of 100 and weight role fit, international eligibility, pay, company, candidate fit and location.
 
-## 🔥 Apply Immediately  (14)
+## 🔥 Apply Immediately  (16)
 
 ### Jump Trading — Campus UI Software Engineer (Intern)
 
@@ -104,6 +104,26 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://abb.wd3.myworkdayjobs.com/external_career_page/job/Shanghai-Shanghai-China/Vision-Intern_JR00047172
 
+### GE HealthCare — Software Intern 🆕
+
+- **Location** Bengaluru, India  ·  **Category** Software Engineering  ·  **Score** 76/100
+- **Visa** A - Clearly international-friendly — offers relocation support
+- **Route** Home country - no visa needed
+- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in India; employer states international support
+- **Barriers** compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Bengaluru/Software-Intern_R4041235-1
+
+### GE HealthCare — Software Intern 🆕
+
+- **Location** Bengaluru, India  ·  **Category** Software Engineering  ·  **Score** 76/100
+- **Visa** A - Clearly international-friendly — offers relocation support
+- **Route** Home country - no visa needed
+- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in India; employer states international support
+- **Barriers** compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Bengaluru/Software-Intern_R4041234-1
+
 ### BP — Summer Internship – Subsurface Technology - Geology PhD - UK
 
 - **Location** United Kingdom - Sunbury, United Kingdom  ·  **Category** General Technology  ·  **Score** 70/100
@@ -144,7 +164,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** compensation not publicly disclosed
 - **Apply** https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Winnipeg-Manitoba/Intern--Engineering_JR-11004
 
-## 👀 Investigate Further  (314)
+## 👀 Investigate Further  (319)
 
 ### IMC — Deep Learning Research Intern - 2027 - Sydney
 
@@ -862,7 +882,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://job-boards.greenhouse.io/virtu/jobs/5513756002
 
-### Altera — Software Engineer -  Intern 🆕
+### Altera — Software Engineer -  Intern
 
 - **Location** Toronto, Canada  ·  **Category** Software Engineering  ·  **Score** 75/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -871,6 +891,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Software Engineering role in Canada; visa route exists (Co-op / internship work permit); paid
 - **Barriers** work authorization unstated - confirm before investing time; not confirmed as a Summer 2027 posting
 - **Apply** https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03414
+
+### Altera — Software Engineer - Factory Apps - Intern
+
+- **Location** Toronto, Canada  ·  **Category** Software Engineering  ·  **Score** 75/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Co-op / internship work permit; often needs the placement to be degree-required
+- **Paid** Yes  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in Canada; visa route exists (Co-op / internship work permit); paid
+- **Barriers** work authorization unstated - confirm before investing time; not confirmed as a Summer 2027 posting
+- **Apply** https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer---Factory-Apps---Intern_R03384
 
 ### CIBC — Advanced Analytics and AI Co-op
 
@@ -1062,6 +1092,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://manulife.wd3.myworkdayjobs.com/MFCJH_adminJobs/job/Waterloo-Ontario/Summer-Intern-2027---Software-Engineering--12-Months-_JR26091053-1
 
+### Matillion — Computer Science Industrial Placement – Software Engineering with AI 🆕
+
+- **Location** Manchester, United Kingdom  ·  **Category** Machine Learning / AI  ·  **Score** 75/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Government Authorised Exchange (Tier 5 / GAE) covers student internships
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Machine Learning / AI role in United Kingdom; visa route exists (Government Authorised Exchange (Tier 5 / GAE) covers student internships)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://jobs.lever.co/matillion/72564dd8-fed7-4fc5-9b16-8c7a2cfd3f22
+
 ### McKesson — Continuous Improvement & Engineering Intern - Winter 2027
 
 - **Location** CAN, Canada  ·  **Category** Software Engineering  ·  **Score** 75/100
@@ -1081,6 +1121,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Software Engineering role in Canada; visa route exists (Co-op / internship work permit); paid
 - **Barriers** work authorization unstated - confirm before investing time; not confirmed as a Summer 2027 posting
 - **Apply** https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/CAN-ON-Trenton/Continuous-Improvement---Engineering-Intern---Winter-2027_JR0156067-1
+
+### NVIDIA — GPU Compiler Intern 🆕
+
+- **Location** Switzerland  ·  **Category** Software Engineering  ·  **Score** 75/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Trainee permit under bilateral trainee agreements
+- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in Switzerland; visa route exists (Trainee permit under bilateral trainee agreements)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/GPU-Compiler-Intern_JR2029779
 
 ### NVIDIA — Research Intern, Robotics - 2027
 
@@ -1162,16 +1212,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://job-boards.greenhouse.io/virtu/jobs/8551566002
 
-### Altera — Software Engineer - Factory Apps - Intern 🆕
-
-- **Location** Toronto, Canada  ·  **Category** Software Engineering  ·  **Score** 74/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Co-op / internship work permit; often needs the placement to be degree-required
-- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** Software Engineering role in Canada; visa route exists (Co-op / internship work permit)
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
-- **Apply** https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer---Factory-Apps---Intern_R03384
-
 ### Graviton Research Capital LLP — Quantitative Researcher - 2027 Summer Internship 
 
 - **Location** Amsterdam, Netherlands  ·  **Category** Quantitative Technology  ·  **Score** 74/100
@@ -1182,7 +1222,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8899673002
 
-### Kensington — BI/Data Analyst Intern 🆕
+### Kensington — BI/Data Analyst Intern
 
 - **Location** Toronto, Canada  ·  **Category** Data Science  ·  **Score** 74/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1487,24 +1527,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--CUDA-Test-Development---2027_JR2023645
 
-### NVIDIA — Software Engineering Intern, Test Development - 2027
-
-- **Location** China  ·  **Category** Software Engineering  ·  **Score** 73/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open
-- **Why it fits** Software Engineering role in China; explicitly Summer 2027
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
-- **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023649-1
-
-### NVIDIA — Test Development Software Engineering Intern - 2027
-
-- **Location** China  ·  **Category** Software Engineering  ·  **Score** 73/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open
-- **Why it fits** Software Engineering role in China; explicitly Summer 2027
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
-- **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern---2027_JR2023632
-
 ### Perplexity — Internship - Machine Learning Research Engineer
 
 - **Location** Berlin, Germany  ·  **Category** Machine Learning / AI  ·  **Score** 73/100
@@ -1573,6 +1595,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Machine Learning / AI role in Singapore; visa route exists (Training Employment Pass or Work Holiday Pass)
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/XMLNAME-2H-University-Intern--AI-Driven-Process-Intern--Advanced-Process-Control-_JR-2502691
+
+### Hitachi — DevOps Analyst Intern 🆕
+
+- **Location** Toronto, Canada  ·  **Category** Cloud / DevOps / Infrastructure  ·  **Score** 72/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Co-op / internship work permit; often needs the placement to be degree-required
+- **Paid** Yes  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Cloud / DevOps / Infrastructure role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time
+- **Apply** https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/DevOps-Analyst-Intern_R0145523
 
 ### Manulife Financial — AI Product Innovation Intern
 
@@ -1714,15 +1746,15 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://job-boards.greenhouse.io/dvtrading/jobs/4736603005
 
-### General Motors — Java Software Engineer Intern
+### DraftKings — Software Engineering Intern (Summer 2027) 🆕
 
-- **Location** Dublin, Ireland  ·  **Category** Software Engineering  ·  **Score** 71/100
+- **Location** London, United Kingdom  ·  **Category** Software Engineering  ·  **Score** 71/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Atypical Working Scheme covers short internships for non-EEA students
-- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** Software Engineering role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
-- **Apply** https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Dublin-Ireland/Java-Software-Engineer-Intern_JR-202619011-1
+- **Route** Government Authorised Exchange (Tier 5 / GAE) covers student internships
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Software Engineering role in United Kingdom; visa route exists (Government Authorised Exchange (Tier 5 / GAE) covers student internships); explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
+- **Apply** https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/London-UK/Software-Engineering-Intern--Summer-2027-_JR15150
 
 ### Jain Global — Quant Research Intern (Summer 2027 – London)
 
@@ -1743,6 +1775,36 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Software Engineering role in United Kingdom; visa route exists (Government Authorised Exchange (Tier 5 / GAE) covers student internships); explicitly Summer 2027
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/London-United-Kingdom/Intern---Software-Engineer_R0124267
+
+### Salesforce — Fin Engineering Intern 🆕
+
+- **Location** Ireland - Dublin, Ireland  ·  **Category** Software Engineering  ·  **Score** 71/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Fin-Engineering-Intern_JR367686
+
+### Salesforce — Fin Engineering Intern 🆕
+
+- **Location** Ireland - Dublin, Ireland  ·  **Category** Software Engineering  ·  **Score** 71/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Fin-Engineering-Intern_JR367685
+
+### Salesforce — Engineering Intern 🆕
+
+- **Location** United Kingdom - London, United Kingdom  ·  **Category** Software Engineering  ·  **Score** 71/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Government Authorised Exchange (Tier 5 / GAE) covers student internships
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in United Kingdom; visa route exists (Government Authorised Exchange (Tier 5 / GAE) covers student internships)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/United-Kingdom---London/Engineering-Intern_JR367683
 
 ### Schweitzer Engineering Laboratories — Application Engineering Intern
 
@@ -1814,7 +1876,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://visa.wd5.myworkdayjobs.com/visa_early_careers/job/GB---Belfast-United-Kingdom/Software-Engineer-Placement-Year_REF088379W
 
-### ASML — Computer Science | Artificial Intelligence internship: ai-assisted diagnostics platform 🆕
+### ASML — Computer Science | Artificial Intelligence internship: ai-assisted diagnostics platform
 
 - **Location** Veldhoven, Netherlands  ·  **Category** Machine Learning / AI  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1824,7 +1886,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
 - **Apply** https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Computer-Science---Artificial-Intelligence-internship--ai-assisted-diagnostics-platform_J-00355796
 
-### ASML — AI Internship: Intelligent Reticle Health Monitoring Using Reduced Measurement Data 🆕
+### ASML — AI Internship: Intelligent Reticle Health Monitoring Using Reduced Measurement Data
 
 - **Location** Veldhoven, Netherlands  ·  **Category** Machine Learning / AI  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -1843,6 +1905,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Data Science role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://bmo.wd3.myworkdayjobs.com/campus/job/Toronto-ON-CAN/Quantitative-Analyst--Summer-2027--Co-op-Internship----4-Months_R260031097-1
+
+### Bmo — Data Analyst, Winter 2027 (Co-o/Internship) - 8 months 🆕
+
+- **Location** Toronto, Canada  ·  **Category** Data Science  ·  **Score** 70/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Co-op / internship work permit; often needs the placement to be degree-required
+- **Paid** Yes  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Data Science role in Canada; visa route exists (Co-op / internship work permit); paid; explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time
+- **Apply** https://bmo.wd3.myworkdayjobs.com/privileged/job/Toronto-ON-CAN/Data-Analyst--Winter-2027--Co-o-Internship----8-months_R260026973
 
 ### Ciena — Services Business Intelligence & Analytics Intern
 
@@ -1863,7 +1935,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://job-boards.greenhouse.io/engineersgate/jobs/7946542
 
-### HP Inc. — AI & Automation Intern 🆕
+### HP Inc. — AI & Automation Intern
 
 - **Location** Sant Cugat del Valles, Spain  ·  **Category** Machine Learning / AI  ·  **Score** 70/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -2067,6 +2139,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Machine Learning / AI role in Canada; visa route exists (Co-op / internship work permit); explicitly Summer 2027
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Capital-Markets--Global-Equities--AI-Engineer--16-Months--Co-op-_R-0000187401-1
+
+### SOTI — Software Developer Intern (May 2027 - 12 months) 🆕
+
+- **Location** Mississauga, Canada  ·  **Category** Software Engineering  ·  **Score** 70/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Co-op / internship work permit; often needs the placement to be degree-required
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Software Engineering role in Canada; visa route exists (Co-op / internship work permit); explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
+- **Apply** https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027---12-months-_R10677
 
 ### SOTI — Software Developer Intern (May 2027 12 Months)
 
@@ -2298,16 +2380,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862
 
-### ASML — Chemical | Mechanical Engineering | Resilience Engineering internship: critical gas infrastructure 🆕
-
-- **Location** Veldhoven, Netherlands  ·  **Category** Cloud / DevOps / Infrastructure  ·  **Score** 67/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Intern residence permit sponsored by a recognised employer
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** Cloud / DevOps / Infrastructure role in Netherlands; visa route exists (Intern residence permit sponsored by a recognised employer)
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
-- **Apply** https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Chemical-Engineering---Process-Engineering-internship--bulk-gas-continuity_J-00355669
-
 ### Adobe — 2027 Intern- Software Engineer
 
 - **Location** Basel, Switzerland  ·  **Category** Software Engineering  ·  **Score** 67/100
@@ -2385,16 +2457,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://sunlife.wd3.myworkdayjobs.com/Campus/job/Waterloo-Ontario/Student--Associate-DevOps-Engineer--Winter-2027-_JR00127798
 
-### Tencent — Data Science Intern 🆕
-
-- **Location** Singapore-CapitaSky, Singapore  ·  **Category** Data Science  ·  **Score** 67/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Training Employment Pass or Work Holiday Pass
-- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** Data Science role in Singapore; visa route exists (Training Employment Pass or Work Holiday Pass)
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
-- **Apply** https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Data-Science-Intern_R108367
-
 ### Tencent — SRE Intern
 
 - **Location** Netherlands-Amsterdam, Netherlands  ·  **Category** Cloud / DevOps / Infrastructure  ·  **Score** 67/100
@@ -2445,6 +2507,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time
 - **Apply** https://ciena.wd5.myworkdayjobs.com/careers/job/Ottawa/Hardware-Engineering-Co-op--Winter-2027-_R032054
 
+### Fmr — Fidelity Strategic Advisors Inc, Investment Trading Research Internship
+
+- **Location** Dublin, Ireland  ·  **Category** Research  ·  **Score** 66/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Atypical Working Scheme covers short internships for non-EEA students
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Research role in Ireland; visa route exists (Atypical Working Scheme covers short internships for non-EEA students); explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
+- **Apply** https://fmr.wd1.myworkdayjobs.com/fidelitycareers/job/Dublin-Ireland/Intern_2136759-1
+
 ### Graviton Research Capital LLP — Quantitative Researcher PhD - 2027 Internship 
 
 - **Location** Amsterdam, Netherlands  ·  **Category** Quantitative Technology  ·  **Score** 66/100
@@ -2474,26 +2546,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Data Science role in Netherlands; visa route exists (Intern residence permit sponsored by a recognised employer)
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Statistical-method---Internship--Bayesian-methods-for-system-level-qualification_J-00356749
-
-### ASML — Computer Science | Data Science internship: failure pattern analysis
-
-- **Location** Veldhoven, Netherlands  ·  **Category** Data Science  ·  **Score** 65/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Intern residence permit sponsored by a recognised employer
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open
-- **Why it fits** Data Science role in Netherlands; visa route exists (Intern residence permit sponsored by a recognised employer); explicitly Summer 2027
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
-- **Apply** https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Computer-Science---Data-Science-internship--failure-pattern-analysis_J-00356388
-
-### ASML — Data Science | Software Engineering internship: software automation development
-
-- **Location** Veldhoven, Netherlands  ·  **Category** Data Science  ·  **Score** 65/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Route** Intern residence permit sponsored by a recognised employer
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open
-- **Why it fits** Data Science role in Netherlands; visa route exists (Intern residence permit sponsored by a recognised employer); explicitly Summer 2027
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
-- **Apply** https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Data-Science---Software-Engineering-internship--software-automation-development_J-00356675
 
 ### Amgen — Data & Analytics Intern
 
@@ -2577,7 +2629,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261
 
-### Invesco — Intern, Quantitative Research (6 months fixed-term contract) 🆕
+### Invesco — Intern, Quantitative Research (6 months fixed-term contract)
 
 - **Location** Frankfurt, Germany  ·  **Category** Quantitative Technology  ·  **Score** 65/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -2677,16 +2729,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Intern-Software-Developer-C-C--_R70432
 
-### Motorola — Intern Software Developer (C/C++)
-
-- **Location** Krakow, Poland  ·  **Category** Software Engineering  ·  **Score** 65/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** Software Engineering role in Poland
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
-- **Apply** https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Intern-Software-Developer--C-C---_R70024
-
-### Motorola — Intern Software Developer (JavaScript & React) 🆕
+### Motorola — Intern Software Developer (JavaScript & React)
 
 - **Location** Krakow, Poland  ·  **Category** Software Engineering  ·  **Score** 65/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -2818,6 +2861,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Data-Scientist--Intern--Jan-2027-12-Months-_R10571
 
+### Salesforce — Summer 2027 Intern - Software Engineer 🆕
+
+- **Location** India - Bangalore, India  ·  **Category** Software Engineering  ·  **Score** 65/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Home country - no visa needed
+- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open
+- **Why it fits** Software Engineering role in India; visa route exists (Home country - no visa needed); explicitly Summer 2027
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
+- **Apply** https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715
+
 ### Schonfeld — 2027 Emerging Markets and Delta One Quantitative Researcher/Strat Intern
 
 - **Location** Hong Kong  ·  **Category** Quantitative Technology  ·  **Score** 65/100
@@ -2922,6 +2975,15 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; appears to target PhD candidates
 - **Apply** https://job-boards.greenhouse.io/virtu/jobs/8631180002
 
+### ASML — Internship - CS Infrastructure, Architecture & Security Team - Hsinchu 🆕
+
+- **Location** Hsinchu, Taiwan  ·  **Category** Cloud / DevOps / Infrastructure  ·  **Score** 62/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Cloud / DevOps / Infrastructure role in Taiwan
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://asml.wd3.myworkdayjobs.com/asmlext1/job/Hsinchu-Taiwan/Internship---CS-Infrastructure--Architecture---Security-Team---Hsinchu_J-00357779
+
 ### Bmo — Technology Research Associate, Winter 2027 (Co-op/Internship) - 4 months
 
 - **Location** Toronto, Canada  ·  **Category** General Technology  ·  **Score** 62/100
@@ -2990,15 +3052,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; appears to target PhD candidates
 - **Apply** https://jobs.lever.co/waabi/62700386-b9db-4c78-aec3-5ef59cbe841e
 
-### Airbus — Stage 2027 - Data Scientist  Modélisation des risques indus sur la production d’avions (All Gender) 🆕
-
-- **Location** Toulouse Area, France  ·  **Category** Data Science  ·  **Score** 60/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open
-- **Why it fits** Data Science role in France; explicitly Summer 2027
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed
-- **Apply** https://ag.wd3.myworkdayjobs.com/airbus/job/Toulouse-Area/Stage-2027---Data-Scientist--Modlisation-des-risques-indus-sur-la-production-d-avions--All-Gender-_JR10450399
-
 ### Celonis — Intern Technology & Management Consulting (Value Engineering)
 
 - **Location** Paris, France  ·  **Category** General Technology  ·  **Score** 60/100
@@ -3008,16 +3061,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://job-boards.greenhouse.io/celonis/jobs/7962340003?gh_jid=7962340003
 
-### General Motors — Maintenance & Cost Analytics Intern 🆕
-
-- **Location** Silao, Mexico  ·  **Category** Data Science  ·  **Score** 60/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** Data Science role in Mexico
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
-- **Apply** https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Silao-Guanajuato-Mexico/Becario-de-mantenimiento_JR-202619461
-
-### HP Inc. — Competitive Intelligence & Data Analyst - Student 🆕
+### HP Inc. — Competitive Intelligence & Data Analyst - Student
 
 - **Location** Ness Ziona, Israel  ·  **Category** Data Science  ·  **Score** 60/100
 - **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
@@ -3035,6 +3079,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/Operations-Research-Engineer-Intern_JR0286945
 
+### NVIDIA — Developer Technology Engineer Intern 🆕
+
+- **Location** Japan  ·  **Category** General Technology  ·  **Score** 60/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Designated Activities (internship) visa
+- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** General Technology role in Japan; visa route exists (Designated Activities (internship) visa)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Japan-Tokyo/Developer-Technology-Engineer-Intern_JR2029575
+
 ### Philips — Intern Data Scientist
 
 - **Location** Taipei, Taiwan  ·  **Category** Data Science  ·  **Score** 60/100
@@ -3043,6 +3097,15 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Data Science role in Taiwan
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Taipei/Intern-Data-Scientist_592526
+
+### Thermo Fisher Scientific — Maintenance Analytics & Reliability Engineering Intern 🆕
+
+- **Location** Monza, Italy  ·  **Category** Data Science  ·  **Score** 60/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Data Science role in Italy
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Monza-Italy/Maintenance-Analytics---Reliability-Engineering-Intern_R-01373955
 
 ### Visa — Visa Consulting & Analytics (VCA) Intern
 
@@ -3072,6 +3135,16 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** General Technology role in Singapore; visa route exists (Training Employment Pass or Work Holiday Pass); explicitly Summer 2027
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed
 - **Apply** https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Singapore/XMLNAME-2027-Blackstone-Technology---Innovations-Analyst-Intern--Singapore_45034
+
+### Entegris — Digital Engineering & Simulation Intern 🆕
+
+- **Location** Singapore  ·  **Category** General Technology  ·  **Score** 59/100
+- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
+- **Route** Training Employment Pass or Work Holiday Pass
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** General Technology role in Singapore; visa route exists (Training Employment Pass or Work Holiday Pass)
+- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Singapore-Singapore/Modeling---Simulation-Intern_REQ-13667
 
 ### GlobalFoundries — 2H University Intern - FR CMOS Device Engineering
 
@@ -3178,7 +3251,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; local-language fluency required; not confirmed as a Summer 2027 posting
 - **Apply** https://job-boards.greenhouse.io/celonis/jobs/7925721003?gh_jid=7925721003
 
-## 📅 Monitor for Opening  (3)
+## 📅 Monitor for Opening  (2)
 
 ### Corteva — Engineering & Maintenance Intern
 
@@ -3198,16 +3271,25 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://covestro.wd3.myworkdayjobs.com/cov_external/job/Filago-Lombardy-Italy/Engineering---Maintenance--M-F----Stage_JR-2026-00841
 
-### HP Inc. — Customer Solution Center - Technical Intern 🆕
+## ⚠️ Work Authorization Barrier  (62)
 
-- **Location** Dalian, China  ·  **Category** General Technology  ·  **Score** 52/100
-- **Visa** B - Potentially eligible, needs checking — no work-authorization statement found; eligibility must be confirmed
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** General Technology role in China
-- **Barriers** work authorization unstated - confirm before investing time; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
-- **Apply** https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Dalian-Liaoning-China/Customer-Solution-Center---Technical-Intern_UNI4308-1
+### Addepar — Portfolio Data Analyst Intern - Summer 2027 🆕
 
-## ⚠️ Work Authorization Barrier  (59)
+- **Location** Edinburgh, United Kingdom  ·  **Category** Data Science  ·  **Score** 40/100
+- **Visa** C - Local work authorization likely required — sponsorship not available
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Data Science role in United Kingdom; explicitly Summer 2027
+- **Barriers** local work authorization likely required; compensation not publicly disclosed
+- **Apply** https://job-boards.greenhouse.io/addepar1/jobs/8910310002
+
+### Addepar — Software Engineering Intern - Summer 2027 🆕
+
+- **Location** Edinburgh, United Kingdom  ·  **Category** Software Engineering  ·  **Score** 40/100
+- **Visa** C - Local work authorization likely required — sponsorship not available
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open
+- **Why it fits** Software Engineering role in United Kingdom; explicitly Summer 2027
+- **Barriers** local work authorization likely required; compensation not publicly disclosed
+- **Apply** https://job-boards.greenhouse.io/addepar1/jobs/8927507002
 
 ### Affirm — Software Engineer I, Early Career (London)
 
@@ -3298,6 +3380,15 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Why it fits** Software Engineering role in United Kingdom; explicitly Summer 2027
 - **Barriers** local work authorization likely required; compensation not publicly disclosed
 - **Apply** https://job-boards.eu.greenhouse.io/cambridgeconsultantslimited/jobs/4995790101
+
+### Ecolab — Electrical Engineering Co-Op 🆕
+
+- **Location** CAN - Alberta - Calgary, Canada  ·  **Category** General Technology  ·  **Score** 40/100
+- **Visa** C - Local work authorization likely required — sponsorship not available
+- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** General Technology role in Canada
+- **Barriers** local work authorization likely required; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
+- **Apply** https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/CAN---Alberta---Calgary/Electrical-Engineering-Co-Op_R00310179
 
 ### Graphcore — AI Technology PhD Research Internship
 
@@ -3407,14 +3498,23 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** local work authorization likely required; English working environment unconfirmed
 - **Apply** https://job-boards.eu.greenhouse.io/imc/jobs/4912874101
 
-### Intel — AI Frameworks Engineer - Intern
+### Marvell — Materials and Reliability Engineering Intern 🆕
 
-- **Location** Mexico  ·  **Category** Machine Learning / AI  ·  **Score** 40/100
-- **Visa** C - Local work authorization likely required — requires existing work rights
-- **Paid** Not publicly disclosed  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
-- **Why it fits** Machine Learning / AI role in Mexico
-- **Barriers** local work authorization likely required; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
-- **Apply** https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/AI-Frameworks-Engineer---Intern_JR0288217
+- **Location** CH - Adliswil, Switzerland  ·  **Category** Software Engineering  ·  **Score** 40/100
+- **Visa** C - Local work authorization likely required — citizenship or PR required
+- **Paid** Yes  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Software Engineering role in Switzerland; paid
+- **Barriers** local work authorization likely required; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/CH---Adliswil/Materials-and-Reliability-Engineering-Intern_2605195-1
+
+### Marvell — Firmware Engineering Intern 🆕
+
+- **Location** Pavia, Italy  ·  **Category** Hardware / Embedded  ·  **Score** 40/100
+- **Visa** C - Local work authorization likely required — citizenship or PR required
+- **Paid** Yes  ·  **English** Unclear  ·  **Status** Open (cycle unconfirmed)
+- **Why it fits** Hardware / Embedded role in Italy; paid
+- **Barriers** local work authorization likely required; English working environment unconfirmed; not confirmed as a Summer 2027 posting
+- **Apply** https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Pavia-Italy/Firmware-Engineering-Intern_2603916-1
 
 ### Marvell — Intern, Software Engineer
 
@@ -3533,15 +3633,6 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** local work authorization likely required; compensation not publicly disclosed
 - **Apply** https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnieur-client-et-Nouveau-programme-moteur---Internship---Winter-2027---Customer-Engineering---New-Engine-Program_01871696-1
 
-### RTX — Stage – Hiver 2027 – Soutien numérique et intelligence d’affaires (Informatique) | Internship - Winter 2027 Digital Support & Business Intelligence Intern (Computer Science)
-
-- **Location** CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG, Canada  ·  **Category** Data Science  ·  **Score** 40/100
-- **Visa** C - Local work authorization likely required — defence or nationality-restricted employer
-- **Paid** Not publicly disclosed  ·  **English** Yes  ·  **Status** Open
-- **Why it fits** Data Science role in Canada; explicitly Summer 2027
-- **Barriers** local work authorization likely required; compensation not publicly disclosed
-- **Apply** https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Soutien-numrique-et-intelligence-d-affaires--Informatique----Internship---Winter-2027-Digital-Support---Business-Intelligence-Intern--Computer-Science-_01866869-1
-
 ### Rocket Lab Corporation — Electrical Engineering Intern Spring 2027
 
 - **Location** Toronto, Canada  ·  **Category** Software Engineering  ·  **Score** 40/100
@@ -3596,7 +3687,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** local work authorization likely required
 - **Apply** https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Belfast-United-Kingdom/XMLNAME-2027-Summer-Internship---Technology_R_1518241
 
-### Thales — Software Intern 🆕
+### Thales — Software Intern
 
 - **Location** Bangalore, India  ·  **Category** Software Engineering  ·  **Score** 40/100
 - **Visa** C - Local work authorization likely required — defence or nationality-restricted employer
@@ -3623,7 +3714,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** local work authorization likely required; compensation not publicly disclosed; English working environment unconfirmed; not confirmed as a Summer 2027 posting
 - **Apply** https://thales.wd3.myworkdayjobs.com/Careers/job/Noida-Berger-Tower/Engineering-Support-Intern_R0344129
 
-### Thales — PINN Research Intern 🆕
+### Thales — PINN Research Intern
 
 - **Location** Singapore  ·  **Category** Research  ·  **Score** 40/100
 - **Visa** C - Local work authorization likely required — defence or nationality-restricted employer
@@ -3632,7 +3723,7 @@ Scope: paid Summer 2027 internships outside the United States.
 - **Barriers** local work authorization likely required; compensation not publicly disclosed; not confirmed as a Summer 2027 posting
 - **Apply** https://thales.wd3.myworkdayjobs.com/Careers/job/Singapore/PINN-Research-Intern_R0343827
 
-### Thales — Embedded Software Intern 🆕
+### Thales — Embedded Software Intern
 
 - **Location** Bangalore, India  ·  **Category** Hardware / Embedded  ·  **Score** 40/100
 - **Visa** C - Local work authorization likely required — defence or nationality-restricted employer

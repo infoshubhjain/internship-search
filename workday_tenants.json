@@ -617,6 +617,12 @@
     "site": "search",
     "tenant": "dukeenergy"
   },
+  "echo|wd1|echo_logistics": {
+    "company": "Echo Global Logistics",
+    "datacenter": "wd1",
+    "site": "Echo_Logistics",
+    "tenant": "echo"
+  },
   "ecolab|wd1|ecolab_external": {
     "company": "Ecolab",
     "datacenter": "wd1",
@@ -640,6 +646,12 @@
     "datacenter": "wd1",
     "site": "elkay_external",
     "tenant": "elkay"
+  },
+  "entegris|wd1|entegriscareers": {
+    "company": "Entegris",
+    "datacenter": "wd1",
+    "site": "entegriscareers",
+    "tenant": "entegris"
   },
   "expedia|wd108|private": {
     "company": "Expedia Group",
@@ -988,6 +1000,12 @@
     "datacenter": "wd5",
     "site": "itron",
     "tenant": "itron"
+  },
+  "jabil|wd5|jabil_careers": {
+    "company": "Jabil",
+    "datacenter": "wd5",
+    "site": "Jabil_Careers",
+    "tenant": "jabil"
   },
   "jainglobal|wd5|externalsite": {
     "company": "Jain Global",
