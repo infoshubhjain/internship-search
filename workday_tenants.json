@@ -593,6 +593,12 @@
     "site": "draftkings",
     "tenant": "draftkings"
   },
+  "draftkings|wd1|employee_referral_portal": {
+    "company": "DraftKings",
+    "datacenter": "wd1",
+    "site": "Employee_Referral_Portal",
+    "tenant": "draftkings"
+  },
   "draper|wd5|draper_careers": {
     "company": "Draper",
     "datacenter": "wd5",
@@ -1216,6 +1222,12 @@
     "datacenter": "wd1",
     "site": "msbcareers",
     "tenant": "midlandsb"
+  },
+  "mksinst|wd1|mkscareersuniversity": {
+    "company": "Mksinst",
+    "datacenter": "wd1",
+    "site": "mkscareersuniversity",
+    "tenant": "mksinst"
   },
   "mmc|wd1|mmc": {
     "company": "Marsh",
