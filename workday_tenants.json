@@ -359,6 +359,18 @@
     "site": "Capital_One",
     "tenant": "capitalone"
   },
+  "cardinalhealth|wd1|ext": {
+    "company": "Cardinal Health",
+    "datacenter": "wd1",
+    "site": "EXT",
+    "tenant": "cardinalhealth"
+  },
+  "caresource|wd1|caresource": {
+    "company": "CareSource",
+    "datacenter": "wd1",
+    "site": "caresource",
+    "tenant": "caresource"
+  },
   "carrier|wd5|jobs": {
     "company": "Carrier",
     "datacenter": "wd5",
@@ -851,6 +863,12 @@
     "site": "G-Research",
     "tenant": "gresearch"
   },
+  "greyco|wd108|gti": {
+    "company": "Greystone",
+    "datacenter": "wd108",
+    "site": "GTI",
+    "tenant": "greyco"
+  },
   "guardianlife|wd5|guardian-life-careers": {
     "company": "Guardian Life",
     "datacenter": "wd5",
@@ -1006,6 +1024,12 @@
     "datacenter": "wd5",
     "site": "itron",
     "tenant": "itron"
+  },
+  "itw|wd5|external": {
+    "company": "Illinois Tool Works",
+    "datacenter": "wd5",
+    "site": "external",
+    "tenant": "itw"
   },
   "jabil|wd5|jabil_careers": {
     "company": "Jabil",
