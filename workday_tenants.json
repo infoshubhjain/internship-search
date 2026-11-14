@@ -353,6 +353,12 @@
     "site": "computer_aid",
     "tenant": "cai"
   },
+  "capgroup|wd1|capitalgroupcareers": {
+    "company": "Capital Group",
+    "datacenter": "wd1",
+    "site": "capitalgroupcareers",
+    "tenant": "capgroup"
+  },
   "capitalone|wd12|capital_one": {
     "company": "Capital One",
     "datacenter": "wd12",
@@ -466,6 +472,12 @@
     "datacenter": "wd1",
     "site": "cme_careers",
     "tenant": "cmegroup"
+  },
+  "cmu|wd115|sei": {
+    "company": "Carnegie Mellon University",
+    "datacenter": "wd115",
+    "site": "SEI",
+    "tenant": "cmu"
   },
   "cognex|wd1|external_career_site": {
     "company": "Cognex",
