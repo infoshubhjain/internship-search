@@ -353,6 +353,12 @@
     "site": "computer_aid",
     "tenant": "cai"
   },
+  "campingworld|wd5|jobs": {
+    "company": "Camping World",
+    "datacenter": "wd5",
+    "site": "Jobs",
+    "tenant": "campingworld"
+  },
   "capgroup|wd1|capitalgroupcareers": {
     "company": "Capital Group",
     "datacenter": "wd1",
@@ -808,6 +814,12 @@
     "datacenter": "wd5",
     "site": "Careers_GM",
     "tenant": "generalmotors"
+  },
+  "genesys|wd1|2_genesys_jobs": {
+    "company": "Genesys",
+    "datacenter": "wd1",
+    "site": "2_genesys_jobs",
+    "tenant": "genesys"
   },
   "gevernova|wd5|only_confidential_executive_recruiting": {
     "company": "GE Vernova",
@@ -1984,6 +1996,12 @@
     "datacenter": "wd503",
     "site": "careers",
     "tenant": "workiva"
+  },
+  "xboxgaming|wd1|blizzard_external_careers": {
+    "company": "Blizzard Entertainment",
+    "datacenter": "wd1",
+    "site": "Blizzard_External_Careers",
+    "tenant": "xboxgaming"
   },
   "xcelenergy|wd1|external": {
     "company": "Xcel Energy",
