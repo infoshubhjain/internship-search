@@ -479,6 +479,12 @@
     "site": "cme_careers",
     "tenant": "cmegroup"
   },
+  "cmu|wd115|cmu": {
+    "company": "Carnegie Mellon University",
+    "datacenter": "wd115",
+    "site": "cmu",
+    "tenant": "cmu"
+  },
   "cmu|wd115|sei": {
     "company": "Carnegie Mellon University",
     "datacenter": "wd115",
