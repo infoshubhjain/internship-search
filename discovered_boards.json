@@ -664,6 +664,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 17
   },
+  "greenhouse:familyoffice": {
+    "company": "Soros Fund Management",
+    "discovered_on": "2026-11-17",
+    "jobs_at_discovery": 8
+  },
   "greenhouse:farmersmutualhailinsurancecompany": {
     "company": "Farmers Mutual Hail",
     "discovered_on": "2026-10-31",
@@ -1223,6 +1228,11 @@
     "company": "Pivotal",
     "discovered_on": "2026-11-10",
     "jobs_at_discovery": 36
+  },
+  "lever:questanalytics": {
+    "company": "Quest Analytics",
+    "discovered_on": "2026-11-17",
+    "jobs_at_discovery": 7
   },
   "lever:rhombus-systems": {
     "company": "Rhombus",
