@@ -264,6 +264,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 13
   },
+  "ashby:kira": {
+    "company": "Kira",
+    "discovered_on": "2026-11-19",
+    "jobs_at_discovery": 14
+  },
   "ashby:linkup": {
     "company": "Linkup",
     "discovered_on": "2026-10-24",
@@ -453,6 +458,11 @@
     "company": "Trace Labs",
     "discovered_on": "2026-10-24",
     "jobs_at_discovery": 4
+  },
+  "ashby:trainline": {
+    "company": "Trainline",
+    "discovered_on": "2026-11-19",
+    "jobs_at_discovery": 37
   },
   "ashby:uipath": {
     "company": "UiPath",
@@ -688,6 +698,11 @@
     "company": "Freeform",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 74
+  },
+  "greenhouse:galaxydigitalservices": {
+    "company": "Galaxy",
+    "discovered_on": "2026-11-19",
+    "jobs_at_discovery": 55
   },
   "greenhouse:gallup": {
     "company": "Gallup",
