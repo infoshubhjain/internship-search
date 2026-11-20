@@ -629,6 +629,11 @@
     "discovered_on": "2026-11-07",
     "jobs_at_discovery": 4
   },
+  "greenhouse:deliveroo": {
+    "company": "Deliveroo",
+    "discovered_on": "2026-11-20",
+    "jobs_at_discovery": 191
+  },
   "greenhouse:devtechnology": {
     "company": "Dev Technology",
     "discovered_on": "2026-09-06",
@@ -993,6 +998,11 @@
     "company": "Scout Motors",
     "discovered_on": "2026-11-10",
     "jobs_at_discovery": 206
+  },
+  "greenhouse:scoutspace": {
+    "company": "Scout Space",
+    "discovered_on": "2026-11-20",
+    "jobs_at_discovery": 16
   },
   "greenhouse:sigmacomputing": {
     "company": "Sigma Computing",
