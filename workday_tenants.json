@@ -1745,6 +1745,12 @@
     "site": "external",
     "tenant": "swa"
   },
+  "symbotic|wd504|symbotic": {
+    "company": "Symbotic",
+    "datacenter": "wd504",
+    "site": "Symbotic",
+    "tenant": "symbotic"
+  },
   "synchronyfinancial|wd5|university": {
     "company": "Synchrony Financial",
     "datacenter": "wd5",
