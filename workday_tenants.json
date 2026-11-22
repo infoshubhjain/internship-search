@@ -1991,6 +1991,12 @@
     "site": "wellsfargojobs",
     "tenant": "wf"
   },
+  "woodward|wd5|woodward": {
+    "company": "Woodward Governor",
+    "datacenter": "wd5",
+    "site": "woodward",
+    "tenant": "woodward"
+  },
   "workday|wd5|workday": {
     "company": "Workday",
     "datacenter": "wd5",

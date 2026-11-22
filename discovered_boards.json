@@ -864,6 +864,11 @@
     "discovered_on": "2026-10-30",
     "jobs_at_discovery": 1
   },
+  "greenhouse:nerostechnologies": {
+    "company": "Neros Technologies",
+    "discovered_on": "2026-11-22",
+    "jobs_at_discovery": 114
+  },
   "greenhouse:neuralink": {
     "company": "Neuralink",
     "discovered_on": "2026-09-06",
