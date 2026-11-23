@@ -84,6 +84,11 @@
     "discovered_on": "2026-09-11",
     "jobs_at_discovery": 39
   },
+  "ashby:benchling": {
+    "company": "Benchling",
+    "discovered_on": "2026-11-23",
+    "jobs_at_discovery": 61
+  },
   "ashby:brainco": {
     "company": "Brain Co.",
     "discovered_on": "2026-10-31",
@@ -163,6 +168,11 @@
     "company": "Shield AI",
     "discovered_on": "2026-10-28",
     "jobs_at_discovery": 684
+  },
+  "ashby:first-resonance": {
+    "company": "First Resonance",
+    "discovered_on": "2026-11-23",
+    "jobs_at_discovery": 18
   },
   "ashby:flint": {
     "company": "Flint",

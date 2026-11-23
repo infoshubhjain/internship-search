@@ -1649,6 +1649,12 @@
     "site": "Futureforce_Internships",
     "tenant": "salesforce"
   },
+  "sallie-mae|wd5|careers": {
+    "company": "Sallie Mae",
+    "datacenter": "wd5",
+    "site": "Careers",
+    "tenant": "sallie-mae"
+  },
   "selinc|wd1|sel": {
     "company": "Schweitzer Engineering Laboratories",
     "datacenter": "wd1",
