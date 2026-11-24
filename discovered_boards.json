@@ -29,6 +29,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 210
   },
+  "ashby:Strava": {
+    "company": "Strava",
+    "discovered_on": "2026-11-24",
+    "jobs_at_discovery": 28
+  },
   "ashby:Superhuman%20Platform%20Inc": {
     "company": "Superhuman",
     "discovered_on": "2026-09-15",
@@ -679,6 +684,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 57
   },
+  "greenhouse:ecjobb": {
+    "company": "CarGurus",
+    "discovered_on": "2026-11-24",
+    "jobs_at_discovery": 17
+  },
   "greenhouse:enova": {
     "company": "Enova International",
     "discovered_on": "2026-09-30",
@@ -788,6 +798,11 @@
     "company": "HPR",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 10
+  },
+  "greenhouse:icapitalnetwork": {
+    "company": "iCapital Network",
+    "discovered_on": "2026-11-24",
+    "jobs_at_discovery": 236
   },
   "greenhouse:idmeuniversityrecruiting": {
     "company": "ID.me University Recruiting",
@@ -1019,6 +1034,11 @@
     "discovered_on": "2026-11-20",
     "jobs_at_discovery": 16
   },
+  "greenhouse:sharkninjaoperatingllc": {
+    "company": "SharkNinja",
+    "discovered_on": "2026-11-24",
+    "jobs_at_discovery": 164
+  },
   "greenhouse:sigmacomputing": {
     "company": "Sigma Computing",
     "discovered_on": "2026-10-07",
@@ -1058,6 +1078,16 @@
     "company": "Stoke Space",
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 69
+  },
+  "greenhouse:studentinternships": {
+    "company": "ISO New England",
+    "discovered_on": "2026-11-24",
+    "jobs_at_discovery": 15
+  },
+  "greenhouse:studentprogram": {
+    "company": "Esri",
+    "discovered_on": "2026-11-24",
+    "jobs_at_discovery": 27
   },
   "greenhouse:syskahennessy": {
     "company": "Syska Hennessy Group",

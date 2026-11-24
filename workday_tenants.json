@@ -509,6 +509,12 @@
     "site": "CommerceJobs",
     "tenant": "commercebank"
   },
+  "compassion|wd5|compassioncareers": {
+    "company": "Compassion",
+    "datacenter": "wd5",
+    "site": "compassioncareers",
+    "tenant": "compassion"
+  },
   "conagrabrands|wd1|careers_us": {
     "company": "Conagrabrands",
     "datacenter": "wd1",
