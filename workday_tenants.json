@@ -731,6 +731,12 @@
     "site": "53careers",
     "tenant": "fifththird"
   },
+  "fireflyspace|wd115|firefly": {
+    "company": "Fireflyspace",
+    "datacenter": "wd115",
+    "site": "Firefly",
+    "tenant": "fireflyspace"
+  },
   "firstnational|wd12|fnbocareers": {
     "company": "FNBO",
     "datacenter": "wd12",
@@ -1132,6 +1138,12 @@
     "datacenter": "wd1",
     "site": "searchLFN",
     "tenant": "lifefitness"
+  },
+  "lighting|wd3|jobs-and-careers": {
+    "company": "Signify",
+    "datacenter": "wd3",
+    "site": "jobs-and-careers",
+    "tenant": "lighting"
   },
   "liveoakbancshares|wd1|live_oak": {
     "company": "Live Oak Bank",
@@ -1739,6 +1751,12 @@
     "site": "SPS",
     "tenant": "spscommerce"
   },
+  "statestreet|wd1|global": {
+    "company": "Statestreet",
+    "datacenter": "wd1",
+    "site": "Global",
+    "tenant": "statestreet"
+  },
   "stryker|wd1|strykercareers": {
     "company": "Stryker",
     "datacenter": "wd1",
@@ -1768,6 +1786,12 @@
     "datacenter": "wd5",
     "site": "University",
     "tenant": "synchronyfinancial"
+  },
+  "takeda|wd502|external": {
+    "company": "Takeda",
+    "datacenter": "wd502",
+    "site": "external",
+    "tenant": "takeda"
   },
   "target|wd5|targetcareers": {
     "company": "Target",

@@ -579,6 +579,11 @@
     "discovered_on": "2026-09-06",
     "jobs_at_discovery": 6
   },
+  "greenhouse:bandwidth": {
+    "company": "Bandwidth",
+    "discovered_on": "2026-11-25",
+    "jobs_at_discovery": 30
+  },
   "greenhouse:botauto": {
     "company": "Bot Auto",
     "discovered_on": "2026-09-19",
@@ -688,6 +693,11 @@
     "company": "CarGurus",
     "discovered_on": "2026-11-24",
     "jobs_at_discovery": 17
+  },
+  "greenhouse:enfos": {
+    "company": "ENFOS",
+    "discovered_on": "2026-11-25",
+    "jobs_at_discovery": 5
   },
   "greenhouse:enova": {
     "company": "Enova International",
