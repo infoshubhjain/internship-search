@@ -1349,6 +1349,11 @@
     "discovered_on": "2026-10-24",
     "jobs_at_discovery": 11
   },
+  "lever:veeva": {
+    "company": "Veeva Systems",
+    "discovered_on": "2026-11-26",
+    "jobs_at_discovery": 873
+  },
   "lever:viget": {
     "company": "Viget",
     "discovered_on": "2026-10-09",
