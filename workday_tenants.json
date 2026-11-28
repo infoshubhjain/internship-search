@@ -197,6 +197,12 @@
     "site": "External_Limited_Posting",
     "tenant": "assurant"
   },
+  "astrazeneca|wd3|alexion": {
+    "company": "Alexion",
+    "datacenter": "wd3",
+    "site": "alexion",
+    "tenant": "astrazeneca"
+  },
   "astreya|wd5|life-at-astreya-opportunities": {
     "company": "Astreya",
     "datacenter": "wd5",
@@ -227,6 +233,12 @@
     "site": "avav",
     "tenant": "avav"
   },
+  "aveva|wd3|aveva_careers": {
+    "company": "AVEVA",
+    "datacenter": "wd3",
+    "site": "AVEVA_careers",
+    "tenant": "aveva"
+  },
   "avisbudget|wd1|abg_careers": {
     "company": "Avis Budget Group",
     "datacenter": "wd1",
@@ -250,6 +262,12 @@
     "datacenter": "wd1",
     "site": "careers",
     "tenant": "baird"
+  },
+  "bakerhughes|wd5|bakerhughes": {
+    "company": "Baker Hughes",
+    "datacenter": "wd5",
+    "site": "BakerHughes",
+    "tenant": "bakerhughes"
   },
   "barclays|wd3|external_career_site_barclays": {
     "company": "Barclays",
@@ -346,6 +364,12 @@
     "datacenter": "wd1",
     "site": "external",
     "tenant": "caci"
+  },
+  "cadence|wd1|external_careers": {
+    "company": "Cadence Design Systems",
+    "datacenter": "wd1",
+    "site": "External_Careers",
+    "tenant": "cadence"
   },
   "cai|wd5|computer_aid": {
     "company": "CAI",
@@ -502,6 +526,12 @@
     "datacenter": "wd5",
     "site": "Cohesity_Careers",
     "tenant": "cohesity"
+  },
+  "colliers|wd3|colliers-external-career-site": {
+    "company": "Colliers",
+    "datacenter": "wd3",
+    "site": "Colliers-External-Career-Site",
+    "tenant": "colliers"
   },
   "commercebank|wd1|commercejobs": {
     "company": "Commerce Bank",
@@ -1253,6 +1283,12 @@
     "site": "External_Careers",
     "tenant": "mckesson"
   },
+  "mckesson|wd3|sourcer_on_req": {
+    "company": "McKesson",
+    "datacenter": "wd3",
+    "site": "sourcer_on_req",
+    "tenant": "mckesson"
+  },
   "medline|wd5|medline": {
     "company": "Medline",
     "datacenter": "wd5",
@@ -1276,6 +1312,12 @@
     "datacenter": "wd1",
     "site": "mfs-careers",
     "tenant": "mfs"
+  },
+  "michaels|wd5|external": {
+    "company": "Michaels Stores",
+    "datacenter": "wd5",
+    "site": "external",
+    "tenant": "michaels"
   },
   "microchiphr|wd5|external": {
     "company": "Microchip Technology",
@@ -1685,6 +1727,12 @@
     "site": "Sierra_Space_External_Career_Site",
     "tenant": "sierraspace"
   },
+  "signetjewelers|wd1|signetcorporatecareers": {
+    "company": "Signet Jewelers",
+    "datacenter": "wd1",
+    "site": "SignetCorporateCareers",
+    "tenant": "signetjewelers"
+  },
   "slihrms|wd3|careers": {
     "company": "AtkinsR\u00e9alis",
     "datacenter": "wd3",
@@ -1811,6 +1859,12 @@
     "site": "CAREER_SITE_TC",
     "tenant": "tcenergy"
   },
+  "tdwilliamson|wd1|tdwcareers": {
+    "company": "T.D. Williamson",
+    "datacenter": "wd1",
+    "site": "TDWCareers",
+    "tenant": "tdwilliamson"
+  },
   "td|wd3|td_bank_careers": {
     "company": "TD Bank",
     "datacenter": "wd3",
@@ -1895,6 +1949,12 @@
     "site": "TrimbleCareers",
     "tenant": "trimble"
   },
+  "trinzic|wd115|trinzic_careers": {
+    "company": "Trinzic",
+    "datacenter": "wd115",
+    "site": "Trinzic_Careers",
+    "tenant": "trinzic"
+  },
   "trustage|wd1|trustage": {
     "company": "TruStage",
     "datacenter": "wd1",
@@ -1918,6 +1978,12 @@
     "datacenter": "wd1",
     "site": "Uline_Careers",
     "tenant": "uline"
+  },
+  "unum|wd1|external": {
+    "company": "Unum Group",
+    "datacenter": "wd1",
+    "site": "External",
+    "tenant": "unum"
   },
   "upbound|wd501|acima": {
     "company": "Acima",
